@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.workout.NoEquipment",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 7,
+      "versionName": "2.7",
+      "outputFile": "Lose-Weight-For-Women-debug-2.7.apk"
+    }
+  ],
+  "elementType": "File"
+}

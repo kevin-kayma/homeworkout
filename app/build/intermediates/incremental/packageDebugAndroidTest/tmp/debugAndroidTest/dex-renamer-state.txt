@@ -1,0 +1,7 @@
+#Thu Feb 15 19:24:59 IST 2024
+base.0=/Users/vivekkumar/Downloads/Home workout App/home workout/women weight/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Home workout/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+base.1=/Users/vivekkumar/Downloads/Home workout App/home workout/women weight/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Home workout/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/4/classes.dex
+path.0=0/classes.dex
+path.1=4/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
