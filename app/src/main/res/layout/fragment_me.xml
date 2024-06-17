@@ -48,7 +48,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="@dimen/_5sdp"
-                        android:tint="@color/gray_light_"
                         android:src="@drawable/ic_setting_reminder" />
 
                     <com.common.view.CTextView
@@ -119,7 +118,7 @@
                     android:layout_marginBottom="@dimen/_5sdp"
                     android:background="@drawable/btn_bg_round_grediant"
                     android:gravity="center"
-                      android:onClick="@{(v)->handler.onGoPremiumClick()}">
+                    android:onClick="@{(v)->handler.onGoPremiumClick()}">
 
                     <com.common.view.CBTextView
                         style="@style/txt_fff_18"

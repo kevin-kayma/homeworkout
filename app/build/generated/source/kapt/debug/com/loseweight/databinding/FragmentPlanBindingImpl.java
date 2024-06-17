@@ -25,12 +25,12 @@ public class FragmentPlanBindingImpl extends FragmentPlanBinding implements com.
         sViewsWithIds.put(R.id.pbDay, 17);
         sViewsWithIds.put(R.id.tvDaysLeft, 18);
         sViewsWithIds.put(R.id.rvBodyFocus, 19);
-        sViewsWithIds.put(R.id.linearLayout, 20);
-        sViewsWithIds.put(R.id.tvWaterTrackerDes, 21);
-        sViewsWithIds.put(R.id.llAfterWaterTrackerOn, 22);
-        sViewsWithIds.put(R.id.tvWaterDrinked, 23);
-        sViewsWithIds.put(R.id.flWaterProgress, 24);
-        sViewsWithIds.put(R.id.circularProgressBar, 25);
+        sViewsWithIds.put(R.id.flWaterProgress, 20);
+        sViewsWithIds.put(R.id.circularProgressBar, 21);
+        sViewsWithIds.put(R.id.linearLayout, 22);
+        sViewsWithIds.put(R.id.tvWaterTrackerDes, 23);
+        sViewsWithIds.put(R.id.llAfterWaterTrackerOn, 24);
+        sViewsWithIds.put(R.id.tvWaterDrinked, 25);
     }
     // views
     @NonNull
@@ -70,14 +70,14 @@ public class FragmentPlanBindingImpl extends FragmentPlanBinding implements com.
             , (com.common.view.CBButtonView) bindings[5]
             , (com.common.view.CBButtonView) bindings[7]
             , (com.common.view.CBButtonView) bindings[8]
-            , (com.mikhaellopez.circularprogressbar.CircularProgressBar) bindings[25]
-            , (android.widget.FrameLayout) bindings[24]
+            , (com.mikhaellopez.circularprogressbar.CircularProgressBar) bindings[21]
+            , (android.widget.FrameLayout) bindings[20]
             , (androidx.appcompat.widget.AppCompatImageView) bindings[4]
             , (androidx.appcompat.widget.AppCompatImageView) bindings[15]
             , (androidx.appcompat.widget.AppCompatImageView) bindings[14]
             , (de.hdodenhof.circleimageview.CircleImageView) bindings[11]
-            , (android.widget.LinearLayout) bindings[20]
             , (android.widget.LinearLayout) bindings[22]
+            , (android.widget.LinearLayout) bindings[24]
             , (android.widget.LinearLayout) bindings[9]
             , (android.widget.ProgressBar) bindings[17]
             , (androidx.recyclerview.widget.RecyclerView) bindings[19]
@@ -87,8 +87,8 @@ public class FragmentPlanBindingImpl extends FragmentPlanBinding implements com.
             , (com.common.view.CMTextView) bindings[12]
             , (com.common.view.CTextView) bindings[13]
             , (com.common.view.CMTextView) bindings[1]
-            , (com.common.view.CBTextView) bindings[23]
-            , (com.common.view.CTextView) bindings[21]
+            , (com.common.view.CBTextView) bindings[25]
+            , (com.common.view.CTextView) bindings[23]
             );
         this.btnDay.setTag(null);
         this.btnDrink.setTag(null);

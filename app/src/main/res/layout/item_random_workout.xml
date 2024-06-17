@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
         <import type="android.view.View" />
-
     </data>
 
     <LinearLayout
@@ -35,7 +32,7 @@
                     android:layout_height="wrap_content"
                     android:scaleType="centerCrop"
                     android:src="@drawable/icon_home_loseweight"
-                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintBottom_toBottomOf="parent"/>
 
                 <LinearLayout
@@ -43,7 +40,8 @@
                     android:layout_height="wrap_content"
                     android:padding="@dimen/_15sdp"
                     android:orientation="vertical"
-                    app:layout_constraintTop_toTopOf="parent">
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent">
 
                     <com.common.view.CBTextView
                         android:id="@+id/tvPlanName"
