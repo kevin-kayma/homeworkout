@@ -127,7 +127,7 @@ internal object Constant {
     const val MIN_CM = 20
     const val MAX_CM = 400
 
-    const val MONTHLY_SKU = "com.workout.noequipment.1mnth"
+    const val MONTHLY_SKU = "android.test.purchased"
     const val YEARLY_SKU = "com.workout.noequipment.1yrworkout"
 
     var FB_BANNER_TYPE_AD = "FB_BANNER_TYPE_AD"

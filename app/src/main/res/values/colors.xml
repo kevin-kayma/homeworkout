@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#0ab897</color>
-    <color name="colorPrimaryDark">#0ab897</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
     <color name="colorPrimaryLight">#bbede2</color>
-    <color name="colorAccent">#26d5b4</color>
+    <color name="colorAccent">#4556B1</color>
 
     <color name="transparent">#00ffffff</color>
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
 
-    <color name="primary">#0ab897</color>
-    <color name="primaryDark">#0ab897</color>
-    <color name="accent">#26d5b4</color>
+    <color name="primary">#3F51B5</color>
+    <color name="primaryDark">#3F51B5</color>
+    <color name="accent">#3F51B5</color>
 
     <color name="app_astrik_color">#8f92b4</color>
 
@@ -32,8 +32,8 @@
     <color name="whats_your_goal_card_bg_color">#F0F3F5</color>
     <color name="whats_your_goal_card_bg_color_select">#5D6C73</color>
 
-    <color name="green_gradual_end_color">#0ab897</color>
-    <color name="green_gradual_start_color">#26d5b4</color>
+    <color name="green_gradual_end_color">#3F51B5</color>
+    <color name="green_gradual_start_color">#3F51B5</color>
 
     <color name="common_blue_color">#76AEFF</color>
     <color name="common_blue_light_color">#DAE9FF</color>

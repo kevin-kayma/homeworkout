@@ -38,9 +38,7 @@ class AccessAllFeaturesActivity : BaseActivity() {
 
     private fun init() {
         binding!!.handler = ClickHandler()
-
         initInAppPurchase()
-
     }
 
 
@@ -124,33 +122,11 @@ class AccessAllFeaturesActivity : BaseActivity() {
             )
             binding!!.imgCheckMonthly.visibility = View.VISIBLE
             skuDetail = Constant.MONTHLY_SKU
-
-
         }
-
         fun onContinueClick() {
             onPurchaseClick(skuDetail)
         }
-
     }
-
-
-    /*private fun onPurchaseClick(SKU: String) {
-        val skuList = arrayListOf<String>()
-        skuList.add(SKU)
-        val params = SkuDetailsParams.newBuilder()
-        params.setSkusList(skuList).setType(BillingClient.SkuType.SUBS)
-        billingClient!!.querySkuDetailsAsync(params.build()) { _, list ->
-            if(list.isNullOrEmpty().not())
-            runOnUiThread {
-                val billingFlowParams = BillingFlowParams.newBuilder()
-                    .setSkuDetails(list!![0])
-                    .build()
-                val responseCode = billingClient!!.launchBillingFlow(this, billingFlowParams).responseCode
-                Debug.e("BillingFlow responce", responseCode.toString() + "")
-            }
-        }
-    }*/
 
     private fun onPurchaseClick(SKU: String) {
         val skuList = arrayListOf<String>()
@@ -173,32 +149,13 @@ class AccessAllFeaturesActivity : BaseActivity() {
 
 
     private fun initInAppPurchase() {
-        /*try {
-            billingClient = BillingClient.newBuilder(this).setListener(purchaseUpdateListener).enablePendingPurchases().build()
-            billingClient!!.startConnection(object : BillingClientStateListener {
-
-
-                override fun onBillingServiceDisconnected() {
-                }
-
-                override fun onBillingSetupFinished(p0: BillingResult) {
-                    checkSubscriptionList()
-                }
-            })
-        } catch (e: java.lang.Exception) {
-            e.printStackTrace()
-        }*/
-
         try {
             billingClient = BillingClient.newBuilder(this).setListener(purchaseUpdateListener)
                 .enablePendingPurchases().build()
             billingClient!!.startConnection(object : BillingClientStateListener {
-
-
                 override fun onBillingServiceDisconnected() {
                     Log.e("TAG", "onBillingServiceDisconnected::::: ")
                 }
-
                 override fun onBillingSetupFinished(p0: BillingResult) {
                     Log.e("TAG", "onBillingSetupFinished:::: " + p0.debugMessage)
                     checkSubscriptionList()
@@ -208,28 +165,6 @@ class AccessAllFeaturesActivity : BaseActivity() {
             e.printStackTrace()
         }
     }
-
-  /*  private val purchaseUpdateListener: PurchasesUpdatedListener = PurchasesUpdatedListener { result, purchase ->
-        try {
-            if (result.responseCode != BillingClient.BillingResponseCode.OK) {
-                if (result.responseCode == BillingClient.BillingResponseCode.ITEM_ALREADY_OWNED) {
-                    Utils.setPref(this, Constant.PREF_KEY_PURCHASE_STATUS, true)
-
-                }
-                Debug.e("", "isFailure ,Error purchasing: $result")
-            } else {
-                Debug.e("", "Purchase successful.")
-                Debug.e("", "FEATURES_PRO_KEY::${purchase!![0]?.sku}")
-                Utils.setPref(this, Constant.PREF_KEY_PURCHASE_STATUS, true)
-                val intent = Intent(getActivity(), SplashScreenActivity::class.java)
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
-                startActivity(intent)
-                finish()
-            }
-        } catch (e: Exception) {
-            e.printStackTrace()
-        }
-    }*/
 
     private val purchaseUpdateListener: PurchasesUpdatedListener =
         PurchasesUpdatedListener { result, _ ->
@@ -252,38 +187,6 @@ class AccessAllFeaturesActivity : BaseActivity() {
                 e.printStackTrace()
             }
         }
-
-
-
-    /*private fun checkSubscriptionList() {
-        if (billingClient != null) {
-            //showDialog(mContext)
-            var isPurchasedSku = false
-            try {
-                val purchasesResult = billingClient!!.queryPurchases(BillingClient.SkuType.SUBS)
-                if (purchasesResult.responseCode == 0) {
-                    val purchaseDataList = purchasesResult.purchasesList
-                    Log.e("", "purchaseDataList::$purchaseDataList")
-                    if (purchaseDataList != null) {
-                        for (i in 0 until purchaseDataList.size) {
-                            val purchaseData = purchaseDataList[i]
-                            if ((purchaseData.sku == Constant.MONTHLY_SKU) || (purchaseData.sku == Constant.YEARLY_SKU)) {
-                                isPurchasedSku = true
-                            }
-                        }
-                    }
-                    Debug.e("", " isPurchasedSku:: $isPurchasedSku")
-
-                    Utils.setPref(this, Constant.PREF_KEY_PURCHASE_STATUS, isPurchasedSku)
-                    getSKUDetails()
-                }
-            } catch (e: java.lang.Exception) {
-                e.printStackTrace()
-            }
-            dismissDialog()
-
-        }
-    }*/
 
     private fun checkSubscriptionList() {
         if (billingClient != null) {
@@ -324,42 +227,8 @@ class AccessAllFeaturesActivity : BaseActivity() {
             } catch (e: java.lang.Exception) {
                 e.printStackTrace()
             }
-
         }
     }
-
-
-    /*private fun getSKUDetails() {
-
-        val params = SkuDetailsParams.newBuilder()
-
-        val productIds = arrayListOf<String>()
-        productIds.add(Constant.MONTHLY_SKU)
-        productIds.add(Constant.YEARLY_SKU)
-
-        params.setSkusList(productIds).setType(BillingClient.SkuType.SUBS)
-        billingClient!!.querySkuDetailsAsync(params.build()) { billingResult, skuDetailsList ->
-            if (billingResult.responseCode == 0 && skuDetailsList != null) {
-                for (thisResponse in skuDetailsList) {
-                    try {
-                        if (thisResponse.sku == Constant.MONTHLY_SKU) {
-                            binding!!.tvMonthlyPrice.text = "${thisResponse.price} / Month"
-                            Debug.e("","Monthly ::::::: ${Gson().toJson(thisResponse)}")
-                        } else if (thisResponse.sku == Constant.YEARLY_SKU) {
-                            Debug.e("","Yearly:::::::  ${thisResponse.price}")
-                            binding!!.tvYearlyPrice.text = "${thisResponse.originalPrice} / Yearly"
-                        }
-                    } catch (e: java.lang.Exception) {
-                        Debug.e("","Errrr:: $e")
-                        e.printStackTrace()
-                    }
-                }
-            } else {
-                Debug.e("","ELSE:::::::BILLLLL ")
-            }
-//            dismissDialog()
-        }
-    }*/
 
     private fun getSKUDetails() {
         val productListMonth =
@@ -378,7 +247,6 @@ class AccessAllFeaturesActivity : BaseActivity() {
 
         billingClient!!.queryProductDetailsAsync(paramsNewMonth.build()) { billingResult,
                                                                            skuDetailsList ->
-
             if (billingResult.responseCode == 0 && skuDetailsList.isNotEmpty()) {
                 for (thisResponse in skuDetailsList) {
                     try {
@@ -398,7 +266,5 @@ class AccessAllFeaturesActivity : BaseActivity() {
                 }
             }
         }
-
     }
-
 }

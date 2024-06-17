@@ -156,7 +156,7 @@ public final class Constant {
     public static final int MIN_CM = 20;
     public static final int MAX_CM = 400;
     @org.jetbrains.annotations.NotNull
-    public static final java.lang.String MONTHLY_SKU = "com.workout.noequipment.1mnth";
+    public static final java.lang.String MONTHLY_SKU = "android.test.purchased";
     @org.jetbrains.annotations.NotNull
     public static final java.lang.String YEARLY_SKU = "com.workout.noequipment.1yrworkout";
     @org.jetbrains.annotations.NotNull
