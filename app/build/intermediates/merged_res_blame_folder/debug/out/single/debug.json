@@ -252,6 +252,10 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_cover_hiit_killer_core.png"
     },
     {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/font_poppins_thin.xml.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/font/poppins_thin.xml"
+    },
+    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_home_muscle.webp.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_home_muscle.webp"
     },
@@ -270,10 +274,6 @@
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/layout_fragment_animation.xml.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/fragment_animation.xml"
-    },
-    {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi_ic_me.png.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi/ic_me.png"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_round_language.xml.flat",
@@ -308,10 +308,6 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/ic_icon_training_pink.png"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi_ic_report.png.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi/ic_report.png"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_fast.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_fast.png"
     },
@@ -344,20 +340,16 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/ic_icon_report_gray.png"
     },
     {
+        "merged": "com.loseweight.app-merged_res-75:/layout_item_random_workout.xml.flat",
+        "source": "com.loseweight.app-main-77:/layout/item_random_workout.xml"
+    },
+    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_baseline_share.xml.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_baseline_share.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/layout_activity_whats_your_goal.xml.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/activity_whats_your_goal.xml"
-    },
-    {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-hdpi_ic_me.png.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-hdpi/ic_me.png"
-    },
-    {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-mdpi_ic_report.png.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-mdpi/ic_report.png"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_thumbnail_foam_rollar_knee_pain_relief.png.flat",
@@ -416,6 +408,10 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_cover_flat_belly_intermediate.png"
     },
     {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi_ic_mic_none.png.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi/ic_mic_none.png"
+    },
+    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_img_legs_correction.jpg.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/img_legs_correction.jpg"
     },
@@ -460,6 +456,10 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-pngs-71:/drawable-mdpi/ic_internet_not_connected.png"
     },
     {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi_ic_star.png.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi/ic_star.png"
+    },
+    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_ic_level_1.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/ic_level_1.png"
     },
@@ -472,12 +472,12 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/ic_set_water.png"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_cover_beginn_push_up.png.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_cover_beginn_push_up.png"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/layout_item_days_parent.xml.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/item_days_parent.xml"
+    },
+    {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_cover_beginn_push_up.png.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_cover_beginn_push_up.png"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xxxhdpi_ic_logout.png.flat",
@@ -596,10 +596,6 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/dialog_select_tts_engine.xml"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-mdpi_ic_me.png.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-mdpi/ic_me.png"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_splash_tip_bottom.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/splash_tip_bottom.png"
     },
@@ -640,10 +636,6 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_voice_guide_gray.xml"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-hdpi_ic_report.png.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-hdpi/ic_report.png"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_thumbnail_office_workout_intermediate.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_thumbnail_office_workout_intermediate.png"
     },
@@ -654,10 +646,6 @@
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/layout_activity_recent.xml.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/activity_recent.xml"
-    },
-    {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_local_hospital.xml.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_local_hospital.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_cover_toned_arms.png.flat",
@@ -684,6 +672,10 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/mipmap-xxhdpi/close_icon.png"
     },
     {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi_ic_outline_visibility.png.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi/ic_outline_visibility.png"
+    },
+    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_thumbnail_toned_arms_intermediate.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_thumbnail_toned_arms_intermediate.png"
     },
@@ -704,12 +696,12 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_body_relax.png"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/layout_item_recent.xml.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/item_recent.xml"
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi_ic_refresh.png.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi/ic_refresh.png"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-hdpi_ic_plan.png.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-hdpi/ic_plan.png"
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/layout_item_recent.xml.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/item_recent.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_ic_icon_bg.jpg.flat",
@@ -818,6 +810,10 @@
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/mipmap-mdpi_search.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/mipmap-mdpi/search.png"
+    },
+    {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi_ic_outline_edit.png.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi/ic_outline_edit.png"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_thumbnail_hiit_killer_core.png.flat",
@@ -988,10 +984,6 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-pngs-71:/drawable-anydpi-v24/ic_internet_connected.xml"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xxhdpi_ic_plan.png.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xxhdpi/ic_plan.png"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_thumbnail_sleepy.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_thumbnail_sleepy.png"
     },
@@ -1010,10 +1002,6 @@
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_baseline_add.xml.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_baseline_add.xml"
-    },
-    {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_share.xml.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_share.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_thumbnail_slim_legs_beginner.png.flat",
@@ -1060,10 +1048,6 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/cover_morning.jpg"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xxhdpi_ic_me.png.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xxhdpi/ic_me.png"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_thumbnail_7_min_abs_workout.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_thumbnail_7_min_abs_workout.png"
     },
@@ -1090,10 +1074,6 @@
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_exe_done.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_exe_done.png"
-    },
-    {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xxxhdpi_ic_me.png.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xxxhdpi/ic_me.png"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_ic_icon_me_gray.png.flat",
@@ -1156,10 +1136,6 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/dialog_quite_workout.xml"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xxxhdpi_ic_report.png.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xxxhdpi/ic_report.png"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_fade_graph.xml.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/fade_graph.xml"
     },
@@ -1178,10 +1154,6 @@
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_menu.xml.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_menu.xml"
-    },
-    {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_outline_edit.xml.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_outline_edit.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/layout_item_days_child.xml.flat",
@@ -1212,6 +1184,10 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_cover_butt_blaster_challenge.png"
     },
     {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_plan.png.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_plan.png"
+    },
+    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_ic_edit_workout_minus.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/ic_edit_workout_minus.png"
     },
@@ -1230,10 +1206,6 @@
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_cover_fat_burning_hiit_intermediate.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_cover_fat_burning_hiit_intermediate.png"
-    },
-    {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_refresh.xml.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_refresh.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_progress_bar_linear.xml.flat",
@@ -1256,10 +1228,6 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/gardient_top_bottom.xml"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xxxhdpi_ic_plan.png.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xxxhdpi/ic_plan.png"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_progress_bar_round_blue.xml.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/progress_bar_round_blue.xml"
     },
@@ -1274,10 +1242,6 @@
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_ic_pay_page_checked_year.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/ic_pay_page_checked_year.png"
-    },
-    {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_mic_none.xml.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_mic_none.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-hdpi_ic_logout.png.flat",
@@ -1344,10 +1308,6 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_thumbnail_angel_booty_advance.png"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_star.xml.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_star.xml"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/layout_item_custom_gallery.xml.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/item_custom_gallery.xml"
     },
@@ -1358,10 +1318,6 @@
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_bg_circle_border.xml.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/bg_circle_border.xml"
-    },
-    {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_outline_visibility.xml.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_outline_visibility.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-anydpi-v24_ic_logo.xml.flat",
@@ -1398,6 +1354,10 @@
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_thumbnail_fat_burning_hiit_beginner.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_thumbnail_fat_burning_hiit_beginner.png"
+    },
+    {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/font_poppins.xml.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/font/poppins.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_cover_only_4_moves_for_abs.png.flat",
@@ -1440,12 +1400,12 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi_ic_arrow_down.png.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-pngs-71:/drawable-xhdpi/ic_arrow_down.png"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_ic_well_done.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/ic_well_done.png"
+    },
+    {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi_ic_arrow_down.png.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-pngs-71:/drawable-xhdpi/ic_arrow_down.png"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_thumbnail_7_min_female_workout.png.flat",
@@ -1512,12 +1472,16 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/btn_bg_round_border_theme.xml"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/layout_fragment_video.xml.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/fragment_video.xml"
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/font_akaya_telivigala.xml.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/font/akaya_telivigala.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/layout_activity_home.xml.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/layout_fragment_video.xml.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/fragment_video.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_splash.png.flat",
@@ -1546,6 +1510,10 @@
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/layout_activity_completed.xml.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/activity_completed.xml"
+    },
+    {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_me.png.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_me.png"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_bell.xml.flat",
@@ -1668,12 +1636,12 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-pngs-71:/drawable-xhdpi/ic_internet_not_connected.png"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-mdpi_ic_plan.png.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-mdpi/ic_plan.png"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_cover_knee_pain_relief_2.jpg.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/cover_knee_pain_relief_2.jpg"
+    },
+    {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-mdpi_ic_plan.png.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-mdpi/ic_plan.png"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_thumbnail_burn_100_calories.png.flat",
@@ -1724,10 +1692,6 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/ic_goal_lose_weight_keep.png"
     },
     {
-        "merged": "com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_setting_tts_voice.png.flat",
-        "source": "com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_setting_tts_voice.png"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_ic_level_2.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/ic_level_2.png"
     },
@@ -1770,6 +1734,10 @@
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_error.xml.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_error.xml"
+    },
+    {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi_ic_local_hospital.png.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi/ic_local_hospital.png"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_tab_bottom_circle_white.xml.flat",
@@ -1852,6 +1820,10 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_navigation.xml"
     },
     {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi_ic_share.png.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi/ic_share.png"
+    },
+    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-mdpi_ic_internet_connected.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-pngs-71:/drawable-mdpi/ic_internet_connected.png"
     },
@@ -1870,10 +1842,6 @@
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/layout_activity_your_plan.xml.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/activity_your_plan.xml"
-    },
-    {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi_ic_plan.png.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi/ic_plan.png"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_thumbnail_3_min_butt_workout.png.flat",
@@ -1912,20 +1880,16 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/fragment_plan.xml"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_chevron_right.xml.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_chevron_right.xml"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_lose_belly_fat.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/lose_belly_fat.png"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_close.xml.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_close.xml"
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_chevron_right.xml.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_chevron_right.xml"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_bulb.xml.flat",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_bulb.xml"
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_close.xml.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable/ic_close.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_cover_butt_leg.png.flat",
@@ -1994,6 +1958,10 @@
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_cover_toned_arms_intermediate.png.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_cover_toned_arms_intermediate.png"
+    },
+    {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi_ic_bulb.png.flat",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi/ic_bulb.png"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable-xhdpi-v4_icon_cover_body_focus_full_body.png.flat",

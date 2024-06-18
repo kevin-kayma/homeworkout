@@ -3,32 +3,32 @@
 3    package="com.workout.NoEquipment.test" >
 4
 5    <uses-sdk
-5-->/Users/vivekkumar/Downloads/Home workout App/home workout/women weight/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Home workout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5460017059796913100.xml:5:5-74
+5-->/Users/harsh/Documents/GitHub/homeworkout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8777084106629268710.xml:5:5-74
 6        android:minSdkVersion="21"
-6-->/Users/vivekkumar/Downloads/Home workout App/home workout/women weight/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Home workout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5460017059796913100.xml:5:15-41
+6-->/Users/harsh/Documents/GitHub/homeworkout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8777084106629268710.xml:5:15-41
 7        android:targetSdkVersion="34" />
-7-->/Users/vivekkumar/Downloads/Home workout App/home workout/women weight/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Home workout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5460017059796913100.xml:5:42-71
+7-->/Users/harsh/Documents/GitHub/homeworkout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8777084106629268710.xml:5:42-71
 8
 9    <instrumentation
-9-->/Users/vivekkumar/Downloads/Home workout App/home workout/women weight/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Home workout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5460017059796913100.xml:11:5-15:73
+9-->/Users/harsh/Documents/GitHub/homeworkout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8777084106629268710.xml:11:5-15:73
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->/Users/vivekkumar/Downloads/Home workout App/home workout/women weight/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Home workout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5460017059796913100.xml:11:22-76
+10-->/Users/harsh/Documents/GitHub/homeworkout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8777084106629268710.xml:11:22-76
 11        android:functionalTest="false"
-11-->/Users/vivekkumar/Downloads/Home workout App/home workout/women weight/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Home workout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5460017059796913100.xml:14:22-52
+11-->/Users/harsh/Documents/GitHub/homeworkout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8777084106629268710.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/Users/vivekkumar/Downloads/Home workout App/home workout/women weight/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Home workout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5460017059796913100.xml:13:22-53
+12-->/Users/harsh/Documents/GitHub/homeworkout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8777084106629268710.xml:13:22-53
 13        android:label="Tests for com.workout.NoEquipment"
-13-->/Users/vivekkumar/Downloads/Home workout App/home workout/women weight/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Home workout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5460017059796913100.xml:15:22-71
+13-->/Users/harsh/Documents/GitHub/homeworkout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8777084106629268710.xml:15:22-71
 14        android:targetPackage="com.workout.NoEquipment" />
-14-->/Users/vivekkumar/Downloads/Home workout App/home workout/women weight/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Home workout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5460017059796913100.xml:12:22-69
+14-->/Users/harsh/Documents/GitHub/homeworkout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8777084106629268710.xml:12:22-69
 15
 16    <application
-16-->/Users/vivekkumar/Downloads/Home workout App/home workout/women weight/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Home workout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5460017059796913100.xml:7:5-9:19
+16-->/Users/harsh/Documents/GitHub/homeworkout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8777084106629268710.xml:7:5-9:19
 17        android:debuggable="true"
 18        android:extractNativeLibs="true" >
 19        <uses-library android:name="android.test.runner" />
-19-->/Users/vivekkumar/Downloads/Home workout App/home workout/women weight/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Home workout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5460017059796913100.xml:8:9-60
-19-->/Users/vivekkumar/Downloads/Home workout App/home workout/women weight/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Home workout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5460017059796913100.xml:8:23-57
+19-->/Users/harsh/Documents/GitHub/homeworkout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8777084106629268710.xml:8:9-60
+19-->/Users/harsh/Documents/GitHub/homeworkout/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8777084106629268710.xml:8:23-57
 20    </application>
 21
 22</manifest>

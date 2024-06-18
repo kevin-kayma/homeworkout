@@ -105,7 +105,7 @@
 55    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 56
 57    <application
-57-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:17:5-350:19
+57-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:17:5-353:19
 58        android:name="com.loseweight.MyApplication"
 58-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:18:9-52
 59        android:allowBackup="false"
@@ -278,976 +278,982 @@
 147-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:85:13-69
 148            android:value="@string/admob_app_id" />
 148-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:86:13-49
-149
-150        <activity
-150-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:88:9-105:20
-151            android:name="com.loseweight.SplashScreenActivity"
-151-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:89:13-63
-152            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-152-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:90:13-114
-153            android:exported="true"
-153-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:91:13-36
-154            android:label="@string/app_name"
-154-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:92:13-45
-155            android:launchMode="singleTop"
-155-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:93:13-43
-156            android:noHistory="true"
-156-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:96:13-37
-157            android:screenOrientation="portrait"
-157-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:94:13-49
-158            android:theme="@style/AppThemeSplash"
-158-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:95:13-50
-159            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan" >
-159-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:97:13-82
-160            <intent-filter>
-160-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:99:13-103:29
-161                <action android:name="android.intent.action.MAIN" />
-161-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:100:17-69
-161-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:100:25-66
-162
-163                <category android:name="android.intent.category.LAUNCHER" />
-163-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:102:17-77
-163-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:102:27-74
-164            </intent-filter>
-165        </activity>
-166        <activity
-166-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:107:9-115:20
-167            android:name="com.loseweight.CustomGalleryActivity"
-167-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:108:13-64
-168            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-168-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:109:13-114
-169            android:exported="true"
-169-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:110:13-36
-170            android:label="@string/app_name"
-170-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:111:13-45
-171            android:screenOrientation="portrait"
-171-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:112:13-49
-172            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" >
-172-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:113:13-86
-173        </activity>
-174        <activity
-174-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:117:9-123:89
-175            android:name="com.loseweight.HomeActivity"
-175-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:118:13-55
-176            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-176-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:119:13-114
-177            android:exported="true"
-177-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:120:13-36
-178            android:label="@string/app_name"
-178-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:121:13-45
-179            android:screenOrientation="portrait"
-179-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:122:13-49
-180            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-180-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:123:13-86
-181        <activity
-181-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:125:9-131:89
-182            android:name="com.loseweight.ChooseYourPlanActivity"
-182-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:126:13-65
-183            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-183-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:127:13-114
-184            android:exported="true"
-184-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:128:13-36
-185            android:label="@string/app_name"
-185-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:129:13-45
-186            android:screenOrientation="portrait"
-186-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:130:13-49
-187            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-187-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:131:13-86
-188        <activity
-188-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:133:9-139:89
-189            android:name="com.loseweight.ChooseWeightActivity"
-189-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:134:13-63
-190            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-190-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:135:13-114
-191            android:exported="true"
-191-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:136:13-36
-192            android:label="@string/app_name"
-192-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:137:13-45
-193            android:screenOrientation="portrait"
-193-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:138:13-49
-194            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-194-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:139:13-86
-195        <activity
-195-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:141:9-147:89
-196            android:name="com.loseweight.ChooseTargetWeightActivity"
-196-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:142:13-69
-197            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-197-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:143:13-114
-198            android:exported="true"
-198-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:144:13-36
-199            android:label="@string/app_name"
-199-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:145:13-45
-200            android:screenOrientation="portrait"
-200-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:146:13-49
-201            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-201-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:147:13-86
-202        <activity
-202-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:149:9-155:89
-203            android:name="com.loseweight.ChooseHeightActivity"
-203-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:150:13-63
-204            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-204-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:151:13-114
-205            android:exported="true"
-205-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:152:13-36
-206            android:label="@string/app_name"
-206-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:153:13-45
-207            android:screenOrientation="portrait"
-207-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:154:13-49
-208            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-208-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:155:13-86
-209        <activity
-209-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:157:9-163:89
-210            android:name="com.loseweight.BMIActivity"
-210-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:158:13-54
-211            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-211-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:159:13-114
-212            android:exported="true"
-212-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:160:13-36
-213            android:label="@string/app_name"
-213-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:161:13-45
-214            android:screenOrientation="portrait"
-214-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:162:13-49
-215            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-215-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:163:13-86
-216        <activity
-216-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:165:9-171:89
-217            android:name="com.loseweight.YourPlanActivity"
-217-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:166:13-59
-218            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-218-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:167:13-114
-219            android:exported="true"
-219-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:168:13-36
-220            android:label="@string/app_name"
-220-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:169:13-45
-221            android:screenOrientation="portrait"
-221-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:170:13-49
-222            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-222-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:171:13-86
-223        <activity
-223-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:173:9-179:89
-224            android:name="com.loseweight.WhatsYourGoalActivity"
-224-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:174:13-64
-225            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-225-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:175:13-114
-226            android:exported="true"
-226-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:176:13-36
-227            android:label="@string/app_name"
-227-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:177:13-45
-228            android:screenOrientation="portrait"
-228-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:178:13-49
-229            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-229-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:179:13-86
-230        <activity
-230-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:181:9-187:89
-231            android:name="com.loseweight.TurnOnWaterActivity"
-231-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:182:13-62
-232            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-232-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:183:13-114
-233            android:exported="true"
-233-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:184:13-36
-234            android:label="@string/app_name"
-234-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:185:13-45
-235            android:screenOrientation="portrait"
-235-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:186:13-49
-236            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-236-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:187:13-86
-237        <activity
-237-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:189:9-195:89
-238            android:name="com.loseweight.WellDoneActivity"
-238-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:190:13-59
-239            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-239-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:191:13-114
-240            android:exported="true"
-240-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:192:13-36
-241            android:label="@string/app_name"
-241-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:193:13-45
-242            android:screenOrientation="portrait"
-242-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:194:13-49
-243            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-243-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:195:13-86
-244        <activity
-244-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:197:9-203:89
-245            android:name="com.loseweight.WaterTrackerActivity"
-245-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:198:13-63
-246            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-246-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:199:13-114
-247            android:exported="true"
-247-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:200:13-36
-248            android:label="@string/app_name"
-248-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:201:13-45
-249            android:screenOrientation="portrait"
-249-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:202:13-49
-250            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-250-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:203:13-86
-251        <activity
-251-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:205:9-211:89
-252            android:name="com.loseweight.HomeDetailActivity"
-252-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:206:13-61
-253            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-253-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:207:13-114
-254            android:exported="true"
-254-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:208:13-36
-255            android:label="@string/app_name"
-255-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:209:13-45
-256            android:screenOrientation="portrait"
-256-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:210:13-49
-257            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-257-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:211:13-86
-258        <activity
-258-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:213:9-219:89
-259            android:name="com.loseweight.ExercisesListActivity"
-259-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:214:13-64
-260            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-260-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:215:13-114
-261            android:exported="true"
-261-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:216:13-36
-262            android:label="@string/app_name"
-262-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:217:13-45
-263            android:screenOrientation="portrait"
-263-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:218:13-49
-264            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-264-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:219:13-86
-265        <activity
-265-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:221:9-227:89
-266            android:name="com.loseweight.FastWorkoutActivity"
-266-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:222:13-62
-267            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-267-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:223:13-114
-268            android:exported="true"
-268-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:224:13-36
-269            android:label="@string/app_name"
-269-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:225:13-45
-270            android:screenOrientation="portrait"
-270-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:226:13-49
-271            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-271-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:227:13-86
-272        <activity
-272-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:230:9-236:89
-273            android:name="com.loseweight.FastWorkOutDetailActivity"
-273-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:231:13-68
-274            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-274-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:232:13-114
-275            android:exported="true"
-275-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:233:13-36
-276            android:label="@string/app_name"
-276-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:234:13-45
-277            android:screenOrientation="portrait"
-277-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:235:13-49
-278            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-278-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:236:13-86
-279        <activity
-279-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:238:9-244:89
-280            android:name="com.loseweight.PerformWorkOutActivity"
-280-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:239:13-65
-281            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-281-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:240:13-114
-282            android:exported="true"
-282-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:241:13-36
-283            android:label="@string/app_name"
-283-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:242:13-45
-284            android:screenOrientation="portrait"
-284-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:243:13-49
-285            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-285-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:244:13-86
-286        <activity
-286-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:246:9-252:89
-287            android:name="com.loseweight.RestActivity"
-287-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:247:13-55
-288            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-288-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:248:13-114
-289            android:exported="true"
-289-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:249:13-36
-290            android:label="@string/app_name"
-290-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:250:13-45
-291            android:screenOrientation="portrait"
-291-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:251:13-49
-292            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-292-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:252:13-86
-293        <activity
-293-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:254:9-260:89
-294            android:name="com.loseweight.CompletedActivity"
-294-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:255:13-60
-295            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-295-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:256:13-114
-296            android:exported="true"
-296-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:257:13-36
-297            android:label="@string/app_name"
-297-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:258:13-45
-298            android:screenOrientation="portrait"
-298-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:259:13-49
-299            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-299-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:260:13-86
-300        <activity
-300-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:262:9-268:89
-301            android:name="com.loseweight.HistoryActivity"
-301-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:263:13-58
-302            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-302-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:264:13-114
-303            android:exported="true"
-303-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:265:13-36
-304            android:label="@string/app_name"
-304-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:266:13-45
-305            android:screenOrientation="portrait"
-305-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:267:13-49
-306            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-306-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:268:13-86
-307        <activity
-307-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:270:9-276:89
-308            android:name="com.loseweight.AccessAllFeaturesActivity"
-308-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:271:13-68
-309            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-309-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:272:13-114
-310            android:exported="true"
-310-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:273:13-36
-311            android:label="@string/app_name"
-311-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:274:13-45
-312            android:screenOrientation="portrait"
-312-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:275:13-49
-313            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-313-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:276:13-86
-314        <activity
-314-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:278:9-284:89
-315            android:name="com.loseweight.MyProfileActivity"
-315-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:279:13-60
-316            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-316-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:280:13-114
-317            android:exported="true"
-317-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:281:13-36
-318            android:label="@string/app_name"
-318-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:282:13-45
-319            android:screenOrientation="portrait"
-319-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:283:13-49
-320            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-320-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:284:13-86
-321        <activity
-321-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:286:9-292:89
-322            android:name="com.loseweight.VoiceOptionActivity"
-322-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:287:13-62
-323            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-323-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:288:13-114
-324            android:exported="true"
-324-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:289:13-36
-325            android:label="@string/app_name"
-325-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:290:13-45
-326            android:screenOrientation="portrait"
-326-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:291:13-49
-327            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-327-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:292:13-86
-328        <activity
-328-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:294:9-300:89
-329            android:name="com.loseweight.ReminderActivity"
-329-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:295:13-59
-330            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-330-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:296:13-114
-331            android:exported="true"
-331-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:297:13-36
-332            android:label="@string/app_name"
-332-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:298:13-45
-333            android:screenOrientation="portrait"
-333-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:299:13-49
-334            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-334-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:300:13-86
-335        <activity
-335-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:302:9-308:89
-336            android:name="com.loseweight.CommonQuestionActivity"
-336-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:303:13-65
-337            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-337-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:304:13-114
-338            android:exported="true"
-338-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:305:13-36
-339            android:label="@string/app_name"
-339-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:306:13-45
-340            android:screenOrientation="portrait"
-340-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:307:13-49
-341            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-341-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:308:13-86
-342        <activity
-342-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:310:9-316:89
-343            android:name="com.loseweight.DaysPlanDetailActivity"
-343-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:311:13-65
-344            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-344-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:312:13-114
-345            android:exported="true"
-345-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:313:13-36
-346            android:label="@string/app_name"
-346-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:314:13-45
-347            android:screenOrientation="portrait"
-347-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:315:13-49
-348            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-348-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:316:13-86
-349        <activity
-349-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:318:9-324:89
-350            android:name="com.loseweight.RecentActivity"
-350-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:319:13-57
-351            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-351-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:320:13-114
-352            android:exported="true"
-352-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:321:13-36
-353            android:label="@string/app_name"
-353-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:322:13-45
-354            android:screenOrientation="portrait"
-354-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:323:13-49
-355            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-355-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:324:13-86
-356        <activity
-356-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:326:9-332:89
-357            android:name="com.loseweight.AboutActivity"
-357-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:327:13-56
-358            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-358-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:328:13-114
-359            android:exported="true"
-359-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:329:13-36
-360            android:label="@string/app_name"
-360-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:330:13-45
-361            android:screenOrientation="portrait"
-361-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:331:13-49
-362            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-362-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:332:13-86
-363        <activity
-363-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:334:9-340:89
-364            android:name="com.loseweight.RestDayActivity"
-364-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:335:13-58
-365            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-365-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:336:13-114
-366            android:exported="true"
-366-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:337:13-36
-367            android:label="@string/app_name"
-367-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:338:13-45
-368            android:screenOrientation="portrait"
-368-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:339:13-49
-369            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-369-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:340:13-86
-370        <activity
-370-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:342:9-348:89
-371            android:name="com.loseweight.EditPlanActivity"
-371-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:343:13-59
-372            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-372-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:344:13-114
-373            android:exported="true"
-373-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:345:13-36
-374            android:label="@string/app_name"
-374-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:346:13-45
-375            android:screenOrientation="portrait"
-375-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:347:13-49
-376            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-376-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:348:13-86
-377
-378        <meta-data
-378-->[com.android.billingclient:billing:6.1.0] /Users/harsh/.gradle/caches/transforms-3/9b90b227e8d873ad722c4c7017f90153/transformed/jetified-billing-6.1.0/AndroidManifest.xml:19:9-21:37
-379            android:name="com.google.android.play.billingclient.version"
-379-->[com.android.billingclient:billing:6.1.0] /Users/harsh/.gradle/caches/transforms-3/9b90b227e8d873ad722c4c7017f90153/transformed/jetified-billing-6.1.0/AndroidManifest.xml:20:13-73
-380            android:value="6.1.0" />
-380-->[com.android.billingclient:billing:6.1.0] /Users/harsh/.gradle/caches/transforms-3/9b90b227e8d873ad722c4c7017f90153/transformed/jetified-billing-6.1.0/AndroidManifest.xml:21:13-34
-381
-382        <activity
-382-->[com.android.billingclient:billing:6.1.0] /Users/harsh/.gradle/caches/transforms-3/9b90b227e8d873ad722c4c7017f90153/transformed/jetified-billing-6.1.0/AndroidManifest.xml:23:9-27:75
-383            android:name="com.android.billingclient.api.ProxyBillingActivity"
-383-->[com.android.billingclient:billing:6.1.0] /Users/harsh/.gradle/caches/transforms-3/9b90b227e8d873ad722c4c7017f90153/transformed/jetified-billing-6.1.0/AndroidManifest.xml:24:13-78
-384            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-384-->[com.android.billingclient:billing:6.1.0] /Users/harsh/.gradle/caches/transforms-3/9b90b227e8d873ad722c4c7017f90153/transformed/jetified-billing-6.1.0/AndroidManifest.xml:25:13-96
-385            android:exported="false"
-385-->[com.android.billingclient:billing:6.1.0] /Users/harsh/.gradle/caches/transforms-3/9b90b227e8d873ad722c4c7017f90153/transformed/jetified-billing-6.1.0/AndroidManifest.xml:26:13-37
-386            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-386-->[com.android.billingclient:billing:6.1.0] /Users/harsh/.gradle/caches/transforms-3/9b90b227e8d873ad722c4c7017f90153/transformed/jetified-billing-6.1.0/AndroidManifest.xml:27:13-72
-387
-388        <receiver
-388-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:29:9-40:20
-389            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-389-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:30:13-78
-390            android:exported="true"
-390-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:31:13-36
-391            android:permission="com.google.android.c2dm.permission.SEND" >
-391-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:32:13-73
-392            <intent-filter>
-392-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:33:13-35:29
-393                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-393-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:49:17-81
-393-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:49:25-78
-394            </intent-filter>
-395
-396            <meta-data
-396-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:37:13-39:40
-397                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
-397-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:38:17-92
-398                android:value="true" />
-398-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:39:17-37
-399        </receiver>
-400        <!--
-401             FirebaseMessagingService performs security checks at runtime,
-402             but set to not exported to explicitly avoid allowing another app to call it.
-403        -->
-404        <service
-404-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:46:9-53:19
-405            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-405-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:47:13-82
-406            android:directBootAware="true"
-406-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:48:13-43
-407            android:exported="false" >
-407-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:49:13-37
-408            <intent-filter android:priority="-500" >
-408-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:50:13-52:29
-408-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:50:28-51
-409                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-409-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:48:17-78
-409-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:48:25-75
-410            </intent-filter>
-411        </service>
-412
-413        <property
-413-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harsh/.gradle/caches/transforms-3/27174a8cbac7e84149c71b04d6ef54a5/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:30:9-32:61
-414            android:name="android.adservices.AD_SERVICES_CONFIG"
-414-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harsh/.gradle/caches/transforms-3/27174a8cbac7e84149c71b04d6ef54a5/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:31:13-65
-415            android:resource="@xml/ga_ad_services_config" />
-415-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harsh/.gradle/caches/transforms-3/27174a8cbac7e84149c71b04d6ef54a5/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:32:13-58
-416
-417        <receiver
-417-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:29:9-33:20
-418            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-418-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:30:13-85
-419            android:enabled="true"
-419-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:31:13-35
-420            android:exported="false" >
-420-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:32:13-37
-421        </receiver>
-422
-423        <service
-423-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:35:9-38:40
-424            android:name="com.google.android.gms.measurement.AppMeasurementService"
-424-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:36:13-84
-425            android:enabled="true"
-425-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:37:13-35
-426            android:exported="false" />
-426-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:38:13-37
-427        <service
-427-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:39:9-43:72
-428            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-428-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:40:13-87
-429            android:enabled="true"
-429-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:41:13-35
-430            android:exported="false"
-430-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:42:13-37
-431            android:permission="android.permission.BIND_JOB_SERVICE" />
-431-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:43:13-69
-432
-433        <uses-library
-433-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/harsh/.gradle/caches/transforms-3/68a92526780aaa33f73082856f2ce1c3/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
-434            android:name="android.ext.adservices"
-434-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/harsh/.gradle/caches/transforms-3/68a92526780aaa33f73082856f2ce1c3/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
-435            android:required="false" />
-435-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/harsh/.gradle/caches/transforms-3/68a92526780aaa33f73082856f2ce1c3/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
-436
-437        <activity
-437-->[com.karumi:dexter:6.2.2] /Users/harsh/.gradle/caches/transforms-3/6740f20600fa5d63ba903c9e8ffcdcaa/transformed/jetified-dexter-6.2.2/AndroidManifest.xml:27:9-29:72
-438            android:name="com.karumi.dexter.DexterActivity"
-438-->[com.karumi:dexter:6.2.2] /Users/harsh/.gradle/caches/transforms-3/6740f20600fa5d63ba903c9e8ffcdcaa/transformed/jetified-dexter-6.2.2/AndroidManifest.xml:28:13-60
-439            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-439-->[com.karumi:dexter:6.2.2] /Users/harsh/.gradle/caches/transforms-3/6740f20600fa5d63ba903c9e8ffcdcaa/transformed/jetified-dexter-6.2.2/AndroidManifest.xml:29:13-69
+149        <meta-data
+149-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:87:9-89:57
+150            android:name="preloaded_fonts"
+150-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:88:13-43
+151            android:resource="@array/preloaded_fonts" />
+151-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:89:13-54
+152
+153        <activity
+153-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:91:9-108:20
+154            android:name="com.loseweight.SplashScreenActivity"
+154-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:92:13-63
+155            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+155-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:93:13-114
+156            android:exported="true"
+156-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:94:13-36
+157            android:label="@string/app_name"
+157-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:95:13-45
+158            android:launchMode="singleTop"
+158-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:96:13-43
+159            android:noHistory="true"
+159-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:99:13-37
+160            android:screenOrientation="portrait"
+160-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:97:13-49
+161            android:theme="@style/AppThemeSplash"
+161-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:98:13-50
+162            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan" >
+162-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:100:13-82
+163            <intent-filter>
+163-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:102:13-106:29
+164                <action android:name="android.intent.action.MAIN" />
+164-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:103:17-69
+164-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:103:25-66
+165
+166                <category android:name="android.intent.category.LAUNCHER" />
+166-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:105:17-77
+166-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:105:27-74
+167            </intent-filter>
+168        </activity>
+169        <activity
+169-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:110:9-118:20
+170            android:name="com.loseweight.CustomGalleryActivity"
+170-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:111:13-64
+171            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+171-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:112:13-114
+172            android:exported="true"
+172-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:113:13-36
+173            android:label="@string/app_name"
+173-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:114:13-45
+174            android:screenOrientation="portrait"
+174-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:115:13-49
+175            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" >
+175-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:116:13-86
+176        </activity>
+177        <activity
+177-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:120:9-126:89
+178            android:name="com.loseweight.HomeActivity"
+178-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:121:13-55
+179            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+179-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:122:13-114
+180            android:exported="true"
+180-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:123:13-36
+181            android:label="@string/app_name"
+181-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:124:13-45
+182            android:screenOrientation="portrait"
+182-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:125:13-49
+183            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+183-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:126:13-86
+184        <activity
+184-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:128:9-134:89
+185            android:name="com.loseweight.ChooseYourPlanActivity"
+185-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:129:13-65
+186            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+186-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:130:13-114
+187            android:exported="true"
+187-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:131:13-36
+188            android:label="@string/app_name"
+188-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:132:13-45
+189            android:screenOrientation="portrait"
+189-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:133:13-49
+190            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+190-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:134:13-86
+191        <activity
+191-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:136:9-142:89
+192            android:name="com.loseweight.ChooseWeightActivity"
+192-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:137:13-63
+193            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+193-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:138:13-114
+194            android:exported="true"
+194-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:139:13-36
+195            android:label="@string/app_name"
+195-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:140:13-45
+196            android:screenOrientation="portrait"
+196-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:141:13-49
+197            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+197-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:142:13-86
+198        <activity
+198-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:144:9-150:89
+199            android:name="com.loseweight.ChooseTargetWeightActivity"
+199-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:145:13-69
+200            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+200-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:146:13-114
+201            android:exported="true"
+201-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:147:13-36
+202            android:label="@string/app_name"
+202-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:148:13-45
+203            android:screenOrientation="portrait"
+203-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:149:13-49
+204            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+204-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:150:13-86
+205        <activity
+205-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:152:9-158:89
+206            android:name="com.loseweight.ChooseHeightActivity"
+206-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:153:13-63
+207            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+207-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:154:13-114
+208            android:exported="true"
+208-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:155:13-36
+209            android:label="@string/app_name"
+209-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:156:13-45
+210            android:screenOrientation="portrait"
+210-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:157:13-49
+211            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+211-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:158:13-86
+212        <activity
+212-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:160:9-166:89
+213            android:name="com.loseweight.BMIActivity"
+213-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:161:13-54
+214            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+214-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:162:13-114
+215            android:exported="true"
+215-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:163:13-36
+216            android:label="@string/app_name"
+216-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:164:13-45
+217            android:screenOrientation="portrait"
+217-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:165:13-49
+218            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+218-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:166:13-86
+219        <activity
+219-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:168:9-174:89
+220            android:name="com.loseweight.YourPlanActivity"
+220-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:169:13-59
+221            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+221-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:170:13-114
+222            android:exported="true"
+222-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:171:13-36
+223            android:label="@string/app_name"
+223-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:172:13-45
+224            android:screenOrientation="portrait"
+224-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:173:13-49
+225            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+225-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:174:13-86
+226        <activity
+226-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:176:9-182:89
+227            android:name="com.loseweight.WhatsYourGoalActivity"
+227-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:177:13-64
+228            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+228-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:178:13-114
+229            android:exported="true"
+229-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:179:13-36
+230            android:label="@string/app_name"
+230-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:180:13-45
+231            android:screenOrientation="portrait"
+231-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:181:13-49
+232            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+232-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:182:13-86
+233        <activity
+233-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:184:9-190:89
+234            android:name="com.loseweight.TurnOnWaterActivity"
+234-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:185:13-62
+235            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+235-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:186:13-114
+236            android:exported="true"
+236-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:187:13-36
+237            android:label="@string/app_name"
+237-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:188:13-45
+238            android:screenOrientation="portrait"
+238-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:189:13-49
+239            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+239-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:190:13-86
+240        <activity
+240-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:192:9-198:89
+241            android:name="com.loseweight.WellDoneActivity"
+241-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:193:13-59
+242            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+242-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:194:13-114
+243            android:exported="true"
+243-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:195:13-36
+244            android:label="@string/app_name"
+244-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:196:13-45
+245            android:screenOrientation="portrait"
+245-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:197:13-49
+246            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+246-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:198:13-86
+247        <activity
+247-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:200:9-206:89
+248            android:name="com.loseweight.WaterTrackerActivity"
+248-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:201:13-63
+249            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+249-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:202:13-114
+250            android:exported="true"
+250-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:203:13-36
+251            android:label="@string/app_name"
+251-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:204:13-45
+252            android:screenOrientation="portrait"
+252-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:205:13-49
+253            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+253-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:206:13-86
+254        <activity
+254-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:208:9-214:89
+255            android:name="com.loseweight.HomeDetailActivity"
+255-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:209:13-61
+256            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+256-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:210:13-114
+257            android:exported="true"
+257-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:211:13-36
+258            android:label="@string/app_name"
+258-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:212:13-45
+259            android:screenOrientation="portrait"
+259-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:213:13-49
+260            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+260-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:214:13-86
+261        <activity
+261-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:216:9-222:89
+262            android:name="com.loseweight.ExercisesListActivity"
+262-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:217:13-64
+263            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+263-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:218:13-114
+264            android:exported="true"
+264-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:219:13-36
+265            android:label="@string/app_name"
+265-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:220:13-45
+266            android:screenOrientation="portrait"
+266-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:221:13-49
+267            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+267-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:222:13-86
+268        <activity
+268-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:224:9-230:89
+269            android:name="com.loseweight.FastWorkoutActivity"
+269-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:225:13-62
+270            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+270-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:226:13-114
+271            android:exported="true"
+271-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:227:13-36
+272            android:label="@string/app_name"
+272-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:228:13-45
+273            android:screenOrientation="portrait"
+273-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:229:13-49
+274            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+274-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:230:13-86
+275        <activity
+275-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:233:9-239:89
+276            android:name="com.loseweight.FastWorkOutDetailActivity"
+276-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:234:13-68
+277            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+277-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:235:13-114
+278            android:exported="true"
+278-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:236:13-36
+279            android:label="@string/app_name"
+279-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:237:13-45
+280            android:screenOrientation="portrait"
+280-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:238:13-49
+281            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+281-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:239:13-86
+282        <activity
+282-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:241:9-247:89
+283            android:name="com.loseweight.PerformWorkOutActivity"
+283-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:242:13-65
+284            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+284-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:243:13-114
+285            android:exported="true"
+285-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:244:13-36
+286            android:label="@string/app_name"
+286-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:245:13-45
+287            android:screenOrientation="portrait"
+287-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:246:13-49
+288            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+288-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:247:13-86
+289        <activity
+289-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:249:9-255:89
+290            android:name="com.loseweight.RestActivity"
+290-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:250:13-55
+291            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+291-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:251:13-114
+292            android:exported="true"
+292-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:252:13-36
+293            android:label="@string/app_name"
+293-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:253:13-45
+294            android:screenOrientation="portrait"
+294-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:254:13-49
+295            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+295-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:255:13-86
+296        <activity
+296-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:257:9-263:89
+297            android:name="com.loseweight.CompletedActivity"
+297-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:258:13-60
+298            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+298-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:259:13-114
+299            android:exported="true"
+299-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:260:13-36
+300            android:label="@string/app_name"
+300-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:261:13-45
+301            android:screenOrientation="portrait"
+301-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:262:13-49
+302            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+302-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:263:13-86
+303        <activity
+303-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:265:9-271:89
+304            android:name="com.loseweight.HistoryActivity"
+304-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:266:13-58
+305            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+305-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:267:13-114
+306            android:exported="true"
+306-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:268:13-36
+307            android:label="@string/app_name"
+307-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:269:13-45
+308            android:screenOrientation="portrait"
+308-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:270:13-49
+309            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+309-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:271:13-86
+310        <activity
+310-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:273:9-279:89
+311            android:name="com.loseweight.AccessAllFeaturesActivity"
+311-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:274:13-68
+312            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+312-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:275:13-114
+313            android:exported="true"
+313-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:276:13-36
+314            android:label="@string/app_name"
+314-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:277:13-45
+315            android:screenOrientation="portrait"
+315-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:278:13-49
+316            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+316-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:279:13-86
+317        <activity
+317-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:281:9-287:89
+318            android:name="com.loseweight.MyProfileActivity"
+318-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:282:13-60
+319            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+319-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:283:13-114
+320            android:exported="true"
+320-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:284:13-36
+321            android:label="@string/app_name"
+321-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:285:13-45
+322            android:screenOrientation="portrait"
+322-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:286:13-49
+323            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+323-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:287:13-86
+324        <activity
+324-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:289:9-295:89
+325            android:name="com.loseweight.VoiceOptionActivity"
+325-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:290:13-62
+326            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+326-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:291:13-114
+327            android:exported="true"
+327-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:292:13-36
+328            android:label="@string/app_name"
+328-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:293:13-45
+329            android:screenOrientation="portrait"
+329-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:294:13-49
+330            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+330-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:295:13-86
+331        <activity
+331-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:297:9-303:89
+332            android:name="com.loseweight.ReminderActivity"
+332-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:298:13-59
+333            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+333-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:299:13-114
+334            android:exported="true"
+334-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:300:13-36
+335            android:label="@string/app_name"
+335-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:301:13-45
+336            android:screenOrientation="portrait"
+336-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:302:13-49
+337            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+337-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:303:13-86
+338        <activity
+338-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:305:9-311:89
+339            android:name="com.loseweight.CommonQuestionActivity"
+339-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:306:13-65
+340            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+340-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:307:13-114
+341            android:exported="true"
+341-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:308:13-36
+342            android:label="@string/app_name"
+342-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:309:13-45
+343            android:screenOrientation="portrait"
+343-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:310:13-49
+344            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+344-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:311:13-86
+345        <activity
+345-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:313:9-319:89
+346            android:name="com.loseweight.DaysPlanDetailActivity"
+346-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:314:13-65
+347            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+347-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:315:13-114
+348            android:exported="true"
+348-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:316:13-36
+349            android:label="@string/app_name"
+349-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:317:13-45
+350            android:screenOrientation="portrait"
+350-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:318:13-49
+351            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+351-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:319:13-86
+352        <activity
+352-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:321:9-327:89
+353            android:name="com.loseweight.RecentActivity"
+353-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:322:13-57
+354            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+354-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:323:13-114
+355            android:exported="true"
+355-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:324:13-36
+356            android:label="@string/app_name"
+356-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:325:13-45
+357            android:screenOrientation="portrait"
+357-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:326:13-49
+358            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+358-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:327:13-86
+359        <activity
+359-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:329:9-335:89
+360            android:name="com.loseweight.AboutActivity"
+360-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:330:13-56
+361            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+361-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:331:13-114
+362            android:exported="true"
+362-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:332:13-36
+363            android:label="@string/app_name"
+363-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:333:13-45
+364            android:screenOrientation="portrait"
+364-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:334:13-49
+365            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+365-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:335:13-86
+366        <activity
+366-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:337:9-343:89
+367            android:name="com.loseweight.RestDayActivity"
+367-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:338:13-58
+368            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+368-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:339:13-114
+369            android:exported="true"
+369-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:340:13-36
+370            android:label="@string/app_name"
+370-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:341:13-45
+371            android:screenOrientation="portrait"
+371-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:342:13-49
+372            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+372-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:343:13-86
+373        <activity
+373-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:345:9-351:89
+374            android:name="com.loseweight.EditPlanActivity"
+374-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:346:13-59
+375            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+375-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:347:13-114
+376            android:exported="true"
+376-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:348:13-36
+377            android:label="@string/app_name"
+377-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:349:13-45
+378            android:screenOrientation="portrait"
+378-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:350:13-49
+379            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+379-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:351:13-86
+380
+381        <meta-data
+381-->[com.android.billingclient:billing:6.1.0] /Users/harsh/.gradle/caches/transforms-3/9b90b227e8d873ad722c4c7017f90153/transformed/jetified-billing-6.1.0/AndroidManifest.xml:19:9-21:37
+382            android:name="com.google.android.play.billingclient.version"
+382-->[com.android.billingclient:billing:6.1.0] /Users/harsh/.gradle/caches/transforms-3/9b90b227e8d873ad722c4c7017f90153/transformed/jetified-billing-6.1.0/AndroidManifest.xml:20:13-73
+383            android:value="6.1.0" />
+383-->[com.android.billingclient:billing:6.1.0] /Users/harsh/.gradle/caches/transforms-3/9b90b227e8d873ad722c4c7017f90153/transformed/jetified-billing-6.1.0/AndroidManifest.xml:21:13-34
+384
+385        <activity
+385-->[com.android.billingclient:billing:6.1.0] /Users/harsh/.gradle/caches/transforms-3/9b90b227e8d873ad722c4c7017f90153/transformed/jetified-billing-6.1.0/AndroidManifest.xml:23:9-27:75
+386            android:name="com.android.billingclient.api.ProxyBillingActivity"
+386-->[com.android.billingclient:billing:6.1.0] /Users/harsh/.gradle/caches/transforms-3/9b90b227e8d873ad722c4c7017f90153/transformed/jetified-billing-6.1.0/AndroidManifest.xml:24:13-78
+387            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+387-->[com.android.billingclient:billing:6.1.0] /Users/harsh/.gradle/caches/transforms-3/9b90b227e8d873ad722c4c7017f90153/transformed/jetified-billing-6.1.0/AndroidManifest.xml:25:13-96
+388            android:exported="false"
+388-->[com.android.billingclient:billing:6.1.0] /Users/harsh/.gradle/caches/transforms-3/9b90b227e8d873ad722c4c7017f90153/transformed/jetified-billing-6.1.0/AndroidManifest.xml:26:13-37
+389            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+389-->[com.android.billingclient:billing:6.1.0] /Users/harsh/.gradle/caches/transforms-3/9b90b227e8d873ad722c4c7017f90153/transformed/jetified-billing-6.1.0/AndroidManifest.xml:27:13-72
+390
+391        <receiver
+391-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:29:9-40:20
+392            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+392-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:30:13-78
+393            android:exported="true"
+393-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:31:13-36
+394            android:permission="com.google.android.c2dm.permission.SEND" >
+394-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:32:13-73
+395            <intent-filter>
+395-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:33:13-35:29
+396                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+396-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:49:17-81
+396-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:49:25-78
+397            </intent-filter>
+398
+399            <meta-data
+399-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:37:13-39:40
+400                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+400-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:38:17-92
+401                android:value="true" />
+401-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:39:17-37
+402        </receiver>
+403        <!--
+404             FirebaseMessagingService performs security checks at runtime,
+405             but set to not exported to explicitly avoid allowing another app to call it.
+406        -->
+407        <service
+407-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:46:9-53:19
+408            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+408-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:47:13-82
+409            android:directBootAware="true"
+409-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:48:13-43
+410            android:exported="false" >
+410-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:49:13-37
+411            <intent-filter android:priority="-500" >
+411-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:50:13-52:29
+411-->[com.google.firebase:firebase-messaging:23.3.1] /Users/harsh/.gradle/caches/transforms-3/91cf047cb4fd501e4c4a88156bb9b67d/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:50:28-51
+412                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+412-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:48:17-78
+412-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:48:25-75
+413            </intent-filter>
+414        </service>
+415
+416        <property
+416-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harsh/.gradle/caches/transforms-3/27174a8cbac7e84149c71b04d6ef54a5/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:30:9-32:61
+417            android:name="android.adservices.AD_SERVICES_CONFIG"
+417-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harsh/.gradle/caches/transforms-3/27174a8cbac7e84149c71b04d6ef54a5/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:31:13-65
+418            android:resource="@xml/ga_ad_services_config" />
+418-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harsh/.gradle/caches/transforms-3/27174a8cbac7e84149c71b04d6ef54a5/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:32:13-58
+419
+420        <receiver
+420-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:29:9-33:20
+421            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+421-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:30:13-85
+422            android:enabled="true"
+422-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:31:13-35
+423            android:exported="false" >
+423-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:32:13-37
+424        </receiver>
+425
+426        <service
+426-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:35:9-38:40
+427            android:name="com.google.android.gms.measurement.AppMeasurementService"
+427-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:36:13-84
+428            android:enabled="true"
+428-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:37:13-35
+429            android:exported="false" />
+429-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:38:13-37
+430        <service
+430-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:39:9-43:72
+431            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+431-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:40:13-87
+432            android:enabled="true"
+432-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:41:13-35
+433            android:exported="false"
+433-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:42:13-37
+434            android:permission="android.permission.BIND_JOB_SERVICE" />
+434-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/harsh/.gradle/caches/transforms-3/5144be1f7f32e3d459f877e7cf174543/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:43:13-69
+435
+436        <uses-library
+436-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/harsh/.gradle/caches/transforms-3/68a92526780aaa33f73082856f2ce1c3/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+437            android:name="android.ext.adservices"
+437-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/harsh/.gradle/caches/transforms-3/68a92526780aaa33f73082856f2ce1c3/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+438            android:required="false" />
+438-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/harsh/.gradle/caches/transforms-3/68a92526780aaa33f73082856f2ce1c3/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+439
 440        <activity
-440-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:56:9-61:43
-441            android:name="com.google.android.gms.ads.AdActivity"
-441-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:57:13-65
-442            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-442-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:58:13-122
-443            android:exported="false"
-443-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:59:13-37
-444            android:theme="@android:style/Theme.Translucent" />
-444-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:60:13-61
-445
-446        <provider
-446-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:63:9-68:43
-447            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-447-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:64:13-76
-448            android:authorities="com.workout.NoEquipment.mobileadsinitprovider"
-448-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:65:13-73
-449            android:exported="false"
-449-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:66:13-37
-450            android:initOrder="100" />
-450-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:67:13-36
-451
-452        <service
-452-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:70:9-74:43
-453            android:name="com.google.android.gms.ads.AdService"
-453-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:71:13-64
-454            android:enabled="true"
-454-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:72:13-35
-455            android:exported="false" />
-455-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:73:13-37
-456
-457        <activity
-457-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:76:9-80:43
-458            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
-458-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:77:13-82
-459            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-459-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:78:13-122
-460            android:exported="false" />
-460-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:79:13-37
-461
-462        <property
-462-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harsh/.gradle/caches/transforms-3/27174a8cbac7e84149c71b04d6ef54a5/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:30:9-32:61
-463            android:name="android.adservices.AD_SERVICES_CONFIG"
-463-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harsh/.gradle/caches/transforms-3/27174a8cbac7e84149c71b04d6ef54a5/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:31:13-65
-464            android:resource="@xml/gma_ad_services_config" />
-464-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harsh/.gradle/caches/transforms-3/27174a8cbac7e84149c71b04d6ef54a5/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:32:13-58
-465
-466        <activity
-466-->[com.google.android.gms:play-services-base:18.0.1] /Users/harsh/.gradle/caches/transforms-3/441aa2a0f5c242630e963c15ae17a257/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-467            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-467-->[com.google.android.gms:play-services-base:18.0.1] /Users/harsh/.gradle/caches/transforms-3/441aa2a0f5c242630e963c15ae17a257/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-468            android:exported="false"
-468-->[com.google.android.gms:play-services-base:18.0.1] /Users/harsh/.gradle/caches/transforms-3/441aa2a0f5c242630e963c15ae17a257/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-469            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-469-->[com.google.android.gms:play-services-base:18.0.1] /Users/harsh/.gradle/caches/transforms-3/441aa2a0f5c242630e963c15ae17a257/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-470
-471        <provider
-471-->[com.google.firebase:firebase-common:20.4.2] /Users/harsh/.gradle/caches/transforms-3/5353cd1d3aa52692e238fbd4e9654b41/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
-472            android:name="com.google.firebase.provider.FirebaseInitProvider"
-472-->[com.google.firebase:firebase-common:20.4.2] /Users/harsh/.gradle/caches/transforms-3/5353cd1d3aa52692e238fbd4e9654b41/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
-473            android:authorities="com.workout.NoEquipment.firebaseinitprovider"
-473-->[com.google.firebase:firebase-common:20.4.2] /Users/harsh/.gradle/caches/transforms-3/5353cd1d3aa52692e238fbd4e9654b41/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
-474            android:directBootAware="true"
-474-->[com.google.firebase:firebase-common:20.4.2] /Users/harsh/.gradle/caches/transforms-3/5353cd1d3aa52692e238fbd4e9654b41/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
-475            android:exported="false"
-475-->[com.google.firebase:firebase-common:20.4.2] /Users/harsh/.gradle/caches/transforms-3/5353cd1d3aa52692e238fbd4e9654b41/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
-476            android:initOrder="100" />
-476-->[com.google.firebase:firebase-common:20.4.2] /Users/harsh/.gradle/caches/transforms-3/5353cd1d3aa52692e238fbd4e9654b41/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
-477
-478        <meta-data
-478-->[com.google.android.gms:play-services-basement:18.2.0] /Users/harsh/.gradle/caches/transforms-3/a1a0314a6f47b5fb4e6d10d02b7a5b3e/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
-479            android:name="com.google.android.gms.version"
-479-->[com.google.android.gms:play-services-basement:18.2.0] /Users/harsh/.gradle/caches/transforms-3/a1a0314a6f47b5fb4e6d10d02b7a5b3e/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
-480            android:value="@integer/google_play_services_version" />
-480-->[com.google.android.gms:play-services-basement:18.2.0] /Users/harsh/.gradle/caches/transforms-3/a1a0314a6f47b5fb4e6d10d02b7a5b3e/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
-481
-482        <provider
-482-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:29:9-37:20
-483            android:name="androidx.startup.InitializationProvider"
-483-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:30:13-67
-484            android:authorities="com.workout.NoEquipment.androidx-startup"
-484-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:31:13-68
-485            android:exported="false" >
-485-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:32:13-37
-486            <meta-data
-486-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:34:13-36:52
-487                android:name="androidx.work.WorkManagerInitializer"
-487-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:35:17-68
-488                android:value="androidx.startup" />
-488-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:36:17-49
+440-->[com.karumi:dexter:6.2.2] /Users/harsh/.gradle/caches/transforms-3/6740f20600fa5d63ba903c9e8ffcdcaa/transformed/jetified-dexter-6.2.2/AndroidManifest.xml:27:9-29:72
+441            android:name="com.karumi.dexter.DexterActivity"
+441-->[com.karumi:dexter:6.2.2] /Users/harsh/.gradle/caches/transforms-3/6740f20600fa5d63ba903c9e8ffcdcaa/transformed/jetified-dexter-6.2.2/AndroidManifest.xml:28:13-60
+442            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+442-->[com.karumi:dexter:6.2.2] /Users/harsh/.gradle/caches/transforms-3/6740f20600fa5d63ba903c9e8ffcdcaa/transformed/jetified-dexter-6.2.2/AndroidManifest.xml:29:13-69
+443        <activity
+443-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:56:9-61:43
+444            android:name="com.google.android.gms.ads.AdActivity"
+444-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:57:13-65
+445            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+445-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:58:13-122
+446            android:exported="false"
+446-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:59:13-37
+447            android:theme="@android:style/Theme.Translucent" />
+447-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:60:13-61
+448
+449        <provider
+449-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:63:9-68:43
+450            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+450-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:64:13-76
+451            android:authorities="com.workout.NoEquipment.mobileadsinitprovider"
+451-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:65:13-73
+452            android:exported="false"
+452-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:66:13-37
+453            android:initOrder="100" />
+453-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:67:13-36
+454
+455        <service
+455-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:70:9-74:43
+456            android:name="com.google.android.gms.ads.AdService"
+456-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:71:13-64
+457            android:enabled="true"
+457-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:72:13-35
+458            android:exported="false" />
+458-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:73:13-37
+459
+460        <activity
+460-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:76:9-80:43
+461            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+461-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:77:13-82
+462            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+462-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:78:13-122
+463            android:exported="false" />
+463-->[com.google.android.gms:play-services-ads-lite:22.5.0] /Users/harsh/.gradle/caches/transforms-3/217f961cd6dcb990fe91b9c1f82450a3/transformed/jetified-play-services-ads-lite-22.5.0/AndroidManifest.xml:79:13-37
+464
+465        <property
+465-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harsh/.gradle/caches/transforms-3/27174a8cbac7e84149c71b04d6ef54a5/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:30:9-32:61
+466            android:name="android.adservices.AD_SERVICES_CONFIG"
+466-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harsh/.gradle/caches/transforms-3/27174a8cbac7e84149c71b04d6ef54a5/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:31:13-65
+467            android:resource="@xml/gma_ad_services_config" />
+467-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/harsh/.gradle/caches/transforms-3/27174a8cbac7e84149c71b04d6ef54a5/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:32:13-58
+468
+469        <activity
+469-->[com.google.android.gms:play-services-base:18.0.1] /Users/harsh/.gradle/caches/transforms-3/441aa2a0f5c242630e963c15ae17a257/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+470            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+470-->[com.google.android.gms:play-services-base:18.0.1] /Users/harsh/.gradle/caches/transforms-3/441aa2a0f5c242630e963c15ae17a257/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+471            android:exported="false"
+471-->[com.google.android.gms:play-services-base:18.0.1] /Users/harsh/.gradle/caches/transforms-3/441aa2a0f5c242630e963c15ae17a257/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+472            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+472-->[com.google.android.gms:play-services-base:18.0.1] /Users/harsh/.gradle/caches/transforms-3/441aa2a0f5c242630e963c15ae17a257/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+473
+474        <provider
+474-->[com.google.firebase:firebase-common:20.4.2] /Users/harsh/.gradle/caches/transforms-3/5353cd1d3aa52692e238fbd4e9654b41/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+475            android:name="com.google.firebase.provider.FirebaseInitProvider"
+475-->[com.google.firebase:firebase-common:20.4.2] /Users/harsh/.gradle/caches/transforms-3/5353cd1d3aa52692e238fbd4e9654b41/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+476            android:authorities="com.workout.NoEquipment.firebaseinitprovider"
+476-->[com.google.firebase:firebase-common:20.4.2] /Users/harsh/.gradle/caches/transforms-3/5353cd1d3aa52692e238fbd4e9654b41/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+477            android:directBootAware="true"
+477-->[com.google.firebase:firebase-common:20.4.2] /Users/harsh/.gradle/caches/transforms-3/5353cd1d3aa52692e238fbd4e9654b41/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+478            android:exported="false"
+478-->[com.google.firebase:firebase-common:20.4.2] /Users/harsh/.gradle/caches/transforms-3/5353cd1d3aa52692e238fbd4e9654b41/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+479            android:initOrder="100" />
+479-->[com.google.firebase:firebase-common:20.4.2] /Users/harsh/.gradle/caches/transforms-3/5353cd1d3aa52692e238fbd4e9654b41/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+480
+481        <meta-data
+481-->[com.google.android.gms:play-services-basement:18.2.0] /Users/harsh/.gradle/caches/transforms-3/a1a0314a6f47b5fb4e6d10d02b7a5b3e/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+482            android:name="com.google.android.gms.version"
+482-->[com.google.android.gms:play-services-basement:18.2.0] /Users/harsh/.gradle/caches/transforms-3/a1a0314a6f47b5fb4e6d10d02b7a5b3e/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+483            android:value="@integer/google_play_services_version" />
+483-->[com.google.android.gms:play-services-basement:18.2.0] /Users/harsh/.gradle/caches/transforms-3/a1a0314a6f47b5fb4e6d10d02b7a5b3e/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+484
+485        <provider
+485-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:29:9-37:20
+486            android:name="androidx.startup.InitializationProvider"
+486-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:30:13-67
+487            android:authorities="com.workout.NoEquipment.androidx-startup"
+487-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:31:13-68
+488            android:exported="false" >
+488-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:32:13-37
 489            <meta-data
-489-->[androidx.emoji2:emoji2:1.2.0] /Users/harsh/.gradle/caches/transforms-3/8c979a433845b19cf5c734636ec5c780/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-490                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-490-->[androidx.emoji2:emoji2:1.2.0] /Users/harsh/.gradle/caches/transforms-3/8c979a433845b19cf5c734636ec5c780/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+489-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:34:13-36:52
+490                android:name="androidx.work.WorkManagerInitializer"
+490-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:35:17-68
 491                android:value="androidx.startup" />
-491-->[androidx.emoji2:emoji2:1.2.0] /Users/harsh/.gradle/caches/transforms-3/8c979a433845b19cf5c734636ec5c780/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+491-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:36:17-49
 492            <meta-data
-492-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/harsh/.gradle/caches/transforms-3/9bde870405d80ea471719b0f8cdbd5f0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
-493                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-493-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/harsh/.gradle/caches/transforms-3/9bde870405d80ea471719b0f8cdbd5f0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+492-->[androidx.emoji2:emoji2:1.2.0] /Users/harsh/.gradle/caches/transforms-3/8c979a433845b19cf5c734636ec5c780/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+493                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+493-->[androidx.emoji2:emoji2:1.2.0] /Users/harsh/.gradle/caches/transforms-3/8c979a433845b19cf5c734636ec5c780/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
 494                android:value="androidx.startup" />
-494-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/harsh/.gradle/caches/transforms-3/9bde870405d80ea471719b0f8cdbd5f0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+494-->[androidx.emoji2:emoji2:1.2.0] /Users/harsh/.gradle/caches/transforms-3/8c979a433845b19cf5c734636ec5c780/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
 495            <meta-data
-495-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-496                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-496-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+495-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/harsh/.gradle/caches/transforms-3/9bde870405d80ea471719b0f8cdbd5f0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+496                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+496-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/harsh/.gradle/caches/transforms-3/9bde870405d80ea471719b0f8cdbd5f0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
 497                android:value="androidx.startup" />
-497-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-498        </provider>
-499
-500        <service
-500-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:39:9-45:35
-501            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-501-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:40:13-88
-502            android:directBootAware="false"
-502-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:41:13-44
-503            android:enabled="@bool/enable_system_alarm_service_default"
-503-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:42:13-72
-504            android:exported="false" />
-504-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:43:13-37
-505        <service
-505-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:46:9-52:35
-506            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-506-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:47:13-84
-507            android:directBootAware="false"
-507-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:48:13-44
-508            android:enabled="@bool/enable_system_job_service_default"
-508-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:49:13-70
-509            android:exported="true"
-509-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:50:13-36
-510            android:permission="android.permission.BIND_JOB_SERVICE" />
-510-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:51:13-69
-511        <service
-511-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:53:9-59:35
-512            android:name="androidx.work.impl.foreground.SystemForegroundService"
-512-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:54:13-81
-513            android:directBootAware="false"
-513-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:55:13-44
-514            android:enabled="@bool/enable_system_foreground_service_default"
-514-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:56:13-77
-515            android:exported="false" />
-515-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:57:13-37
-516
-517        <receiver
-517-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:61:9-66:35
-518            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-518-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:62:13-88
-519            android:directBootAware="false"
-519-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:63:13-44
-520            android:enabled="true"
-520-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:64:13-35
-521            android:exported="false" />
-521-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:65:13-37
-522        <receiver
-522-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:67:9-77:20
-523            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-523-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:68:13-106
-524            android:directBootAware="false"
-524-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:69:13-44
-525            android:enabled="false"
-525-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:70:13-36
-526            android:exported="false" >
-526-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:71:13-37
-527            <intent-filter>
-527-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:73:13-76:29
-528                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-528-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:17-87
-528-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:25-84
-529                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-529-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:17-90
-529-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:25-87
-530            </intent-filter>
-531        </receiver>
-532        <receiver
-532-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:78:9-88:20
-533            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-533-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:79:13-104
-534            android:directBootAware="false"
-534-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:80:13-44
-535            android:enabled="false"
-535-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:81:13-36
-536            android:exported="false" >
-536-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:82:13-37
-537            <intent-filter>
-537-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:84:13-87:29
-538                <action android:name="android.intent.action.BATTERY_OKAY" />
-538-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:17-77
-538-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:25-74
-539                <action android:name="android.intent.action.BATTERY_LOW" />
-539-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:17-76
-539-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:25-73
-540            </intent-filter>
-541        </receiver>
-542        <receiver
-542-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:89:9-99:20
-543            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-543-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:90:13-104
-544            android:directBootAware="false"
-544-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:91:13-44
-545            android:enabled="false"
-545-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:92:13-36
-546            android:exported="false" >
-546-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:93:13-37
-547            <intent-filter>
-547-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:95:13-98:29
-548                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-548-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:17-83
-548-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:25-80
-549                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-549-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:17-82
-549-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:25-79
-550            </intent-filter>
-551        </receiver>
-552        <receiver
-552-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:100:9-109:20
-553            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-553-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:101:13-103
-554            android:directBootAware="false"
-554-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:102:13-44
-555            android:enabled="false"
-555-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:103:13-36
-556            android:exported="false" >
-556-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:104:13-37
-557            <intent-filter>
-557-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:36:13-38:29
-558                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-558-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:37:17-79
-558-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:37:25-76
-559            </intent-filter>
-560        </receiver>
-561        <receiver
-561-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:110:9-121:20
-562            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-562-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:111:13-88
-563            android:directBootAware="false"
-563-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:112:13-44
-564            android:enabled="false"
-564-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:113:13-36
-565            android:exported="false" >
-565-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:114:13-37
-566            <intent-filter>
-566-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:116:13-120:29
-567                <action android:name="android.intent.action.BOOT_COMPLETED" />
-567-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:69:17-79
-567-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:69:25-76
-568                <action android:name="android.intent.action.TIME_SET" />
-568-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:17-73
-568-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:25-70
-569                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-569-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:17-81
-569-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:25-78
-570            </intent-filter>
-571        </receiver>
-572        <receiver
-572-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:122:9-131:20
-573            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-573-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:123:13-99
-574            android:directBootAware="false"
-574-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:124:13-44
-575            android:enabled="@bool/enable_system_alarm_service_default"
-575-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:125:13-72
-576            android:exported="false" >
-576-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:126:13-37
-577            <intent-filter>
-577-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:128:13-130:29
-578                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-578-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:17-98
-578-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:25-95
-579            </intent-filter>
-580        </receiver>
-581        <receiver
-581-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:132:9-142:20
-582            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-582-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:133:13-78
-583            android:directBootAware="false"
-583-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:134:13-44
-584            android:enabled="true"
-584-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:135:13-35
-585            android:exported="true"
-585-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:136:13-36
-586            android:permission="android.permission.DUMP" >
-586-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:137:13-57
-587            <intent-filter>
-587-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:139:13-141:29
-588                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-588-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:17-88
-588-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:25-85
-589            </intent-filter>
-590        </receiver>
-591
-592        <uses-library
-592-->[androidx.window:window:1.0.0] /Users/harsh/.gradle/caches/transforms-3/e2d3825b7be510c7c74812a30bca5b9d/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
-593            android:name="androidx.window.extensions"
-593-->[androidx.window:window:1.0.0] /Users/harsh/.gradle/caches/transforms-3/e2d3825b7be510c7c74812a30bca5b9d/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
-594            android:required="false" />
-594-->[androidx.window:window:1.0.0] /Users/harsh/.gradle/caches/transforms-3/e2d3825b7be510c7c74812a30bca5b9d/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+497-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/harsh/.gradle/caches/transforms-3/9bde870405d80ea471719b0f8cdbd5f0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+498            <meta-data
+498-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+499                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+499-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+500                android:value="androidx.startup" />
+500-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+501        </provider>
+502
+503        <service
+503-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:39:9-45:35
+504            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+504-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:40:13-88
+505            android:directBootAware="false"
+505-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:41:13-44
+506            android:enabled="@bool/enable_system_alarm_service_default"
+506-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:42:13-72
+507            android:exported="false" />
+507-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:43:13-37
+508        <service
+508-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:46:9-52:35
+509            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+509-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:47:13-84
+510            android:directBootAware="false"
+510-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:48:13-44
+511            android:enabled="@bool/enable_system_job_service_default"
+511-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:49:13-70
+512            android:exported="true"
+512-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:50:13-36
+513            android:permission="android.permission.BIND_JOB_SERVICE" />
+513-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:51:13-69
+514        <service
+514-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:53:9-59:35
+515            android:name="androidx.work.impl.foreground.SystemForegroundService"
+515-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:54:13-81
+516            android:directBootAware="false"
+516-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:55:13-44
+517            android:enabled="@bool/enable_system_foreground_service_default"
+517-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:56:13-77
+518            android:exported="false" />
+518-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:57:13-37
+519
+520        <receiver
+520-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:61:9-66:35
+521            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+521-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:62:13-88
+522            android:directBootAware="false"
+522-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:63:13-44
+523            android:enabled="true"
+523-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:64:13-35
+524            android:exported="false" />
+524-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:65:13-37
+525        <receiver
+525-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:67:9-77:20
+526            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+526-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:68:13-106
+527            android:directBootAware="false"
+527-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:69:13-44
+528            android:enabled="false"
+528-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:70:13-36
+529            android:exported="false" >
+529-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:71:13-37
+530            <intent-filter>
+530-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:73:13-76:29
+531                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+531-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:17-87
+531-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:25-84
+532                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+532-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:17-90
+532-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:25-87
+533            </intent-filter>
+534        </receiver>
+535        <receiver
+535-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:78:9-88:20
+536            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+536-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:79:13-104
+537            android:directBootAware="false"
+537-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:80:13-44
+538            android:enabled="false"
+538-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:81:13-36
+539            android:exported="false" >
+539-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:82:13-37
+540            <intent-filter>
+540-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:84:13-87:29
+541                <action android:name="android.intent.action.BATTERY_OKAY" />
+541-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:17-77
+541-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:25-74
+542                <action android:name="android.intent.action.BATTERY_LOW" />
+542-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:17-76
+542-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:25-73
+543            </intent-filter>
+544        </receiver>
+545        <receiver
+545-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:89:9-99:20
+546            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+546-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:90:13-104
+547            android:directBootAware="false"
+547-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:91:13-44
+548            android:enabled="false"
+548-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:92:13-36
+549            android:exported="false" >
+549-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:93:13-37
+550            <intent-filter>
+550-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:95:13-98:29
+551                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+551-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:17-83
+551-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:25-80
+552                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+552-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:17-82
+552-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:25-79
+553            </intent-filter>
+554        </receiver>
+555        <receiver
+555-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:100:9-109:20
+556            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+556-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:101:13-103
+557            android:directBootAware="false"
+557-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:102:13-44
+558            android:enabled="false"
+558-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:103:13-36
+559            android:exported="false" >
+559-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:104:13-37
+560            <intent-filter>
+560-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:36:13-38:29
+561                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+561-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:37:17-79
+561-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:37:25-76
+562            </intent-filter>
+563        </receiver>
+564        <receiver
+564-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:110:9-121:20
+565            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+565-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:111:13-88
+566            android:directBootAware="false"
+566-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:112:13-44
+567            android:enabled="false"
+567-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:113:13-36
+568            android:exported="false" >
+568-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:114:13-37
+569            <intent-filter>
+569-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:116:13-120:29
+570                <action android:name="android.intent.action.BOOT_COMPLETED" />
+570-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:69:17-79
+570-->/Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:69:25-76
+571                <action android:name="android.intent.action.TIME_SET" />
+571-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:17-73
+571-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:25-70
+572                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+572-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:17-81
+572-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:25-78
+573            </intent-filter>
+574        </receiver>
+575        <receiver
+575-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:122:9-131:20
+576            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+576-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:123:13-99
+577            android:directBootAware="false"
+577-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:124:13-44
+578            android:enabled="@bool/enable_system_alarm_service_default"
+578-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:125:13-72
+579            android:exported="false" >
+579-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:126:13-37
+580            <intent-filter>
+580-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:128:13-130:29
+581                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+581-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:17-98
+581-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:25-95
+582            </intent-filter>
+583        </receiver>
+584        <receiver
+584-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:132:9-142:20
+585            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+585-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:133:13-78
+586            android:directBootAware="false"
+586-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:134:13-44
+587            android:enabled="true"
+587-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:135:13-35
+588            android:exported="true"
+588-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:136:13-36
+589            android:permission="android.permission.DUMP" >
+589-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:137:13-57
+590            <intent-filter>
+590-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:139:13-141:29
+591                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+591-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:17-88
+591-->[androidx.work:work-runtime:2.8.1] /Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:25-85
+592            </intent-filter>
+593        </receiver>
+594
 595        <uses-library
-595-->[androidx.window:window:1.0.0] /Users/harsh/.gradle/caches/transforms-3/e2d3825b7be510c7c74812a30bca5b9d/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
-596            android:name="androidx.window.sidecar"
-596-->[androidx.window:window:1.0.0] /Users/harsh/.gradle/caches/transforms-3/e2d3825b7be510c7c74812a30bca5b9d/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+595-->[androidx.window:window:1.0.0] /Users/harsh/.gradle/caches/transforms-3/e2d3825b7be510c7c74812a30bca5b9d/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+596            android:name="androidx.window.extensions"
+596-->[androidx.window:window:1.0.0] /Users/harsh/.gradle/caches/transforms-3/e2d3825b7be510c7c74812a30bca5b9d/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
 597            android:required="false" />
-597-->[androidx.window:window:1.0.0] /Users/harsh/.gradle/caches/transforms-3/e2d3825b7be510c7c74812a30bca5b9d/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
-598
-599        <service
-599-->[androidx.room:room-runtime:2.5.0] /Users/harsh/.gradle/caches/transforms-3/8f7f72dd8633aa0caf2db49d4459fb89/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
-600            android:name="androidx.room.MultiInstanceInvalidationService"
-600-->[androidx.room:room-runtime:2.5.0] /Users/harsh/.gradle/caches/transforms-3/8f7f72dd8633aa0caf2db49d4459fb89/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
-601            android:directBootAware="true"
-601-->[androidx.room:room-runtime:2.5.0] /Users/harsh/.gradle/caches/transforms-3/8f7f72dd8633aa0caf2db49d4459fb89/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
-602            android:exported="false" />
-602-->[androidx.room:room-runtime:2.5.0] /Users/harsh/.gradle/caches/transforms-3/8f7f72dd8633aa0caf2db49d4459fb89/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
-603
-604        <activity
-604-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:19:9-23:75
-605            android:name="com.facebook.ads.AudienceNetworkActivity"
-605-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:20:13-68
-606            android:configChanges="keyboardHidden|orientation|screenSize"
-606-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:21:13-74
-607            android:exported="false"
-607-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:22:13-37
-608            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-608-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:23:13-72
-609
-610        <provider
-610-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:25:9-28:40
-611            android:name="com.facebook.ads.AudienceNetworkContentProvider"
-611-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:26:13-75
-612            android:authorities="com.workout.NoEquipment.AudienceNetworkContentProvider"
-612-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:27:13-82
-613            android:exported="false" />
-613-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:28:13-37
-614
-615        <activity
-615-->[:DebugSettings:] /Users/harsh/.gradle/caches/transforms-3/8ca3f857fc315acc99e00251f21d81a5/transformed/jetified-DebugSettings/AndroidManifest.xml:8:9-10:40
-616            android:name="com.facebook.samples.ads.debugsettings.DebugSettingsActivity"
-616-->[:DebugSettings:] /Users/harsh/.gradle/caches/transforms-3/8ca3f857fc315acc99e00251f21d81a5/transformed/jetified-DebugSettings/AndroidManifest.xml:9:13-88
-617            android:exported="false" />
-617-->[:DebugSettings:] /Users/harsh/.gradle/caches/transforms-3/8ca3f857fc315acc99e00251f21d81a5/transformed/jetified-DebugSettings/AndroidManifest.xml:10:13-37
-618
-619        <receiver
-619-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-620            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-620-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-621            android:directBootAware="false"
-621-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-622            android:enabled="true"
-622-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-623            android:exported="true"
-623-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-624            android:permission="android.permission.DUMP" >
-624-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-625            <intent-filter>
-625-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-626                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-626-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-626-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-627            </intent-filter>
+597-->[androidx.window:window:1.0.0] /Users/harsh/.gradle/caches/transforms-3/e2d3825b7be510c7c74812a30bca5b9d/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+598        <uses-library
+598-->[androidx.window:window:1.0.0] /Users/harsh/.gradle/caches/transforms-3/e2d3825b7be510c7c74812a30bca5b9d/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+599            android:name="androidx.window.sidecar"
+599-->[androidx.window:window:1.0.0] /Users/harsh/.gradle/caches/transforms-3/e2d3825b7be510c7c74812a30bca5b9d/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+600            android:required="false" />
+600-->[androidx.window:window:1.0.0] /Users/harsh/.gradle/caches/transforms-3/e2d3825b7be510c7c74812a30bca5b9d/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+601
+602        <service
+602-->[androidx.room:room-runtime:2.5.0] /Users/harsh/.gradle/caches/transforms-3/8f7f72dd8633aa0caf2db49d4459fb89/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+603            android:name="androidx.room.MultiInstanceInvalidationService"
+603-->[androidx.room:room-runtime:2.5.0] /Users/harsh/.gradle/caches/transforms-3/8f7f72dd8633aa0caf2db49d4459fb89/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+604            android:directBootAware="true"
+604-->[androidx.room:room-runtime:2.5.0] /Users/harsh/.gradle/caches/transforms-3/8f7f72dd8633aa0caf2db49d4459fb89/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+605            android:exported="false" />
+605-->[androidx.room:room-runtime:2.5.0] /Users/harsh/.gradle/caches/transforms-3/8f7f72dd8633aa0caf2db49d4459fb89/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+606
+607        <activity
+607-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:19:9-23:75
+608            android:name="com.facebook.ads.AudienceNetworkActivity"
+608-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:20:13-68
+609            android:configChanges="keyboardHidden|orientation|screenSize"
+609-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:21:13-74
+610            android:exported="false"
+610-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:22:13-37
+611            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+611-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:23:13-72
+612
+613        <provider
+613-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:25:9-28:40
+614            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+614-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:26:13-75
+615            android:authorities="com.workout.NoEquipment.AudienceNetworkContentProvider"
+615-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:27:13-82
+616            android:exported="false" />
+616-->[:AudienceNetwork:] /Users/harsh/.gradle/caches/transforms-3/7273e26fcbb1430f0e8b41d46c0112bf/transformed/jetified-AudienceNetwork/AndroidManifest.xml:28:13-37
+617
+618        <activity
+618-->[:DebugSettings:] /Users/harsh/.gradle/caches/transforms-3/8ca3f857fc315acc99e00251f21d81a5/transformed/jetified-DebugSettings/AndroidManifest.xml:8:9-10:40
+619            android:name="com.facebook.samples.ads.debugsettings.DebugSettingsActivity"
+619-->[:DebugSettings:] /Users/harsh/.gradle/caches/transforms-3/8ca3f857fc315acc99e00251f21d81a5/transformed/jetified-DebugSettings/AndroidManifest.xml:9:13-88
+620            android:exported="false" />
+620-->[:DebugSettings:] /Users/harsh/.gradle/caches/transforms-3/8ca3f857fc315acc99e00251f21d81a5/transformed/jetified-DebugSettings/AndroidManifest.xml:10:13-37
+621
+622        <receiver
+622-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+623            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+623-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+624            android:directBootAware="false"
+624-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+625            android:enabled="true"
+625-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+626            android:exported="true"
+626-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+627            android:permission="android.permission.DUMP" >
+627-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
 628            <intent-filter>
-628-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-629                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-629-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-629-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+628-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+629                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+629-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+629-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
 630            </intent-filter>
 631            <intent-filter>
-631-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-632                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-632-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-632-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+631-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+632                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+632-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+632-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
 633            </intent-filter>
 634            <intent-filter>
-634-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-635                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-635-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-635-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+634-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+635                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+635-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+635-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
 636            </intent-filter>
-637        </receiver>
-638
-639        <service
-639-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harsh/.gradle/caches/transforms-3/1a9d10eb944c8e77f4b0b0eaccf695db/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
-640            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-640-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harsh/.gradle/caches/transforms-3/1a9d10eb944c8e77f4b0b0eaccf695db/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
-641            android:exported="false" >
-641-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harsh/.gradle/caches/transforms-3/1a9d10eb944c8e77f4b0b0eaccf695db/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
-642            <meta-data
-642-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harsh/.gradle/caches/transforms-3/1a9d10eb944c8e77f4b0b0eaccf695db/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
-643                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-643-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harsh/.gradle/caches/transforms-3/1a9d10eb944c8e77f4b0b0eaccf695db/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
-644                android:value="cct" />
-644-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harsh/.gradle/caches/transforms-3/1a9d10eb944c8e77f4b0b0eaccf695db/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
-645        </service>
-646        <service
-646-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harsh/.gradle/caches/transforms-3/decd5b3c3fd260d4295190856a82eaa8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
-647            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-647-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harsh/.gradle/caches/transforms-3/decd5b3c3fd260d4295190856a82eaa8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
-648            android:exported="false"
-648-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harsh/.gradle/caches/transforms-3/decd5b3c3fd260d4295190856a82eaa8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
-649            android:permission="android.permission.BIND_JOB_SERVICE" >
-649-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harsh/.gradle/caches/transforms-3/decd5b3c3fd260d4295190856a82eaa8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
-650        </service>
-651
-652        <receiver
-652-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harsh/.gradle/caches/transforms-3/decd5b3c3fd260d4295190856a82eaa8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
-653            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-653-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harsh/.gradle/caches/transforms-3/decd5b3c3fd260d4295190856a82eaa8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
-654            android:exported="false" />
-654-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harsh/.gradle/caches/transforms-3/decd5b3c3fd260d4295190856a82eaa8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
-655    </application>
-656
-657</manifest>
+637            <intent-filter>
+637-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+638                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+638-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+638-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harsh/.gradle/caches/transforms-3/61c6b76c36e7acdbed87be3159acd2fd/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+639            </intent-filter>
+640        </receiver>
+641
+642        <service
+642-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harsh/.gradle/caches/transforms-3/1a9d10eb944c8e77f4b0b0eaccf695db/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+643            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+643-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harsh/.gradle/caches/transforms-3/1a9d10eb944c8e77f4b0b0eaccf695db/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+644            android:exported="false" >
+644-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harsh/.gradle/caches/transforms-3/1a9d10eb944c8e77f4b0b0eaccf695db/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+645            <meta-data
+645-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harsh/.gradle/caches/transforms-3/1a9d10eb944c8e77f4b0b0eaccf695db/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+646                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+646-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harsh/.gradle/caches/transforms-3/1a9d10eb944c8e77f4b0b0eaccf695db/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+647                android:value="cct" />
+647-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/harsh/.gradle/caches/transforms-3/1a9d10eb944c8e77f4b0b0eaccf695db/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+648        </service>
+649        <service
+649-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harsh/.gradle/caches/transforms-3/decd5b3c3fd260d4295190856a82eaa8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+650            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+650-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harsh/.gradle/caches/transforms-3/decd5b3c3fd260d4295190856a82eaa8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+651            android:exported="false"
+651-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harsh/.gradle/caches/transforms-3/decd5b3c3fd260d4295190856a82eaa8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+652            android:permission="android.permission.BIND_JOB_SERVICE" >
+652-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harsh/.gradle/caches/transforms-3/decd5b3c3fd260d4295190856a82eaa8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+653        </service>
+654
+655        <receiver
+655-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harsh/.gradle/caches/transforms-3/decd5b3c3fd260d4295190856a82eaa8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+656            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+656-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harsh/.gradle/caches/transforms-3/decd5b3c3fd260d4295190856a82eaa8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+657            android:exported="false" />
+657-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/harsh/.gradle/caches/transforms-3/decd5b3c3fd260d4295190856a82eaa8/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+658    </application>
+659
+660</manifest>

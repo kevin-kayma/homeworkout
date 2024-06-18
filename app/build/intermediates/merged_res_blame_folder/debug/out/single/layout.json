@@ -44,10 +44,6 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/activity_home.xml"
     },
     {
-        "merged": "com.loseweight.app-mergeDebugResources-74:/layout/fragment_me.xml",
-        "source": "com.loseweight.app-main-77:/layout/fragment_me.xml"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-74:/layout/activity_access_all_feature.xml",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/activity_access_all_feature.xml"
     },
@@ -112,6 +108,10 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/activity_bmi.xml"
     },
     {
+        "merged": "com.loseweight.app-mergeDebugResources-74:/layout/item_random_workout.xml",
+        "source": "com.loseweight.app-main-77:/layout/item_random_workout.xml"
+    },
+    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-74:/layout/activity_well_done.xml",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/activity_well_done.xml"
     },
@@ -160,16 +160,16 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/activity_exercise_list.xml"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-74:/layout/activity_choose_your_plan.xml",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/activity_choose_your_plan.xml"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-74:/layout/bottom_sheet_replace_ex.xml",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/bottom_sheet_replace_ex.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-74:/layout/activity_turn_on_water.xml",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/activity_turn_on_water.xml"
+    },
+    {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-74:/layout/activity_choose_your_plan.xml",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/activity_choose_your_plan.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-74:/layout/item_days_parent.xml",

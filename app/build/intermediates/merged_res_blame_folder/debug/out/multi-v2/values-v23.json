@@ -6,6 +6,92 @@
                 {
                     "source": "/Users/harsh/.gradle/caches/transforms-3/268954d1bdb50680e85c17f55754ee25/transformed/jetified-materialize-1.2.0/res/values-v23/values-v23.xml",
                     "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "184",
+                        "endColumns": "51",
+                        "endOffsets": "231"
+                    }
+                },
+                {
+                    "source": "/Users/harsh/.gradle/caches/transforms-3/60ef5fd6bb510b86781e867c17d6012e/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,17,18,32,46,47,48,51,55,56,57,58",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "726,861,996,1071,1158,1896,2646,2765,2892,3114,3338,3453,3560,3673",
+                        "endLines": "14,15,16,17,31,45,46,47,50,54,55,56,57,61",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "856,991,1066,1153,1891,2641,2760,2887,3109,3333,3448,3555,3668,3898"
+                    }
+                },
+                {
+                    "source": "/Users/harsh/Documents/GitHub/homeworkout/app/src/main/res/values-v23/styles.xml",
+                    "from": {
+                        "startLines": "3,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "54,580",
+                        "endLines": "11,18",
+                        "endColumns": "12,12",
+                        "endOffsets": "574,875"
+                    },
+                    "to": {
+                        "startLines": "5,65",
+                        "startColumns": "4,4",
+                        "startOffsets": "236,4053",
+                        "endLines": "13,70",
+                        "endColumns": "12,12",
+                        "endOffsets": "721,4348"
+                    }
+                },
+                {
+                    "source": "/Users/harsh/.gradle/caches/transforms-3/7d6047fddf798ab183d1634021df16b8/transformed/work-runtime-2.8.1/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                },
+                {
+                    "source": "/Users/harsh/.gradle/caches/transforms-3/f39566aa576ff309e108c0bd84119f06/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "62",
+                        "startColumns": "4",
+                        "startOffsets": "3903",
+                        "endLines": "64",
+                        "endColumns": "12",
+                        "endOffsets": "4048"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-73:/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/Users/harsh/.gradle/caches/transforms-3/268954d1bdb50680e85c17f55754ee25/transformed/jetified-materialize-1.2.0/res/values-v23/values-v23.xml",
+                    "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",

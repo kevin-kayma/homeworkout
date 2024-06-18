@@ -40,10 +40,7 @@
                     android:layout_height="wrap_content"
                     android:padding="@dimen/_15sdp"
                     android:orientation="vertical"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent">
+                    app:layout_constraintTop_toTopOf="parent">
 
                     <com.common.view.CBTextView
                         android:id="@+id/tvPlanName"

@@ -28,12 +28,12 @@
 
             <com.common.view.CBTextView
                 android:id="@+id/tvTitle"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
                 style="@style/txt_000_20"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:text="@string/lose_weight"/>
+                android:layout_weight="1"
+                android:text="@string/lose_weight" />
 
             <FrameLayout
                 android:id="@+id/flWaterProgress"
