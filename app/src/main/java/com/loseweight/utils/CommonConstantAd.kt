@@ -40,7 +40,7 @@ object CommonConstantAd {
 
                 override fun onAdFailedToLoad(p0: LoadAdError) {
                     llAdview.visibility = View.GONE
-                    Log.e("TAG", "onAdFailedToLoad:::Google Ad::: ")
+                    Log.e("TAG", "onAdFailedToLoad:::Google Ad::: $p0")
                 }
             }
         } catch (e: Exception) {
@@ -155,74 +155,7 @@ object CommonConstantAd {
 
     }
 
-
-
-    /*Facebook Full Ad*/
-    var interstitialAdFb: com.facebook.ads.InterstitialAd? = null
-    private var adsCallbackFb: AdsCallback? = null
-    fun facebookbeforeloadFullAd(context: Context,adId:String) {
-        try {
-            interstitialAdFb = com.facebook.ads.InterstitialAd(context, adId)
-            adsCallbackFb = null
-
-            val interstitialAdListener: InterstitialAdListener = object : InterstitialAdListener {
-                override fun onInterstitialDisplayed(ad: Ad?) {
-                    Log.e("TAG", "Interstitial ad displayed.")
-
-                }
-
-                override fun onInterstitialDismissed(ad: Ad?) {
-                    Log.e("TAG", "Interstitial ad dismissed.  ${adsCallbackFb.toString()}")
-                    adsCallbackFb!!.adClose()
-                }
-
-                override fun onError(ad: Ad?, adError: com.facebook.ads.AdError) {
-//                    adsCallbackFb!!.adLoadingFailed()
-                    Log.e("TAG", "onError:Facebook :::::::::  " )
-                }
-
-                override fun onAdLoaded(ad: Ad?) {
-                    Log.e("TAG", "Interstitial ad is loaded and ready to be displayed!")
-                    // Show the ad
-                }
-
-                override fun onAdClicked(ad: Ad?) {
-                    Log.e("TAG", "Interstitial ad clicked!")
-                }
-
-                override fun onLoggingImpression(ad: Ad?) {
-                    Log.e("TAG", "Interstitial ad impression logged!")
-                }
-            }
-
-            interstitialAdFb!!.loadAd(
-                interstitialAdFb!!.buildLoadAdConfig()
-                    .withAdListener(interstitialAdListener)
-                    .build()
-            )
-        } catch (e: Exception) {
-            e.printStackTrace()
-        }
-
-
-    }
-    fun showInterstitialAdsFacebook(adsCallbackFb: AdsCallback) {
-        CommonConstantAd.adsCallbackFb = adsCallbackFb
-        if (interstitialAdFb != null) {
-            if (interstitialAdFb!!.isAdLoaded) {
-                interstitialAdFb!!.show()
-            } else {
-                adsCallbackFb.startNextScreen()
-            }
-        } else {
-            adsCallbackFb.startNextScreen()
-        }
-    }
-
-
     /*Google Full Ad*/
-
-
     var mRewardedAd: RewardedAd? = null
     fun loadRewardedAdGoogle(context: Context) {
 

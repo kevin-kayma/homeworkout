@@ -11,7 +11,6 @@ import androidx.appcompat.widget.AppCompatImageView;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
-import com.common.view.CTextView;
 import com.loseweight.R;
 import com.loseweight.interfaces.BottomBarClickListener;
 import java.lang.Deprecated;
@@ -30,29 +29,17 @@ public abstract class BottomBarBinding extends ViewDataBinding {
   @NonNull
   public final LinearLayout linearLayout2;
 
-  @NonNull
-  public final CTextView tvMe;
-
-  @NonNull
-  public final CTextView tvPlan;
-
-  @NonNull
-  public final CTextView tvReports;
-
   @Bindable
   protected BottomBarClickListener mBottomClickListener;
 
   protected BottomBarBinding(Object _bindingComponent, View _root, int _localFieldCount,
       AppCompatImageView imgMe, AppCompatImageView imgPlan, AppCompatImageView imgReports,
-      LinearLayout linearLayout2, CTextView tvMe, CTextView tvPlan, CTextView tvReports) {
+      LinearLayout linearLayout2) {
     super(_bindingComponent, _root, _localFieldCount);
     this.imgMe = imgMe;
     this.imgPlan = imgPlan;
     this.imgReports = imgReports;
     this.linearLayout2 = linearLayout2;
-    this.tvMe = tvMe;
-    this.tvPlan = tvPlan;
-    this.tvReports = tvReports;
   }
 
   public abstract void setBottomClickListener(@Nullable BottomBarClickListener bottomClickListener);

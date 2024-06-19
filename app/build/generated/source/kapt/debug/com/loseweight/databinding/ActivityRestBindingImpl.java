@@ -33,9 +33,9 @@ public class ActivityRestBindingImpl extends ActivityRestBinding implements com.
     private final android.widget.LinearLayout mboundView3;
     // variables
     @Nullable
-    private final android.view.View.OnClickListener mCallback58;
-    @Nullable
     private final android.view.View.OnClickListener mCallback59;
+    @Nullable
+    private final android.view.View.OnClickListener mCallback61;
     @Nullable
     private final android.view.View.OnClickListener mCallback60;
     // values
@@ -69,9 +69,9 @@ public class ActivityRestBindingImpl extends ActivityRestBinding implements com.
         this.mboundView3.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback58 = new com.loseweight.generated.callback.OnClickListener(this, 1);
-        mCallback59 = new com.loseweight.generated.callback.OnClickListener(this, 2);
-        mCallback60 = new com.loseweight.generated.callback.OnClickListener(this, 3);
+        mCallback59 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback61 = new com.loseweight.generated.callback.OnClickListener(this, 3);
+        mCallback60 = new com.loseweight.generated.callback.OnClickListener(this, 2);
         invalidateAll();
     }
 
@@ -133,9 +133,9 @@ public class ActivityRestBindingImpl extends ActivityRestBinding implements com.
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.btnContinue.setOnClickListener(mCallback58);
-            this.btnSkip.setOnClickListener(mCallback59);
-            this.mboundView3.setOnClickListener(mCallback60);
+            this.btnContinue.setOnClickListener(mCallback59);
+            this.btnSkip.setOnClickListener(mCallback60);
+            this.mboundView3.setOnClickListener(mCallback61);
         }
     }
     // Listener Stub Implementations
@@ -159,23 +159,6 @@ public class ActivityRestBindingImpl extends ActivityRestBinding implements com.
                 }
                 break;
             }
-            case 2: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.RestActivity.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onSkipClick();
-                }
-                break;
-            }
             case 3: {
                 // localize variables for thread safety
                 // handler
@@ -190,6 +173,23 @@ public class ActivityRestBindingImpl extends ActivityRestBinding implements com.
 
 
                     handler.onExerciseInfoClick();
+                }
+                break;
+            }
+            case 2: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.RestActivity.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onSkipClick();
                 }
                 break;
             }

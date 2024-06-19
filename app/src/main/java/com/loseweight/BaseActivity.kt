@@ -70,26 +70,12 @@ open class BaseActivity() : AppCompatActivity() {
 
     fun loadBannerAd(llAdView:RelativeLayout,llAdViewFacebook:LinearLayout) {
         if(Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, Constant.ENABLE_DISABLE) == Constant.ENABLE && !Utils.isPurchased(this)) {
-            val str = Utils.getPref(this, Constant.AD_TYPE_FB_GOOGLE, "")
-            if (str == Constant.AD_GOOGLE) {
                 CommonConstantAd.loadBannerGoogleAd(
                     this,
                     llAdView,
                     Utils.getPref(this, Constant.GOOGLE_BANNER, "")!!,
                     Constant.GOOGLE_BANNER_TYPE_AD
                 )
-            } else if (str == Constant.AD_FACEBOOK) {
-                Debug.e(
-                    "TAG",
-                    "onCreate::::Fb Else:::   " + Utils.getPref(this, Constant.FB_BANNER, "")
-                )
-                CommonConstantAd.loadFbAdFacebook(
-                    this,
-                    llAdViewFacebook,
-                    Utils.getPref(this, Constant.FB_BANNER, "")!!,
-                    Constant.FB_BANNER_TYPE_AD
-                )
-            }
         }
     }
 
@@ -233,10 +219,7 @@ open class BaseActivity() : AppCompatActivity() {
 
     override fun onResume() {
 
-        if (dialogPermission == null)
-            checkPermissions(getActivity())
-        else if (dialogPermission != null && dialogPermission!!.isShowing.not())
-            checkPermissions(getActivity())
+
 
 
         super.onResume()
@@ -269,8 +252,8 @@ open class BaseActivity() : AppCompatActivity() {
                 }
 
                 override fun onPermissionGranted() {
-                    if (activity is SplashScreenActivity) {
-                        activity.startapp(1000)
+                    if (activity is HomeActivity) {
+                        activity.startapp()
                     }
                 }
             })
@@ -940,14 +923,14 @@ open class BaseActivity() : AppCompatActivity() {
                 }
             }
         }
-        builder.setNegativeButton(R.string.btn_cancel, { dialog, which ->
+        builder.setNegativeButton(R.string.btn_cancel) { dialog, which ->
             dialog.dismiss()
             listner.onDialogDismiss()
-        })
-        builder.setNeutralButton(R.string.previous, { dialog, which ->
+        }
+        builder.setNeutralButton(R.string.previous) { dialog, which ->
             dialog.dismiss()
             showHeightWeightDialog(listner)
-        })
+        }
         builder.create().show()
     }
 
@@ -1061,9 +1044,7 @@ open class BaseActivity() : AppCompatActivity() {
             })*/
 
             if (Utils.isInternetConnected(mContext)) {
-                if (Utils.getPref(this, Constant.AD_TYPE_FB_GOOGLE, "") == Constant.AD_GOOGLE &&
-                    Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, "") == Constant.ENABLE
-                ) {
+                if (Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, "") == Constant.ENABLE) {
                     showRewardedAdGoogle(mContext,object :AdsCallback{
                         override fun adLoadingFailed() {
                             dialog.dismiss()
@@ -1077,30 +1058,7 @@ open class BaseActivity() : AppCompatActivity() {
                             dialog.dismiss()
                         }
                     })
-                } else if (Utils.getPref(
-                        this,
-                        Constant.AD_TYPE_FB_GOOGLE,
-                        ""
-                    ) == Constant.AD_FACEBOOK &&
-                    Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, "") == Constant.ENABLE
-                ) {
-                    CommonConstantAd.showInterstitialAdsFacebook(object :AdsCallback{
-                        override fun adLoadingFailed() {
-                            dialog.dismiss()
-                        }
-
-                        override fun adClose() {
-                            dialog.dismiss()
-                        }
-
-                        override fun startNextScreen() {
-                            dialog.dismiss()
-                        }
-
-                    })
                 }
-
-
             }else{
                 showToast(getString(R.string.no_internet_available))
             }
@@ -1122,60 +1080,11 @@ open class BaseActivity() : AppCompatActivity() {
 
     fun loadInterstialAd() {
         if(Utils.getPref(this,Constant.STATUS_ENABLE_DISABLE,"") == Constant.ENABLE) {
-            if (Utils.getPref(this, Constant.AD_TYPE_FB_GOOGLE, "") == Constant.AD_GOOGLE) {
                 CommonConstantAd.googlebeforloadAd(
                     this,
                     Utils.getPref(this, Constant.GOOGLE_INTERSTITIAL, "")!!
                 )
-            } else if (Utils.getPref(
-                    this,
-                    Constant.AD_TYPE_FB_GOOGLE,
-                    ""
-                ) == Constant.AD_FACEBOOK
-            ) {
-                CommonConstantAd.facebookbeforeloadFullAd(
-                    this,
-                    Utils.getPref(this, Constant.FB_INTERSTITIAL, "")!!
-                )
-            }
         }
-    }
-
-    fun showInterstialAd(listner: CallbackListener? =null,callBack:AdsCallback? = null) {
-
-        if (Debug.DEBUG_IS_HIDE_AD) {
-            listner?.onSuccess()
-            return
-        }
-
-        val adsCallback = callBack
-            ?: object :AdsCallback{
-                override fun adLoadingFailed() {
-                    listner?.onSuccess()
-                }
-
-                override fun adClose() {
-                    listner?.onSuccess()
-
-                }
-
-                override fun startNextScreen() {
-                    listner?.onSuccess()
-                }
-
-            }
-
-        if (Utils.getPref(this,Constant.AD_TYPE_FB_GOOGLE,"") == Constant.AD_GOOGLE
-                && Utils.getPref(this,Constant.STATUS_ENABLE_DISABLE,"") == Constant.ENABLE) {
-            CommonConstantAd.showInterstitialAdsGoogle(this,adsCallback)
-        } else if (Utils.getPref(this,Constant.AD_TYPE_FB_GOOGLE,"") == Constant.AD_FACEBOOK
-                && Utils.getPref(this,Constant.STATUS_ENABLE_DISABLE,"") == Constant.ENABLE) {
-            CommonConstantAd.showInterstitialAdsFacebook(adsCallback)
-        }else{
-            listner?.onSuccess()
-        }
-
-
     }
 
     fun showTimePickerDialog(context: Context, date: Date, eventListener: DateEventListener?) {

@@ -45,13 +45,13 @@ public class FragmentPlanBindingImpl extends FragmentPlanBinding implements com.
     @Nullable
     private final android.view.View.OnClickListener mCallback79;
     @Nullable
+    private final android.view.View.OnClickListener mCallback86;
+    @Nullable
     private final android.view.View.OnClickListener mCallback84;
     @Nullable
     private final android.view.View.OnClickListener mCallback82;
     @Nullable
     private final android.view.View.OnClickListener mCallback80;
-    @Nullable
-    private final android.view.View.OnClickListener mCallback78;
     @Nullable
     private final android.view.View.OnClickListener mCallback85;
     @Nullable
@@ -105,14 +105,14 @@ public class FragmentPlanBindingImpl extends FragmentPlanBinding implements com.
         this.tvViewAll.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback79 = new com.loseweight.generated.callback.OnClickListener(this, 2);
-        mCallback84 = new com.loseweight.generated.callback.OnClickListener(this, 7);
-        mCallback82 = new com.loseweight.generated.callback.OnClickListener(this, 5);
-        mCallback80 = new com.loseweight.generated.callback.OnClickListener(this, 3);
-        mCallback78 = new com.loseweight.generated.callback.OnClickListener(this, 1);
-        mCallback85 = new com.loseweight.generated.callback.OnClickListener(this, 8);
-        mCallback83 = new com.loseweight.generated.callback.OnClickListener(this, 6);
-        mCallback81 = new com.loseweight.generated.callback.OnClickListener(this, 4);
+        mCallback79 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback86 = new com.loseweight.generated.callback.OnClickListener(this, 8);
+        mCallback84 = new com.loseweight.generated.callback.OnClickListener(this, 6);
+        mCallback82 = new com.loseweight.generated.callback.OnClickListener(this, 4);
+        mCallback80 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback85 = new com.loseweight.generated.callback.OnClickListener(this, 7);
+        mCallback83 = new com.loseweight.generated.callback.OnClickListener(this, 5);
+        mCallback81 = new com.loseweight.generated.callback.OnClickListener(this, 3);
         invalidateAll();
     }
 
@@ -174,88 +174,20 @@ public class FragmentPlanBindingImpl extends FragmentPlanBinding implements com.
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.btnDay.setOnClickListener(mCallback82);
-            this.btnDrink.setOnClickListener(mCallback84);
-            this.btnStartWaterTracker.setOnClickListener(mCallback85);
-            this.imgChange.setOnClickListener(mCallback81);
-            this.mboundView2.setOnClickListener(mCallback79);
-            this.mboundView3.setOnClickListener(mCallback80);
-            this.mboundView6.setOnClickListener(mCallback83);
-            this.tvViewAll.setOnClickListener(mCallback78);
+            this.btnDay.setOnClickListener(mCallback83);
+            this.btnDrink.setOnClickListener(mCallback85);
+            this.btnStartWaterTracker.setOnClickListener(mCallback86);
+            this.imgChange.setOnClickListener(mCallback82);
+            this.mboundView2.setOnClickListener(mCallback80);
+            this.mboundView3.setOnClickListener(mCallback81);
+            this.mboundView6.setOnClickListener(mCallback84);
+            this.tvViewAll.setOnClickListener(mCallback79);
         }
     }
     // Listener Stub Implementations
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
-            case 2: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.fragments.PlanFragment.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onRecentViewClick();
-                }
-                break;
-            }
-            case 7: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.fragments.PlanFragment.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onDrinkClick();
-                }
-                break;
-            }
-            case 5: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.fragments.PlanFragment.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onDaysPlanClick();
-                }
-                break;
-            }
-            case 3: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.fragments.PlanFragment.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onDaysPlanClick();
-                }
-                break;
-            }
             case 1: {
                 // localize variables for thread safety
                 // handler
@@ -321,6 +253,74 @@ public class FragmentPlanBindingImpl extends FragmentPlanBinding implements com.
 
 
                     handler.onPlanChangeClick();
+                }
+                break;
+            }
+            case 2: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.fragments.PlanFragment.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onRecentViewClick();
+                }
+                break;
+            }
+            case 7: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.fragments.PlanFragment.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onDrinkClick();
+                }
+                break;
+            }
+            case 5: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.fragments.PlanFragment.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onDaysPlanClick();
+                }
+                break;
+            }
+            case 3: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.fragments.PlanFragment.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onDaysPlanClick();
                 }
                 break;
             }

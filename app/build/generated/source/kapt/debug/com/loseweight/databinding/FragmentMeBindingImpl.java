@@ -14,8 +14,8 @@ public class FragmentMeBindingImpl extends FragmentMeBinding implements com.lose
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.tvReminders, 13);
-        sViewsWithIds.put(R.id.SwitchTurnOnWater, 14);
+        sViewsWithIds.put(R.id.tvReminders, 14);
+        sViewsWithIds.put(R.id.SwitchTurnOnWater, 15);
     }
     // views
     @NonNull
@@ -28,6 +28,8 @@ public class FragmentMeBindingImpl extends FragmentMeBinding implements com.lose
     private final android.widget.LinearLayout mboundView11;
     @NonNull
     private final android.widget.LinearLayout mboundView12;
+    @NonNull
+    private final android.widget.LinearLayout mboundView13;
     @NonNull
     private final android.widget.LinearLayout mboundView2;
     @NonNull
@@ -56,6 +58,8 @@ public class FragmentMeBindingImpl extends FragmentMeBinding implements com.lose
     @Nullable
     private final android.view.View.OnClickListener mCallback43;
     @Nullable
+    private final android.view.View.OnClickListener mCallback54;
+    @Nullable
     private final android.view.View.OnClickListener mCallback44;
     @Nullable
     private final android.view.View.OnClickListener mCallback52;
@@ -72,13 +76,13 @@ public class FragmentMeBindingImpl extends FragmentMeBinding implements com.lose
     // Inverse Binding Event Handlers
 
     public FragmentMeBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 15, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 16, sIncludes, sViewsWithIds));
     }
     private FragmentMeBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.Switch) bindings[14]
+            , (android.widget.Switch) bindings[15]
             , (android.widget.LinearLayout) bindings[3]
-            , (com.common.view.CTextView) bindings[13]
+            , (com.common.view.CTextView) bindings[14]
             );
         this.llGoPremium.setTag(null);
         this.mboundView0 = (androidx.core.widget.NestedScrollView) bindings[0];
@@ -91,6 +95,8 @@ public class FragmentMeBindingImpl extends FragmentMeBinding implements com.lose
         this.mboundView11.setTag(null);
         this.mboundView12 = (android.widget.LinearLayout) bindings[12];
         this.mboundView12.setTag(null);
+        this.mboundView13 = (android.widget.LinearLayout) bindings[13];
+        this.mboundView13.setTag(null);
         this.mboundView2 = (android.widget.LinearLayout) bindings[2];
         this.mboundView2.setTag(null);
         this.mboundView4 = (android.widget.LinearLayout) bindings[4];
@@ -113,6 +119,7 @@ public class FragmentMeBindingImpl extends FragmentMeBinding implements com.lose
         mCallback45 = new com.loseweight.generated.callback.OnClickListener(this, 4);
         mCallback46 = new com.loseweight.generated.callback.OnClickListener(this, 5);
         mCallback43 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback54 = new com.loseweight.generated.callback.OnClickListener(this, 13);
         mCallback44 = new com.loseweight.generated.callback.OnClickListener(this, 3);
         mCallback52 = new com.loseweight.generated.callback.OnClickListener(this, 11);
         mCallback42 = new com.loseweight.generated.callback.OnClickListener(this, 1);
@@ -185,6 +192,7 @@ public class FragmentMeBindingImpl extends FragmentMeBinding implements com.lose
             this.mboundView10.setOnClickListener(mCallback51);
             this.mboundView11.setOnClickListener(mCallback52);
             this.mboundView12.setOnClickListener(mCallback53);
+            this.mboundView13.setOnClickListener(mCallback54);
             this.mboundView2.setOnClickListener(mCallback43);
             this.mboundView4.setOnClickListener(mCallback45);
             this.mboundView5.setOnClickListener(mCallback46);
@@ -300,6 +308,23 @@ public class FragmentMeBindingImpl extends FragmentMeBinding implements com.lose
                 }
                 break;
             }
+            case 13: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.fragments.MeFragment.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onPrivacyPolicyClick();
+                }
+                break;
+            }
             case 3: {
                 // localize variables for thread safety
                 // handler
@@ -364,7 +389,7 @@ public class FragmentMeBindingImpl extends FragmentMeBinding implements com.lose
                 if (handlerJavaLangObjectNull) {
 
 
-                    handler.onPrivacyPolicyClick();
+                    handler.onTermsClick();
                 }
                 break;
             }

@@ -44,6 +44,10 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/activity_home.xml"
     },
     {
+        "merged": "com.loseweight.app-mergeDebugResources-74:/layout/fragment_me.xml",
+        "source": "com.loseweight.app-main-77:/layout/fragment_me.xml"
+    },
+    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-74:/layout/activity_access_all_feature.xml",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/activity_access_all_feature.xml"
     },
@@ -106,10 +110,6 @@
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-74:/layout/activity_bmi.xml",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/activity_bmi.xml"
-    },
-    {
-        "merged": "com.loseweight.app-mergeDebugResources-74:/layout/item_random_workout.xml",
-        "source": "com.loseweight.app-main-77:/layout/item_random_workout.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-74:/layout/activity_well_done.xml",

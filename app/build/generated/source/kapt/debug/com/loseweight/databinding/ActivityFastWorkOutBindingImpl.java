@@ -34,7 +34,7 @@ public class ActivityFastWorkOutBindingImpl extends ActivityFastWorkOutBinding i
     @Nullable
     private final android.view.View.OnClickListener mCallback74;
     @Nullable
-    private final android.view.View.OnClickListener mCallback73;
+    private final android.view.View.OnClickListener mCallback75;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -65,8 +65,8 @@ public class ActivityFastWorkOutBindingImpl extends ActivityFastWorkOutBinding i
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback74 = new com.loseweight.generated.callback.OnClickListener(this, 2);
-        mCallback73 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback74 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback75 = new com.loseweight.generated.callback.OnClickListener(this, 2);
         invalidateAll();
     }
 
@@ -128,31 +128,14 @@ public class ActivityFastWorkOutBindingImpl extends ActivityFastWorkOutBinding i
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.cardFatBurning.setOnClickListener(mCallback74);
-            this.imgBack.setOnClickListener(mCallback73);
+            this.cardFatBurning.setOnClickListener(mCallback75);
+            this.imgBack.setOnClickListener(mCallback74);
         }
     }
     // Listener Stub Implementations
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
-            case 2: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.FastWorkoutActivity.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onFatBurningClick();
-                }
-                break;
-            }
             case 1: {
                 // localize variables for thread safety
                 // handler
@@ -167,6 +150,23 @@ public class ActivityFastWorkOutBindingImpl extends ActivityFastWorkOutBinding i
 
 
                     handler.onBackClick();
+                }
+                break;
+            }
+            case 2: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.FastWorkoutActivity.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onFatBurningClick();
                 }
                 break;
             }

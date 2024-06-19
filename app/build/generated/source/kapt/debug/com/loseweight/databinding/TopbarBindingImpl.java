@@ -34,9 +34,9 @@ public class TopbarBindingImpl extends TopbarBinding implements com.loseweight.g
     @Nullable
     private final android.view.View.OnClickListener mCallback64;
     @Nullable
-    private final android.view.View.OnClickListener mCallback66;
+    private final android.view.View.OnClickListener mCallback68;
     @Nullable
-    private final android.view.View.OnClickListener mCallback63;
+    private final android.view.View.OnClickListener mCallback66;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -67,11 +67,11 @@ public class TopbarBindingImpl extends TopbarBinding implements com.loseweight.g
         this.tvReset.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback67 = new com.loseweight.generated.callback.OnClickListener(this, 5);
-        mCallback65 = new com.loseweight.generated.callback.OnClickListener(this, 3);
-        mCallback64 = new com.loseweight.generated.callback.OnClickListener(this, 2);
-        mCallback66 = new com.loseweight.generated.callback.OnClickListener(this, 4);
-        mCallback63 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback67 = new com.loseweight.generated.callback.OnClickListener(this, 4);
+        mCallback65 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback64 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback68 = new com.loseweight.generated.callback.OnClickListener(this, 5);
+        mCallback66 = new com.loseweight.generated.callback.OnClickListener(this, 3);
         invalidateAll();
     }
 
@@ -383,11 +383,11 @@ public class TopbarBindingImpl extends TopbarBinding implements com.loseweight.g
         if ((dirtyFlags & 0x800L) != 0) {
             // api target 1
 
-            this.imgBack.setOnClickListener(mCallback64);
-            this.mboundView1.setOnClickListener(mCallback63);
-            this.mboundView3.setOnClickListener(mCallback65);
-            this.mboundView5.setOnClickListener(mCallback66);
-            this.tvReset.setOnClickListener(mCallback67);
+            this.imgBack.setOnClickListener(mCallback65);
+            this.mboundView1.setOnClickListener(mCallback64);
+            this.mboundView3.setOnClickListener(mCallback66);
+            this.mboundView5.setOnClickListener(mCallback67);
+            this.tvReset.setOnClickListener(mCallback68);
         }
         if ((dirtyFlags & 0x820L) != 0) {
             // api target 1
@@ -429,6 +429,63 @@ public class TopbarBindingImpl extends TopbarBinding implements com.loseweight.g
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
+            case 4: {
+                // localize variables for thread safety
+                // topBarClickListener
+                com.loseweight.interfaces.TopBarClickListener topBarClickListener = mTopBarClickListener;
+                // topBarClickListener != null
+                boolean topBarClickListenerJavaLangObjectNull = false;
+
+
+
+                topBarClickListenerJavaLangObjectNull = (topBarClickListener) != (null);
+                if (topBarClickListenerJavaLangObjectNull) {
+
+
+
+
+                    topBarClickListener.onTopBarClickListener(callbackArg_0, mboundView5.getResources().getString(R.string.more));
+                }
+                break;
+            }
+            case 2: {
+                // localize variables for thread safety
+                // topBarClickListener
+                com.loseweight.interfaces.TopBarClickListener topBarClickListener = mTopBarClickListener;
+                // topBarClickListener != null
+                boolean topBarClickListenerJavaLangObjectNull = false;
+
+
+
+                topBarClickListenerJavaLangObjectNull = (topBarClickListener) != (null);
+                if (topBarClickListenerJavaLangObjectNull) {
+
+
+
+
+                    topBarClickListener.onTopBarClickListener(callbackArg_0, imgBack.getResources().getString(R.string.back));
+                }
+                break;
+            }
+            case 1: {
+                // localize variables for thread safety
+                // topBarClickListener
+                com.loseweight.interfaces.TopBarClickListener topBarClickListener = mTopBarClickListener;
+                // topBarClickListener != null
+                boolean topBarClickListenerJavaLangObjectNull = false;
+
+
+
+                topBarClickListenerJavaLangObjectNull = (topBarClickListener) != (null);
+                if (topBarClickListenerJavaLangObjectNull) {
+
+
+
+
+                    topBarClickListener.onTopBarClickListener(callbackArg_0, mboundView1.getResources().getString(R.string.home));
+                }
+                break;
+            }
             case 5: {
                 // localize variables for thread safety
                 // topBarClickListener
@@ -464,63 +521,6 @@ public class TopbarBindingImpl extends TopbarBinding implements com.loseweight.g
 
 
                     topBarClickListener.onTopBarClickListener(callbackArg_0, mboundView3.getResources().getString(R.string.refresh));
-                }
-                break;
-            }
-            case 2: {
-                // localize variables for thread safety
-                // topBarClickListener
-                com.loseweight.interfaces.TopBarClickListener topBarClickListener = mTopBarClickListener;
-                // topBarClickListener != null
-                boolean topBarClickListenerJavaLangObjectNull = false;
-
-
-
-                topBarClickListenerJavaLangObjectNull = (topBarClickListener) != (null);
-                if (topBarClickListenerJavaLangObjectNull) {
-
-
-
-
-                    topBarClickListener.onTopBarClickListener(callbackArg_0, imgBack.getResources().getString(R.string.back));
-                }
-                break;
-            }
-            case 4: {
-                // localize variables for thread safety
-                // topBarClickListener
-                com.loseweight.interfaces.TopBarClickListener topBarClickListener = mTopBarClickListener;
-                // topBarClickListener != null
-                boolean topBarClickListenerJavaLangObjectNull = false;
-
-
-
-                topBarClickListenerJavaLangObjectNull = (topBarClickListener) != (null);
-                if (topBarClickListenerJavaLangObjectNull) {
-
-
-
-
-                    topBarClickListener.onTopBarClickListener(callbackArg_0, mboundView5.getResources().getString(R.string.more));
-                }
-                break;
-            }
-            case 1: {
-                // localize variables for thread safety
-                // topBarClickListener
-                com.loseweight.interfaces.TopBarClickListener topBarClickListener = mTopBarClickListener;
-                // topBarClickListener != null
-                boolean topBarClickListenerJavaLangObjectNull = false;
-
-
-
-                topBarClickListenerJavaLangObjectNull = (topBarClickListener) != (null);
-                if (topBarClickListenerJavaLangObjectNull) {
-
-
-
-
-                    topBarClickListener.onTopBarClickListener(callbackArg_0, mboundView1.getResources().getString(R.string.home));
                 }
                 break;
             }

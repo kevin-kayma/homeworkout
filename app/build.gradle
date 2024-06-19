@@ -10,7 +10,7 @@ repositories {
 android {
     compileSdkVersion 34
     defaultConfig {
-        applicationId "com.workout.NoEquipment"
+        applicationId "com.fitnessapp.www"
         minSdkVersion 21
         targetSdkVersion 34
         versionCode 7

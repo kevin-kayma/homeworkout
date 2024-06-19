@@ -3175,6 +3175,7 @@ drawable tab_bottom_circle
 drawable tab_bottom_circle_primary
 drawable tab_bottom_circle_white
 drawable tab_text_color
+drawable terms
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3303,7 +3304,6 @@ id blankView1
 id blankView3
 id blocking
 id bottom
-id bottom_guideline
 id bottom_to_top
 id bottombar
 id bounce
@@ -3486,8 +3486,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id image_splash_title_first
-id image_splash_title_second
 id imgAdd
 id imgAdvance
 id imgArrowUp
@@ -3614,7 +3612,6 @@ id lnyBmiGraph
 id locale
 id ltr
 id lvSpinner
-id ly_root
 id mContainer
 id mRecyclerView
 id main_content
@@ -3823,7 +3820,6 @@ id spaceView
 id spacer
 id special_effects_controller_view_tag
 id spinner
-id splash_vertical_bar
 id spline
 id split_action_bar
 id spread
@@ -3875,7 +3871,6 @@ id textSpacerNoTitle
 id textStart
 id textWatcher
 id text_input_password_toggle
-id text_layout
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -3948,7 +3943,6 @@ id tvLbsFt
 id tvLightestWeight
 id tvMale
 id tvMarker
-id tvMe
 id tvMenuName
 id tvMinutes
 id tvMinutesTitle
@@ -3959,7 +3953,6 @@ id tvMonthlyTitle
 id tvName
 id tvPause
 id tvPercentage
-id tvPlan
 id tvPlanLevel
 id tvPlanName
 id tvPlanText
@@ -3969,7 +3962,6 @@ id tvRecentTime
 id tvRecentWorkOutName
 id tvReminders
 id tvReplace
-id tvReports
 id tvReset
 id tvRock
 id tvSecond
@@ -4122,7 +4114,6 @@ layout activity_recent
 layout activity_reminder
 layout activity_rest
 layout activity_rest_day
-layout activity_splash_screen
 layout activity_turn_on_water
 layout activity_voice_options
 layout activity_water_tracker
@@ -4433,6 +4424,7 @@ string fast_workout
 string fastadapter_lib_version
 string fcm_fallback_notification_channel_label
 string feedback
+string feedback_link
 string female
 string finished
 string gender
@@ -4619,6 +4611,7 @@ string summary_collapsed_preference_list
 string support_us
 string tap_here_to_input_your_height
 string target_weight
+string terms_link
 string test_mode_title
 string test_voice
 string time_to_drink_water

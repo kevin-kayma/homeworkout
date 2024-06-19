@@ -269,7 +269,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:drawableEnd="@drawable/icon_fast"
-                            android:drawablePadding="@dimen/_15sdp"
+                            android:drawablePadding="@dimen/_5sdp"
                             android:text="@string/_2_7_min_fast_workout" />
 
                         <com.common.view.CTextView

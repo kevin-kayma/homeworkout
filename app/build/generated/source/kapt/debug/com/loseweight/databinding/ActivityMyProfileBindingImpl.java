@@ -30,9 +30,9 @@ public class ActivityMyProfileBindingImpl extends ActivityMyProfileBinding imple
     @Nullable
     private final android.view.View.OnClickListener mCallback69;
     @Nullable
-    private final android.view.View.OnClickListener mCallback68;
-    @Nullable
     private final android.view.View.OnClickListener mCallback72;
+    @Nullable
+    private final android.view.View.OnClickListener mCallback73;
     @Nullable
     private final android.view.View.OnClickListener mCallback70;
     @Nullable
@@ -67,11 +67,11 @@ public class ActivityMyProfileBindingImpl extends ActivityMyProfileBinding imple
         this.tvLbsFt.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback69 = new com.loseweight.generated.callback.OnClickListener(this, 2);
-        mCallback68 = new com.loseweight.generated.callback.OnClickListener(this, 1);
-        mCallback72 = new com.loseweight.generated.callback.OnClickListener(this, 5);
-        mCallback70 = new com.loseweight.generated.callback.OnClickListener(this, 3);
-        mCallback71 = new com.loseweight.generated.callback.OnClickListener(this, 4);
+        mCallback69 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback72 = new com.loseweight.generated.callback.OnClickListener(this, 4);
+        mCallback73 = new com.loseweight.generated.callback.OnClickListener(this, 5);
+        mCallback70 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback71 = new com.loseweight.generated.callback.OnClickListener(this, 3);
         invalidateAll();
     }
 
@@ -154,11 +154,11 @@ public class ActivityMyProfileBindingImpl extends ActivityMyProfileBinding imple
         if ((dirtyFlags & 0x4L) != 0) {
             // api target 1
 
-            this.editHeight.setOnClickListener(mCallback70);
-            this.editTargetWeight.setOnClickListener(mCallback72);
-            this.editWeight.setOnClickListener(mCallback71);
-            this.tvKgCm.setOnClickListener(mCallback68);
-            this.tvLbsFt.setOnClickListener(mCallback69);
+            this.editHeight.setOnClickListener(mCallback71);
+            this.editTargetWeight.setOnClickListener(mCallback73);
+            this.editWeight.setOnClickListener(mCallback72);
+            this.tvKgCm.setOnClickListener(mCallback69);
+            this.tvLbsFt.setOnClickListener(mCallback70);
         }
         executeBindingsOn(topbar);
     }
@@ -166,23 +166,6 @@ public class ActivityMyProfileBindingImpl extends ActivityMyProfileBinding imple
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
-            case 2: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.MyProfileActivity.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onLbsFtClick();
-                }
-                break;
-            }
             case 1: {
                 // localize variables for thread safety
                 // handler
@@ -197,6 +180,23 @@ public class ActivityMyProfileBindingImpl extends ActivityMyProfileBinding imple
 
 
                     handler.onKgCmClick();
+                }
+                break;
+            }
+            case 4: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.MyProfileActivity.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onWeightClick();
                 }
                 break;
             }
@@ -217,6 +217,23 @@ public class ActivityMyProfileBindingImpl extends ActivityMyProfileBinding imple
                 }
                 break;
             }
+            case 2: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.MyProfileActivity.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onLbsFtClick();
+                }
+                break;
+            }
             case 3: {
                 // localize variables for thread safety
                 // handler
@@ -231,23 +248,6 @@ public class ActivityMyProfileBindingImpl extends ActivityMyProfileBinding imple
 
 
                     handler.onHeightClick();
-                }
-                break;
-            }
-            case 4: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.MyProfileActivity.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onWeightClick();
                 }
                 break;
             }

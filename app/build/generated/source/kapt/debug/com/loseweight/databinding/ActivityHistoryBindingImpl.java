@@ -33,7 +33,7 @@ public class ActivityHistoryBindingImpl extends ActivityHistoryBinding implement
     @Nullable
     private final android.view.View.OnClickListener mCallback96;
     @Nullable
-    private final android.view.View.OnClickListener mCallback95;
+    private final android.view.View.OnClickListener mCallback97;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -61,8 +61,8 @@ public class ActivityHistoryBindingImpl extends ActivityHistoryBinding implement
         setContainedBinding(this.topbar);
         setRootTag(root);
         // listeners
-        mCallback96 = new com.loseweight.generated.callback.OnClickListener(this, 2);
-        mCallback95 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback96 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback97 = new com.loseweight.generated.callback.OnClickListener(this, 2);
         invalidateAll();
     }
 
@@ -145,8 +145,8 @@ public class ActivityHistoryBindingImpl extends ActivityHistoryBinding implement
         if ((dirtyFlags & 0x4L) != 0) {
             // api target 1
 
-            this.imgMonthPrev.setOnClickListener(mCallback95);
-            this.imgbtnMonthNext.setOnClickListener(mCallback96);
+            this.imgMonthPrev.setOnClickListener(mCallback96);
+            this.imgbtnMonthNext.setOnClickListener(mCallback97);
         }
         executeBindingsOn(topbar);
     }
@@ -154,23 +154,6 @@ public class ActivityHistoryBindingImpl extends ActivityHistoryBinding implement
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
-            case 2: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.HistoryActivity.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onNextClick();
-                }
-                break;
-            }
             case 1: {
                 // localize variables for thread safety
                 // handler
@@ -185,6 +168,23 @@ public class ActivityHistoryBindingImpl extends ActivityHistoryBinding implement
 
 
                     handler.onPrevClick();
+                }
+                break;
+            }
+            case 2: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.HistoryActivity.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onNextClick();
                 }
                 break;
             }

@@ -360,7 +360,7 @@ class PerformWorkOutActivity : BaseActivity() {
             timer!!.cancel()
         }
         if (Utils.getPref(this, Constant.PREF_IS_COACH_SOUND_ON, true))
-        mySoundUtil.playSound(0)
+            mySoundUtil.playSound(0)
 
     }
 
@@ -369,7 +369,7 @@ class PerformWorkOutActivity : BaseActivity() {
             timer!!.cancel()
         }
         if (Utils.getPref(this, Constant.PREF_IS_COACH_SOUND_ON, true))
-        mySoundUtil.playSound(0)
+            mySoundUtil.playSound(0)
 
         try {
             countExercise()
@@ -496,16 +496,10 @@ class PerformWorkOutActivity : BaseActivity() {
 
         }
 
-        if (Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, "") == Constant.ENABLE &&
-            Utils.getPref(this, Constant.AD_TYPE_FB_GOOGLE, "") == Constant.AD_GOOGLE
-        ) {
-
+        if (Constant.ENABLE == Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, "")) {
             CommonConstantAd.showInterstitialAdsGoogle(this, adsCallback)
-        } else if (Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, "") == Constant.ENABLE &&
-            Utils.getPref(this, Constant.AD_TYPE_FB_GOOGLE, "") == Constant.AD_FACEBOOK
-        ) {
-            CommonConstantAd.showInterstitialAdsFacebook(adsCallback)
-        } else {
+        }
+        else {
             startCompleteActivity()
         }
 
@@ -742,19 +736,10 @@ class PerformWorkOutActivity : BaseActivity() {
             }
 
             if (Utils.getPref(this, Constant.EXIT_BTN_COUNT, 1) == 2) {
-                if (Utils.getPref(this, Constant.AD_TYPE_FB_GOOGLE, "") == Constant.AD_GOOGLE &&
-                    Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, "") == Constant.ENABLE
-                ) {
+                if (Constant.ENABLE == Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, "")) {
                     CommonConstantAd.showInterstitialAdsGoogle(this, adsCallBack)
-                } else if (Utils.getPref(
-                        this,
-                        Constant.AD_TYPE_FB_GOOGLE,
-                        ""
-                    ) == Constant.AD_FACEBOOK &&
-                    Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, "") == Constant.ENABLE
-                ) {
-                    CommonConstantAd.showInterstitialAdsFacebook(adsCallBack)
-                } else {
+                }
+                else {
                     saveData()
                 }
                 Utils.setPref(this, Constant.EXIT_BTN_COUNT, 1)

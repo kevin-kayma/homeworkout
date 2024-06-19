@@ -1,10 +1,12 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Home Workout : No Equipment</string>
     <string name="youtube_api_key">AIzaSyAoyJpy8xbelBg5uuoAfa_c2E4v262OiSE</string>
-    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_app_id">ca-app-pub-2737102509284323~4207369869</string>
 
 
-    <string name="privacy_policy_link">https://medium.com/@appsocta/privacy-policy-c6a2c7442cc5</string>
+    <string name="privacy_policy_link">https://www.firebolt.page/workout/privacy-policy</string>
+    <string name="feedback_link">https://docs.google.com/forms/d/e/1FAIpQLSccsm0zw9vZdwq_II1_3YnrygbHW-Meogv1B8Sfg7MUWn0xxw/viewform?usp=sf_link</string>
+    <string name="terms_link">https://www.firebolt.page/workout/terms-of-use</string>
     <string name="number_picker_formatter">%02d</string>
 
     <string name="btn_ok">Ok</string>
@@ -75,8 +77,8 @@
     <string name="instruction">Instruction</string>
     <string name="fast_workout">Fast workout</string>
     <string name="not_enough_time">Not enough time?</string>
-    <string name="_2_7_min_fast_workout">2-7 min fast workout</string>
-    <string name="_2_7_minutes_workout_to_do_anything_anywhere">2-7 minutes workout to do anything, anywhere.</string>
+    <string name="_2_7_min_fast_workout">Quick 2-7 Minute Exercise</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">Quick 2-7 minute exercises, perfect for any \nlocation.</string>
     <string name="body_focus">Body focus</string>
 
     <string name="sound_options">Sound Configuration</string>

@@ -43,9 +43,9 @@ public class ActivityFastWorkoutDetailBindingImpl extends ActivityFastWorkoutDet
     @Nullable
     private final android.view.View.OnClickListener mCallback55;
     @Nullable
-    private final android.view.View.OnClickListener mCallback56;
+    private final android.view.View.OnClickListener mCallback58;
     @Nullable
-    private final android.view.View.OnClickListener mCallback54;
+    private final android.view.View.OnClickListener mCallback56;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -87,10 +87,10 @@ public class ActivityFastWorkoutDetailBindingImpl extends ActivityFastWorkoutDet
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback57 = new com.loseweight.generated.callback.OnClickListener(this, 4);
-        mCallback55 = new com.loseweight.generated.callback.OnClickListener(this, 2);
-        mCallback56 = new com.loseweight.generated.callback.OnClickListener(this, 3);
-        mCallback54 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback57 = new com.loseweight.generated.callback.OnClickListener(this, 3);
+        mCallback55 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback58 = new com.loseweight.generated.callback.OnClickListener(this, 4);
+        mCallback56 = new com.loseweight.generated.callback.OnClickListener(this, 2);
         invalidateAll();
     }
 
@@ -152,50 +152,16 @@ public class ActivityFastWorkoutDetailBindingImpl extends ActivityFastWorkoutDet
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.imgBack.setOnClickListener(mCallback54);
-            this.llAdvanced.setOnClickListener(mCallback57);
-            this.llBeginner.setOnClickListener(mCallback55);
-            this.llIntermediate.setOnClickListener(mCallback56);
+            this.imgBack.setOnClickListener(mCallback55);
+            this.llAdvanced.setOnClickListener(mCallback58);
+            this.llBeginner.setOnClickListener(mCallback56);
+            this.llIntermediate.setOnClickListener(mCallback57);
         }
     }
     // Listener Stub Implementations
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
-            case 4: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.FastWorkOutDetailActivity.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onAdvanceClick();
-                }
-                break;
-            }
-            case 2: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.FastWorkOutDetailActivity.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onBeginnerClick();
-                }
-                break;
-            }
             case 3: {
                 // localize variables for thread safety
                 // handler
@@ -227,6 +193,40 @@ public class ActivityFastWorkoutDetailBindingImpl extends ActivityFastWorkoutDet
 
 
                     handler.onBackClick();
+                }
+                break;
+            }
+            case 4: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.FastWorkOutDetailActivity.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onAdvanceClick();
+                }
+                break;
+            }
+            case 2: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.FastWorkOutDetailActivity.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onBeginnerClick();
                 }
                 break;
             }

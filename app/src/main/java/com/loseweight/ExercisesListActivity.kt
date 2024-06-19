@@ -242,32 +242,8 @@ class ExercisesListActivity : BaseActivity() {
             }
 
             if (Utils.getPref(this@ExercisesListActivity, Constant.START_BTN_COUNT, 1) == 1) {
-                if (Utils.getPref(
-                        this@ExercisesListActivity,
-                        Constant.STATUS_ENABLE_DISABLE,
-                        ""
-                    ) == Constant.ENABLE
-                ) {
-                    when (Utils.getPref(
-                        this@ExercisesListActivity,
-                        Constant.AD_TYPE_FB_GOOGLE,
-                        ""
-                    )) {
-                        Constant.AD_GOOGLE -> {
-                            CommonConstantAd.showInterstitialAdsGoogle(
-                                this@ExercisesListActivity,
-                                adsCallback
-                            )
-                        }
-                        Constant.AD_FACEBOOK -> {
-                            CommonConstantAd.showInterstitialAdsFacebook(
-                                adsCallback
-                            )
-                        }
-                        else -> {
-                            startExerciseActivity()
-                        }
-                    }
+                if (Utils.getPref(this@ExercisesListActivity, Constant.STATUS_ENABLE_DISABLE,"") == Constant.ENABLE) {
+                        CommonConstantAd.showInterstitialAdsGoogle(this@ExercisesListActivity, adsCallback)
                     Utils.setPref(this@ExercisesListActivity, Constant.START_BTN_COUNT, 0)
                 } else {
                     startExerciseActivity()

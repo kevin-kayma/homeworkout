@@ -4,7 +4,7 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.workout.NoEquipment",
+  "applicationId": "com.fitnessapp.www",
   "variantName": "debug",
   "elements": [
     {

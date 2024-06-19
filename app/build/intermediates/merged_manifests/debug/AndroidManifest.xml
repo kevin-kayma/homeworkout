@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.workout.NoEquipment"
+    package="com.fitnessapp.www"
     android:versionCode="7"
     android:versionName="2.7" >
 
@@ -46,10 +46,10 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <permission
-        android:name="com.workout.NoEquipment.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.fitnessapp.www.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.workout.NoEquipment.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.fitnessapp.www.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -135,7 +135,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.workout.NoEquipment.provider"
+            android:authorities="com.fitnessapp.www.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -151,22 +151,6 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name="com.loseweight.SplashScreenActivity"
-            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:launchMode="singleTop"
-            android:noHistory="true"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppThemeSplash"
-            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name="com.loseweight.CustomGalleryActivity"
             android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
             android:exported="true"
@@ -180,7 +164,13 @@
             android:exported="true"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.loseweight.ChooseYourPlanActivity"
             android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
@@ -448,7 +438,7 @@
 
         <provider
             android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-            android:authorities="com.workout.NoEquipment.mobileadsinitprovider"
+            android:authorities="com.fitnessapp.www.mobileadsinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
@@ -473,7 +463,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.workout.NoEquipment.firebaseinitprovider"
+            android:authorities="com.fitnessapp.www.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -484,7 +474,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.workout.NoEquipment.androidx-startup"
+            android:authorities="com.fitnessapp.www.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.work.WorkManagerInitializer"
@@ -612,7 +602,7 @@
 
         <provider
             android:name="com.facebook.ads.AudienceNetworkContentProvider"
-            android:authorities="com.workout.NoEquipment.AudienceNetworkContentProvider"
+            android:authorities="com.fitnessapp.www.AudienceNetworkContentProvider"
             android:exported="false" />
 
         <activity

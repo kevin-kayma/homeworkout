@@ -87,9 +87,7 @@ internal object Constant {
     const val workout_type_step = "s"
 
     const val PlanDaysYes = "YES"
-    const val PlanDaysNo = "NO"
 
-    const val PlanLvlTitle = "Title"
     const val PlanLvlBeginner = "Beginner"
     const val PlanLvlIntermediate = "Intermediate"
     const val PlanLvlAdvanced = "Advanced"
@@ -99,7 +97,6 @@ internal object Constant {
     const val PlanTypeFastWorkoutTrainingGoal = "FastWorkoutTrainingGoal"
     const val PlanTypeFastWorkoutRandom = "FastWorkoutRandom"
     const val PlanTypeBodyFocus = "BodyFocus"
-    const val PlanTypeSubPlan = "SubPlan"
 
 
     const val FROM_FAST_WORKOUT = "FastWorkOut"
@@ -135,22 +132,14 @@ internal object Constant {
     var GOOGLE_BANNER = "GOOGLE_BANNER"
     var GOOGLE_INTERSTITIAL = "GOOGLE_INTERSTITIAL"
     var GOOGLE_REWARDED = "GOOGLE_REWARDED"
-    var FB_BANNER = "FB_BANNER"
-    var FB_INTERSTITIAL = "FB_INTERSTITIAL"
-    var FB_REWARDED = "FB_REWARDED"
-    var AD_TYPE_FB_GOOGLE = "AD_TYPE_FB_GOOGLE"
     var STATUS_ENABLE_DISABLE = "STATUS_ENABLE_DISABLE"
 
-    var GOOGLE_ADMOB_APP_ID = "ca-app-pub-8360405123776241~3649414431"
-    const val GOOGLE_BANNER_ID = "ca-app-pub-8360405123776241/4899218243"
-    const val GOOGLE_INTERSTITIAL_ID = "ca-app-pub-8360405123776241/3981722397"
+    var GOOGLE_ADMOB_APP_ID = "ca-app-pub-2737102509284323~4207369869"
+    const val GOOGLE_BANNER_ID = "ca-app-pub-2737102509284323/7875152133"
+    const val GOOGLE_INTERSTITIAL_ID = "ca-app-pub-2737102509284323/5743812814"
 
-    const val FB_BANNER_ID = "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"
-    const val FB_INTERSTITIAL_ID = "IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID"
 
-    var AD_FACEBOOK = "facebook"
     var AD_GOOGLE = "google"
-    val AD_TYPE_FACEBOOK_GOOGLE = AD_GOOGLE
 
     var ENABLE = "Enable"
     var DISABLE = "Disable"

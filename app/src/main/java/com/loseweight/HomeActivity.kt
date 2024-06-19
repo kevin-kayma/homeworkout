@@ -1,9 +1,11 @@
 package com.loseweight
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.content.res.ColorStateList
 import android.os.Bundle
+import android.os.Handler
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +17,7 @@ import androidx.fragment.app.FragmentStatePagerAdapter
 import androidx.viewpager.widget.ViewPager
 import com.google.firebase.messaging.FirebaseMessaging
 import com.loseweight.databinding.ActivityHomeBinding
+import com.loseweight.facebookad.AudienceNetworkInitializeHelper
 import com.loseweight.fragments.MeFragment
 import com.loseweight.fragments.PlanFragment
 import com.loseweight.fragments.ReportsFragment
@@ -25,6 +28,7 @@ import com.loseweight.utils.Debug
 import com.loseweight.utils.ExitStrategy
 import com.loseweight.utils.Utils
 import com.loseweight.utils.watertracker.AlarmHelper
+import com.utillity.db.DataHelper
 import java.util.*
 import kotlin.math.roundToInt
 
@@ -32,18 +36,53 @@ import kotlin.math.roundToInt
 class HomeActivity : BaseActivity() {
 
     var binding: ActivityHomeBinding? = null
-    var pagerAdapter: ScreenSlidePagerAdapter? = null
+    private var pagerAdapter: ScreenSlidePagerAdapter? = null
 
+    @SuppressLint("HardwareIds")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_home)
+        if (dialogPermission == null)
+            checkPermissions(getActivity())
+        else if (dialogPermission != null && dialogPermission!!.isShowing.not())
+            checkPermissions(getActivity())
 
+        AudienceNetworkInitializeHelper.initialize(this)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_home)
+        DataHelper(this).checkDBExist()
+        Utils.printHashKey(this)
         initIntentParam()
         callGetAdsId()
         loadBannerAd(binding!!.llAdView,binding!!.llAdViewFacebook)
         init()
     }
 
+    fun startapp() {
+        if (Utils.getPref(
+                this@HomeActivity,
+                Constant.PREF_IS_FIRST_TIME,
+                true
+            ) && Utils.getPref(this@HomeActivity, Constant.PREF_GOAL, "")
+                .isNullOrEmpty()
+        ) {
+            val i = Intent(getActivity(), ChooseYourPlanActivity::class.java)
+            i.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
+            startActivity(i)
+            finish()
+        }
+//            } else {
+//                val i = Intent(getActivity(), HomeActivity::class.java)
+//
+//                if(intent.extras != null){
+//                    if(intent.extras!!.containsKey("isFrom") && intent.extras!!.get("isFrom") == Constant.FROM_DRINK_NOTIFICATION)
+//                    {
+//                        i.putExtra("isFrom",Constant.FROM_DRINK_NOTIFICATION)
+//                    }
+//                }
+//                i.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
+//                startActivity(i)
+//                finish()
+//            }
+    }
 
     private fun initIntentParam() {
         if(intent.extras != null){
@@ -168,32 +207,32 @@ class HomeActivity : BaseActivity() {
                     this@HomeActivity,
                     R.color.primary
                 ))
-                binding!!.bottombar.tvPlan.setTextColor(
-                    ContextCompat.getColor(
-                        this@HomeActivity,
-                        R.color.primary
-                    )
-                )
+//                binding!!.bottombar.tvPlan.setTextColor(
+//                    ContextCompat.getColor(
+//                        this@HomeActivity,
+//                        R.color.primary
+//                    )
+//                )
                 binding!!.bottombar.imgReports.imageTintList = ColorStateList.valueOf( ContextCompat.getColor(
                     this@HomeActivity,
                     R.color.gray_light_
                 ))
-                binding!!.bottombar.tvReports.setTextColor(
-                    ContextCompat.getColor(
-                        this@HomeActivity,
-                        R.color.col_666
-                    )
-                )
+//                binding!!.bottombar.tvReports.setTextColor(
+//                    ContextCompat.getColor(
+//                        this@HomeActivity,
+//                        R.color.col_666
+//                    )
+//                )
                 binding!!.bottombar.imgMe.imageTintList = ColorStateList.valueOf( ContextCompat.getColor(
                     this@HomeActivity,
                     R.color.gray_light_
                 ))
-                binding!!.bottombar.tvMe.setTextColor(
-                    ContextCompat.getColor(
-                        this@HomeActivity,
-                        R.color.col_666
-                    )
-                )
+//                binding!!.bottombar.tvMe.setTextColor(
+//                    ContextCompat.getColor(
+//                        this@HomeActivity,
+//                        R.color.col_666
+//                    )
+//                )
                 binding!!.pagerFragment.currentItem = 0
                 binding!!.flWaterProgress.visibility = View.VISIBLE
                 binding!!.tvTitle.text = getString(R.string.app_name)
@@ -204,32 +243,32 @@ class HomeActivity : BaseActivity() {
                     this@HomeActivity,
                     R.color.gray_light_
                 ))
-                binding!!.bottombar.tvPlan.setTextColor(
-                    ContextCompat.getColor(
-                        this@HomeActivity,
-                        R.color.col_666
-                    )
-                )
+//                binding!!.bottombar.tvPlan.setTextColor(
+//                    ContextCompat.getColor(
+//                        this@HomeActivity,
+//                        R.color.col_666
+//                    )
+//                )
                 binding!!.bottombar.imgReports.imageTintList = ColorStateList.valueOf( ContextCompat.getColor(
                     this@HomeActivity,
                     R.color.primary
                 ))
-                binding!!.bottombar.tvReports.setTextColor(
-                    ContextCompat.getColor(
-                        this@HomeActivity,
-                        R.color.primary
-                    )
-                )
+//                binding!!.bottombar.tvReports.setTextColor(
+//                    ContextCompat.getColor(
+//                        this@HomeActivity,
+//                        R.color.primary
+//                    )
+//                )
                 binding!!.bottombar.imgMe.imageTintList = ColorStateList.valueOf( ContextCompat.getColor(
                     this@HomeActivity,
                     R.color.gray_light_
                 ))
-                binding!!.bottombar.tvMe.setTextColor(
-                    ContextCompat.getColor(
-                        this@HomeActivity,
-                        R.color.col_666
-                    )
-                )
+//                binding!!.bottombar.tvMe.setTextColor(
+//                    ContextCompat.getColor(
+//                        this@HomeActivity,
+//                        R.color.col_666
+//                    )
+//                )
                 binding!!.pagerFragment.currentItem = 1
                 binding!!.flWaterProgress.visibility = View.INVISIBLE
                 binding!!.tvTitle.text = getString(R.string.reports)
@@ -240,32 +279,32 @@ class HomeActivity : BaseActivity() {
                     this@HomeActivity,
                     R.color.gray_light_
                 ))
-                binding!!.bottombar.tvPlan.setTextColor(
-                    ContextCompat.getColor(
-                        this@HomeActivity,
-                        R.color.col_666
-                    )
-                )
+//                binding!!.bottombar.tvPlan.setTextColor(
+//                    ContextCompat.getColor(
+//                        this@HomeActivity,
+//                        R.color.col_666
+//                    )
+//                )
                 binding!!.bottombar.imgReports.imageTintList = ColorStateList.valueOf( ContextCompat.getColor(
                     this@HomeActivity,
                     R.color.gray_light_
                 ))
-                binding!!.bottombar.tvReports.setTextColor(
-                    ContextCompat.getColor(
-                        this@HomeActivity,
-                        R.color.col_666
-                    )
-                )
+//                binding!!.bottombar.tvReports.setTextColor(
+//                    ContextCompat.getColor(
+//                        this@HomeActivity,
+//                        R.color.col_666
+//                    )
+//                )
                 binding!!.bottombar.imgMe.imageTintList = ColorStateList.valueOf( ContextCompat.getColor(
                     this@HomeActivity,
                     R.color.primary
                 ))
-                binding!!.bottombar.tvMe.setTextColor(
-                    ContextCompat.getColor(
-                        this@HomeActivity,
-                        R.color.primary
-                    )
-                )
+//                binding!!.bottombar.tvMe.setTextColor(
+//                    ContextCompat.getColor(
+//                        this@HomeActivity,
+//                        R.color.primary
+//                    )
+//                )
                 binding!!.pagerFragment.currentItem = 2
                 binding!!.flWaterProgress.visibility = View.INVISIBLE
                 binding!!.tvTitle.text = getString(R.string.me)
@@ -304,9 +343,6 @@ class HomeActivity : BaseActivity() {
         try {
             if (Utils.isInternetConnected(this)) {
                 if (Constant.ENABLE_DISABLE == Constant.ENABLE && !Utils.isPurchased(this)) {
-                    Utils.setPref(this, Constant.AD_TYPE_FB_GOOGLE, Constant.AD_TYPE_FACEBOOK_GOOGLE)
-                    Utils.setPref(this, Constant.FB_BANNER, Constant.FB_BANNER_ID)
-                    Utils.setPref(this, Constant.FB_INTERSTITIAL, Constant.FB_INTERSTITIAL_ID)
                     Utils.setPref(this, Constant.GOOGLE_BANNER, Constant.GOOGLE_BANNER_ID)
                     Utils.setPref(this, Constant.GOOGLE_INTERSTITIAL, Constant.GOOGLE_INTERSTITIAL_ID)
                     Utils.setPref(this, Constant.STATUS_ENABLE_DISABLE, Constant.ENABLE_DISABLE)

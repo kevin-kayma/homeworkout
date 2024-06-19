@@ -154,7 +154,11 @@ class MeFragment : BaseFragment() {
         }
 
         fun onFeedBackClick(){
-            Utils.contactUs(rootContext!!)
+            Utils.openUrl(rootContext!!, getString(R.string.feedback_link))
+        }
+
+        fun onTermsClick(){
+            Utils.openUrl(rootContext!!,getString(R.string.terms_link))
         }
 
         fun onPrivacyPolicyClick()

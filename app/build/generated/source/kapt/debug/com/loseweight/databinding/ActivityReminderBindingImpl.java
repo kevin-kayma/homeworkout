@@ -32,7 +32,7 @@ public class ActivityReminderBindingImpl extends ActivityReminderBinding impleme
     private final com.google.android.material.floatingactionbutton.FloatingActionButton mboundView2;
     // variables
     @Nullable
-    private final android.view.View.OnClickListener mCallback87;
+    private final android.view.View.OnClickListener mCallback88;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -57,7 +57,7 @@ public class ActivityReminderBindingImpl extends ActivityReminderBinding impleme
         setContainedBinding(this.topbar);
         setRootTag(root);
         // listeners
-        mCallback87 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback88 = new com.loseweight.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -140,7 +140,7 @@ public class ActivityReminderBindingImpl extends ActivityReminderBinding impleme
         if ((dirtyFlags & 0x4L) != 0) {
             // api target 1
 
-            this.mboundView2.setOnClickListener(mCallback87);
+            this.mboundView2.setOnClickListener(mCallback88);
         }
         executeBindingsOn(topbar);
     }

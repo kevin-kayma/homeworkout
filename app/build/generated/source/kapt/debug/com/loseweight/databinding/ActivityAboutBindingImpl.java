@@ -29,7 +29,7 @@ public class ActivityAboutBindingImpl extends ActivityAboutBinding implements co
     private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
     // variables
     @Nullable
-    private final android.view.View.OnClickListener mCallback62;
+    private final android.view.View.OnClickListener mCallback63;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -55,7 +55,7 @@ public class ActivityAboutBindingImpl extends ActivityAboutBinding implements co
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback62 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback63 = new com.loseweight.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -117,7 +117,7 @@ public class ActivityAboutBindingImpl extends ActivityAboutBinding implements co
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.imgBack.setOnClickListener(mCallback62);
+            this.imgBack.setOnClickListener(mCallback63);
         }
     }
     // Listener Stub Implementations

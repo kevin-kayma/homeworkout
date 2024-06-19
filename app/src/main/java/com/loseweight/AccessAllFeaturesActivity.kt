@@ -177,7 +177,7 @@ class AccessAllFeaturesActivity : BaseActivity() {
                     }
                 } else {
                     Utils.setPref(this, Constant.PREF_KEY_PURCHASE_STATUS, true)
-                    val intent = Intent(getActivity(), SplashScreenActivity::class.java)
+                    val intent = Intent(getActivity(), HomeActivity::class.java)
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
                     startActivity(intent)
                     finish()
