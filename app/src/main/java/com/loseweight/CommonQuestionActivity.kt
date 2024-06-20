@@ -287,7 +287,7 @@ class CommonQuestionActivity : BaseActivity() {
     inner class ClickHandler {
 
         fun onSendFeedBackClick() {
-            Utils.contactUs(this@CommonQuestionActivity)
+            Utils.openUrl(getActivity(), getString(R.string.feedback_link))
         }
     }
 

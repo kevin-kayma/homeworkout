@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.workout.NoEquipment.test" >
+    package="com.fitnessapp.www.test" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -10,8 +10,8 @@
         android:name="androidx.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.workout.NoEquipment"
-        android:targetPackage="com.workout.NoEquipment" />
+        android:label="Tests for com.fitnessapp.www"
+        android:targetPackage="com.fitnessapp.www" />
 
     <application
         android:debuggable="true"
