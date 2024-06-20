@@ -28,7 +28,7 @@ public class ActivityRestDayBindingImpl extends ActivityRestDayBinding implement
     private final android.widget.LinearLayout mboundView1;
     // variables
     @Nullable
-    private final android.view.View.OnClickListener mCallback62;
+    private final android.view.View.OnClickListener mCallback64;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -51,7 +51,7 @@ public class ActivityRestDayBindingImpl extends ActivityRestDayBinding implement
         setContainedBinding(this.topbar);
         setRootTag(root);
         // listeners
-        mCallback62 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback64 = new com.loseweight.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -134,7 +134,7 @@ public class ActivityRestDayBindingImpl extends ActivityRestDayBinding implement
         if ((dirtyFlags & 0x4L) != 0) {
             // api target 1
 
-            this.btnFinish.setOnClickListener(mCallback62);
+            this.btnFinish.setOnClickListener(mCallback64);
         }
         executeBindingsOn(topbar);
     }

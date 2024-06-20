@@ -31,9 +31,9 @@ public class ActivityHistoryBindingImpl extends ActivityHistoryBinding implement
     private final android.widget.LinearLayout mboundView1;
     // variables
     @Nullable
-    private final android.view.View.OnClickListener mCallback96;
+    private final android.view.View.OnClickListener mCallback98;
     @Nullable
-    private final android.view.View.OnClickListener mCallback97;
+    private final android.view.View.OnClickListener mCallback99;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -61,8 +61,8 @@ public class ActivityHistoryBindingImpl extends ActivityHistoryBinding implement
         setContainedBinding(this.topbar);
         setRootTag(root);
         // listeners
-        mCallback96 = new com.loseweight.generated.callback.OnClickListener(this, 1);
-        mCallback97 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback98 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback99 = new com.loseweight.generated.callback.OnClickListener(this, 2);
         invalidateAll();
     }
 
@@ -145,8 +145,8 @@ public class ActivityHistoryBindingImpl extends ActivityHistoryBinding implement
         if ((dirtyFlags & 0x4L) != 0) {
             // api target 1
 
-            this.imgMonthPrev.setOnClickListener(mCallback96);
-            this.imgbtnMonthNext.setOnClickListener(mCallback97);
+            this.imgMonthPrev.setOnClickListener(mCallback98);
+            this.imgbtnMonthNext.setOnClickListener(mCallback99);
         }
         executeBindingsOn(topbar);
     }

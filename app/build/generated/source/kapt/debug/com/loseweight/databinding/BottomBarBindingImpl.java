@@ -32,9 +32,9 @@ public class BottomBarBindingImpl extends BottomBarBinding implements com.losewe
     @Nullable
     private final android.view.View.OnClickListener mCallback78;
     @Nullable
-    private final android.view.View.OnClickListener mCallback76;
+    private final android.view.View.OnClickListener mCallback79;
     @Nullable
-    private final android.view.View.OnClickListener mCallback77;
+    private final android.view.View.OnClickListener mCallback80;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -59,9 +59,9 @@ public class BottomBarBindingImpl extends BottomBarBinding implements com.losewe
         this.mboundView3.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback78 = new com.loseweight.generated.callback.OnClickListener(this, 3);
-        mCallback76 = new com.loseweight.generated.callback.OnClickListener(this, 1);
-        mCallback77 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback78 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback79 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback80 = new com.loseweight.generated.callback.OnClickListener(this, 3);
         invalidateAll();
     }
 
@@ -123,34 +123,15 @@ public class BottomBarBindingImpl extends BottomBarBinding implements com.losewe
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.mboundView1.setOnClickListener(mCallback76);
-            this.mboundView2.setOnClickListener(mCallback77);
-            this.mboundView3.setOnClickListener(mCallback78);
+            this.mboundView1.setOnClickListener(mCallback78);
+            this.mboundView2.setOnClickListener(mCallback79);
+            this.mboundView3.setOnClickListener(mCallback80);
         }
     }
     // Listener Stub Implementations
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
-            case 3: {
-                // localize variables for thread safety
-                // bottomClickListener
-                com.loseweight.interfaces.BottomBarClickListener bottomClickListener = mBottomClickListener;
-                // bottomClickListener != null
-                boolean bottomClickListenerJavaLangObjectNull = false;
-
-
-
-                bottomClickListenerJavaLangObjectNull = (bottomClickListener) != (null);
-                if (bottomClickListenerJavaLangObjectNull) {
-
-
-
-
-                    bottomClickListener.onTopBarClickListener(callbackArg_0, mboundView3.getResources().getString(R.string.me));
-                }
-                break;
-            }
             case 1: {
                 // localize variables for thread safety
                 // bottomClickListener
@@ -186,6 +167,25 @@ public class BottomBarBindingImpl extends BottomBarBinding implements com.losewe
 
 
                     bottomClickListener.onTopBarClickListener(callbackArg_0, mboundView2.getResources().getString(R.string.reports));
+                }
+                break;
+            }
+            case 3: {
+                // localize variables for thread safety
+                // bottomClickListener
+                com.loseweight.interfaces.BottomBarClickListener bottomClickListener = mBottomClickListener;
+                // bottomClickListener != null
+                boolean bottomClickListenerJavaLangObjectNull = false;
+
+
+
+                bottomClickListenerJavaLangObjectNull = (bottomClickListener) != (null);
+                if (bottomClickListenerJavaLangObjectNull) {
+
+
+
+
+                    bottomClickListener.onTopBarClickListener(callbackArg_0, mboundView3.getResources().getString(R.string.me));
                 }
                 break;
             }

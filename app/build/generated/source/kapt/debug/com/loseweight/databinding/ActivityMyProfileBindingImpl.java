@@ -28,13 +28,13 @@ public class ActivityMyProfileBindingImpl extends ActivityMyProfileBinding imple
     private final android.widget.LinearLayout mboundView1;
     // variables
     @Nullable
-    private final android.view.View.OnClickListener mCallback69;
+    private final android.view.View.OnClickListener mCallback74;
+    @Nullable
+    private final android.view.View.OnClickListener mCallback75;
     @Nullable
     private final android.view.View.OnClickListener mCallback72;
     @Nullable
     private final android.view.View.OnClickListener mCallback73;
-    @Nullable
-    private final android.view.View.OnClickListener mCallback70;
     @Nullable
     private final android.view.View.OnClickListener mCallback71;
     // values
@@ -67,11 +67,11 @@ public class ActivityMyProfileBindingImpl extends ActivityMyProfileBinding imple
         this.tvLbsFt.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback69 = new com.loseweight.generated.callback.OnClickListener(this, 1);
-        mCallback72 = new com.loseweight.generated.callback.OnClickListener(this, 4);
-        mCallback73 = new com.loseweight.generated.callback.OnClickListener(this, 5);
-        mCallback70 = new com.loseweight.generated.callback.OnClickListener(this, 2);
-        mCallback71 = new com.loseweight.generated.callback.OnClickListener(this, 3);
+        mCallback74 = new com.loseweight.generated.callback.OnClickListener(this, 4);
+        mCallback75 = new com.loseweight.generated.callback.OnClickListener(this, 5);
+        mCallback72 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback73 = new com.loseweight.generated.callback.OnClickListener(this, 3);
+        mCallback71 = new com.loseweight.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -154,11 +154,11 @@ public class ActivityMyProfileBindingImpl extends ActivityMyProfileBinding imple
         if ((dirtyFlags & 0x4L) != 0) {
             // api target 1
 
-            this.editHeight.setOnClickListener(mCallback71);
-            this.editTargetWeight.setOnClickListener(mCallback73);
-            this.editWeight.setOnClickListener(mCallback72);
-            this.tvKgCm.setOnClickListener(mCallback69);
-            this.tvLbsFt.setOnClickListener(mCallback70);
+            this.editHeight.setOnClickListener(mCallback73);
+            this.editTargetWeight.setOnClickListener(mCallback75);
+            this.editWeight.setOnClickListener(mCallback74);
+            this.tvKgCm.setOnClickListener(mCallback71);
+            this.tvLbsFt.setOnClickListener(mCallback72);
         }
         executeBindingsOn(topbar);
     }
@@ -166,23 +166,6 @@ public class ActivityMyProfileBindingImpl extends ActivityMyProfileBinding imple
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
-            case 1: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.MyProfileActivity.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onKgCmClick();
-                }
-                break;
-            }
             case 4: {
                 // localize variables for thread safety
                 // handler
@@ -248,6 +231,23 @@ public class ActivityMyProfileBindingImpl extends ActivityMyProfileBinding imple
 
 
                     handler.onHeightClick();
+                }
+                break;
+            }
+            case 1: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.MyProfileActivity.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onKgCmClick();
                 }
                 break;
             }

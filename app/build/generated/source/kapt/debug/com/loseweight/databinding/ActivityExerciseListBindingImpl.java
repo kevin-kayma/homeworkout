@@ -49,15 +49,15 @@ public class ActivityExerciseListBindingImpl extends ActivityExerciseListBinding
     @Nullable
     private final android.view.View.OnClickListener mCallback35;
     @Nullable
-    private final android.view.View.OnClickListener mCallback33;
+    private final android.view.View.OnClickListener mCallback43;
+    @Nullable
+    private final android.view.View.OnClickListener mCallback42;
     @Nullable
     private final android.view.View.OnClickListener mCallback40;
     @Nullable
     private final android.view.View.OnClickListener mCallback38;
     @Nullable
     private final android.view.View.OnClickListener mCallback36;
-    @Nullable
-    private final android.view.View.OnClickListener mCallback34;
     @Nullable
     private final android.view.View.OnClickListener mCallback41;
     // values
@@ -115,15 +115,15 @@ public class ActivityExerciseListBindingImpl extends ActivityExerciseListBinding
         this.tvEdit.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback39 = new com.loseweight.generated.callback.OnClickListener(this, 7);
-        mCallback37 = new com.loseweight.generated.callback.OnClickListener(this, 5);
-        mCallback35 = new com.loseweight.generated.callback.OnClickListener(this, 3);
-        mCallback33 = new com.loseweight.generated.callback.OnClickListener(this, 1);
-        mCallback40 = new com.loseweight.generated.callback.OnClickListener(this, 8);
-        mCallback38 = new com.loseweight.generated.callback.OnClickListener(this, 6);
-        mCallback36 = new com.loseweight.generated.callback.OnClickListener(this, 4);
-        mCallback34 = new com.loseweight.generated.callback.OnClickListener(this, 2);
-        mCallback41 = new com.loseweight.generated.callback.OnClickListener(this, 9);
+        mCallback39 = new com.loseweight.generated.callback.OnClickListener(this, 5);
+        mCallback37 = new com.loseweight.generated.callback.OnClickListener(this, 3);
+        mCallback35 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback43 = new com.loseweight.generated.callback.OnClickListener(this, 9);
+        mCallback42 = new com.loseweight.generated.callback.OnClickListener(this, 8);
+        mCallback40 = new com.loseweight.generated.callback.OnClickListener(this, 6);
+        mCallback38 = new com.loseweight.generated.callback.OnClickListener(this, 4);
+        mCallback36 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback41 = new com.loseweight.generated.callback.OnClickListener(this, 7);
         invalidateAll();
     }
 
@@ -185,38 +185,21 @@ public class ActivityExerciseListBindingImpl extends ActivityExerciseListBinding
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.btnContinue.setOnClickListener(mCallback39);
-            this.btnDoItAgain.setOnClickListener(mCallback41);
-            this.btnRestart.setOnClickListener(mCallback38);
-            this.btnStart.setOnClickListener(mCallback40);
-            this.imgBack.setOnClickListener(mCallback35);
-            this.llIntroductionTitle.setOnClickListener(mCallback36);
-            this.tvAbout.setOnClickListener(mCallback33);
-            this.tvCommonQuestion.setOnClickListener(mCallback34);
-            this.tvEdit.setOnClickListener(mCallback37);
+            this.btnContinue.setOnClickListener(mCallback41);
+            this.btnDoItAgain.setOnClickListener(mCallback43);
+            this.btnRestart.setOnClickListener(mCallback40);
+            this.btnStart.setOnClickListener(mCallback42);
+            this.imgBack.setOnClickListener(mCallback37);
+            this.llIntroductionTitle.setOnClickListener(mCallback38);
+            this.tvAbout.setOnClickListener(mCallback35);
+            this.tvCommonQuestion.setOnClickListener(mCallback36);
+            this.tvEdit.setOnClickListener(mCallback39);
         }
     }
     // Listener Stub Implementations
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
-            case 7: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.ExercisesListActivity.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onContinueClick();
-                }
-                break;
-            }
             case 5: {
                 // localize variables for thread safety
                 // handler
@@ -265,6 +248,23 @@ public class ActivityExerciseListBindingImpl extends ActivityExerciseListBinding
 
 
                     handler.onAboutClick();
+                }
+                break;
+            }
+            case 9: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.ExercisesListActivity.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onRestartClick();
                 }
                 break;
             }
@@ -336,7 +336,7 @@ public class ActivityExerciseListBindingImpl extends ActivityExerciseListBinding
                 }
                 break;
             }
-            case 9: {
+            case 7: {
                 // localize variables for thread safety
                 // handler
                 com.loseweight.ExercisesListActivity.ClickHandler handler = mHandler;
@@ -349,7 +349,7 @@ public class ActivityExerciseListBindingImpl extends ActivityExerciseListBinding
                 if (handlerJavaLangObjectNull) {
 
 
-                    handler.onRestartClick();
+                    handler.onContinueClick();
                 }
                 break;
             }

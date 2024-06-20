@@ -39,13 +39,13 @@ public class ActivityFastWorkoutDetailBindingImpl extends ActivityFastWorkoutDet
     private final android.widget.LinearLayout mboundView0;
     // variables
     @Nullable
+    private final android.view.View.OnClickListener mCallback59;
+    @Nullable
     private final android.view.View.OnClickListener mCallback57;
     @Nullable
-    private final android.view.View.OnClickListener mCallback55;
+    private final android.view.View.OnClickListener mCallback60;
     @Nullable
     private final android.view.View.OnClickListener mCallback58;
-    @Nullable
-    private final android.view.View.OnClickListener mCallback56;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -87,10 +87,10 @@ public class ActivityFastWorkoutDetailBindingImpl extends ActivityFastWorkoutDet
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback57 = new com.loseweight.generated.callback.OnClickListener(this, 3);
-        mCallback55 = new com.loseweight.generated.callback.OnClickListener(this, 1);
-        mCallback58 = new com.loseweight.generated.callback.OnClickListener(this, 4);
-        mCallback56 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback59 = new com.loseweight.generated.callback.OnClickListener(this, 3);
+        mCallback57 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback60 = new com.loseweight.generated.callback.OnClickListener(this, 4);
+        mCallback58 = new com.loseweight.generated.callback.OnClickListener(this, 2);
         invalidateAll();
     }
 
@@ -152,10 +152,10 @@ public class ActivityFastWorkoutDetailBindingImpl extends ActivityFastWorkoutDet
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.imgBack.setOnClickListener(mCallback55);
-            this.llAdvanced.setOnClickListener(mCallback58);
-            this.llBeginner.setOnClickListener(mCallback56);
-            this.llIntermediate.setOnClickListener(mCallback57);
+            this.imgBack.setOnClickListener(mCallback57);
+            this.llAdvanced.setOnClickListener(mCallback60);
+            this.llBeginner.setOnClickListener(mCallback58);
+            this.llIntermediate.setOnClickListener(mCallback59);
         }
     }
     // Listener Stub Implementations

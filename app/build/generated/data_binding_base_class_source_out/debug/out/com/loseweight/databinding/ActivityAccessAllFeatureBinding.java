@@ -27,13 +27,25 @@ public abstract class ActivityAccessAllFeatureBinding extends ViewDataBinding {
   public final AppCompatImageView imgBack;
 
   @NonNull
+  public final AppCompatImageView imgCheckLifetime;
+
+  @NonNull
   public final AppCompatImageView imgCheckMonthly;
+
+  @NonNull
+  public final AppCompatImageView imgCheckWeekly;
 
   @NonNull
   public final AppCompatImageView imgCheckYearly;
 
   @NonNull
+  public final LinearLayout llPerLifetime;
+
+  @NonNull
   public final LinearLayout llPerMonth;
+
+  @NonNull
+  public final LinearLayout llPerWeek;
 
   @NonNull
   public final LinearLayout llPerYear;
@@ -45,10 +57,22 @@ public abstract class ActivityAccessAllFeatureBinding extends ViewDataBinding {
   public final CTextView tvDes;
 
   @NonNull
+  public final CTextView tvLifetimePrice;
+
+  @NonNull
+  public final CBTextView tvLifetimeTitle;
+
+  @NonNull
   public final CTextView tvMonthlyPrice;
 
   @NonNull
   public final CBTextView tvMonthlyTitle;
+
+  @NonNull
+  public final CTextView tvWeeklyPrice;
+
+  @NonNull
+  public final CBTextView tvWeeklyTitle;
 
   @NonNull
   public final CTextView tvYearlyPrice;
@@ -64,21 +88,32 @@ public abstract class ActivityAccessAllFeatureBinding extends ViewDataBinding {
 
   protected ActivityAccessAllFeatureBinding(Object _bindingComponent, View _root,
       int _localFieldCount, CBButtonView btnContinue, AppCompatImageView imgBack,
-      AppCompatImageView imgCheckMonthly, AppCompatImageView imgCheckYearly,
-      LinearLayout llPerMonth, LinearLayout llPerYear, AppCompatImageView titleImage,
-      CTextView tvDes, CTextView tvMonthlyPrice, CBTextView tvMonthlyTitle, CTextView tvYearlyPrice,
-      CBTextView tvYearlyTitle, View viewMask) {
+      AppCompatImageView imgCheckLifetime, AppCompatImageView imgCheckMonthly,
+      AppCompatImageView imgCheckWeekly, AppCompatImageView imgCheckYearly,
+      LinearLayout llPerLifetime, LinearLayout llPerMonth, LinearLayout llPerWeek,
+      LinearLayout llPerYear, AppCompatImageView titleImage, CTextView tvDes,
+      CTextView tvLifetimePrice, CBTextView tvLifetimeTitle, CTextView tvMonthlyPrice,
+      CBTextView tvMonthlyTitle, CTextView tvWeeklyPrice, CBTextView tvWeeklyTitle,
+      CTextView tvYearlyPrice, CBTextView tvYearlyTitle, View viewMask) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnContinue = btnContinue;
     this.imgBack = imgBack;
+    this.imgCheckLifetime = imgCheckLifetime;
     this.imgCheckMonthly = imgCheckMonthly;
+    this.imgCheckWeekly = imgCheckWeekly;
     this.imgCheckYearly = imgCheckYearly;
+    this.llPerLifetime = llPerLifetime;
     this.llPerMonth = llPerMonth;
+    this.llPerWeek = llPerWeek;
     this.llPerYear = llPerYear;
     this.titleImage = titleImage;
     this.tvDes = tvDes;
+    this.tvLifetimePrice = tvLifetimePrice;
+    this.tvLifetimeTitle = tvLifetimeTitle;
     this.tvMonthlyPrice = tvMonthlyPrice;
     this.tvMonthlyTitle = tvMonthlyTitle;
+    this.tvWeeklyPrice = tvWeeklyPrice;
+    this.tvWeeklyTitle = tvWeeklyTitle;
     this.tvYearlyPrice = tvYearlyPrice;
     this.tvYearlyTitle = tvYearlyTitle;
     this.viewMask = viewMask;

@@ -3494,7 +3494,9 @@ id imgBack_
 id imgBeginer
 id imgCancel
 id imgChange
+id imgCheckLifetime
 id imgCheckMonthly
+id imgCheckWeekly
 id imgCheckYearly
 id imgClose
 id imgCommonQuestion
@@ -3587,7 +3589,9 @@ id llIntermediate
 id llIntroduction
 id llIntroductionDes
 id llIntroductionTitle
+id llPerLifetime
 id llPerMonth
+id llPerWeek
 id llPerYear
 id llPlaceHolder
 id llPrev
@@ -3940,6 +3944,8 @@ id tvKG
 id tvKgCm
 id tvLB
 id tvLbsFt
+id tvLifetimePrice
+id tvLifetimeTitle
 id tvLightestWeight
 id tvMale
 id tvMarker
@@ -3991,6 +3997,8 @@ id tvWeek
 id tvWeekDay
 id tvWeekDays
 id tvWeekName
+id tvWeeklyPrice
+id tvWeeklyTitle
 id tvWeightString
 id tvWikiPedia
 id tvWorkOuts

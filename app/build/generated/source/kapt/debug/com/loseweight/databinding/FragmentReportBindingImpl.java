@@ -48,13 +48,13 @@ public class FragmentReportBindingImpl extends FragmentReportBinding implements 
     private final com.common.view.CTextView mboundView4;
     // variables
     @Nullable
-    private final android.view.View.OnClickListener mCallback89;
+    private final android.view.View.OnClickListener mCallback96;
     @Nullable
     private final android.view.View.OnClickListener mCallback94;
     @Nullable
     private final android.view.View.OnClickListener mCallback92;
     @Nullable
-    private final android.view.View.OnClickListener mCallback90;
+    private final android.view.View.OnClickListener mCallback97;
     @Nullable
     private final android.view.View.OnClickListener mCallback95;
     @Nullable
@@ -109,13 +109,13 @@ public class FragmentReportBindingImpl extends FragmentReportBinding implements 
         this.mboundView4.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback89 = new com.loseweight.generated.callback.OnClickListener(this, 1);
-        mCallback94 = new com.loseweight.generated.callback.OnClickListener(this, 6);
-        mCallback92 = new com.loseweight.generated.callback.OnClickListener(this, 4);
-        mCallback90 = new com.loseweight.generated.callback.OnClickListener(this, 2);
-        mCallback95 = new com.loseweight.generated.callback.OnClickListener(this, 7);
-        mCallback93 = new com.loseweight.generated.callback.OnClickListener(this, 5);
-        mCallback91 = new com.loseweight.generated.callback.OnClickListener(this, 3);
+        mCallback96 = new com.loseweight.generated.callback.OnClickListener(this, 6);
+        mCallback94 = new com.loseweight.generated.callback.OnClickListener(this, 4);
+        mCallback92 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback97 = new com.loseweight.generated.callback.OnClickListener(this, 7);
+        mCallback95 = new com.loseweight.generated.callback.OnClickListener(this, 5);
+        mCallback93 = new com.loseweight.generated.callback.OnClickListener(this, 3);
+        mCallback91 = new com.loseweight.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -177,36 +177,19 @@ public class FragmentReportBindingImpl extends FragmentReportBinding implements 
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.editCurrHeightCM.setOnClickListener(mCallback93);
-            this.editCurrHeightFT.setOnClickListener(mCallback94);
-            this.editCurrHeightIn.setOnClickListener(mCallback95);
-            this.mboundView1.setOnClickListener(mCallback89);
-            this.mboundView2.setOnClickListener(mCallback90);
-            this.mboundView3.setOnClickListener(mCallback91);
-            this.mboundView4.setOnClickListener(mCallback92);
+            this.editCurrHeightCM.setOnClickListener(mCallback95);
+            this.editCurrHeightFT.setOnClickListener(mCallback96);
+            this.editCurrHeightIn.setOnClickListener(mCallback97);
+            this.mboundView1.setOnClickListener(mCallback91);
+            this.mboundView2.setOnClickListener(mCallback92);
+            this.mboundView3.setOnClickListener(mCallback93);
+            this.mboundView4.setOnClickListener(mCallback94);
         }
     }
     // Listener Stub Implementations
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
-            case 1: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.fragments.ReportsFragment.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onRecordsClick();
-                }
-                break;
-            }
             case 6: {
                 // localize variables for thread safety
                 // handler
@@ -306,6 +289,23 @@ public class FragmentReportBindingImpl extends FragmentReportBinding implements 
 
 
                     handler.onEditBMIClick();
+                }
+                break;
+            }
+            case 1: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.fragments.ReportsFragment.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onRecordsClick();
                 }
                 break;
             }

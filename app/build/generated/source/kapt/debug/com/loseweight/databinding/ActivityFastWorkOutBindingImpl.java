@@ -32,9 +32,9 @@ public class ActivityFastWorkOutBindingImpl extends ActivityFastWorkOutBinding i
     private final android.widget.LinearLayout mboundView0;
     // variables
     @Nullable
-    private final android.view.View.OnClickListener mCallback74;
+    private final android.view.View.OnClickListener mCallback76;
     @Nullable
-    private final android.view.View.OnClickListener mCallback75;
+    private final android.view.View.OnClickListener mCallback77;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -65,8 +65,8 @@ public class ActivityFastWorkOutBindingImpl extends ActivityFastWorkOutBinding i
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback74 = new com.loseweight.generated.callback.OnClickListener(this, 1);
-        mCallback75 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback76 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback77 = new com.loseweight.generated.callback.OnClickListener(this, 2);
         invalidateAll();
     }
 
@@ -128,8 +128,8 @@ public class ActivityFastWorkOutBindingImpl extends ActivityFastWorkOutBinding i
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.cardFatBurning.setOnClickListener(mCallback75);
-            this.imgBack.setOnClickListener(mCallback74);
+            this.cardFatBurning.setOnClickListener(mCallback77);
+            this.imgBack.setOnClickListener(mCallback76);
         }
     }
     // Listener Stub Implementations

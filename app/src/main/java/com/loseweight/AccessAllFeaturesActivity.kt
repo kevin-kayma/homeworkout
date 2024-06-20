@@ -15,7 +15,7 @@ import com.loseweight.utils.Utils
 class AccessAllFeaturesActivity : BaseActivity() {
 
     var binding: ActivityAccessAllFeatureBinding? = null
-    private var skuDetail: String = Constant.MONTHLY_SKU
+    private var skuDetail: String = Constant.WEEKLY_SKU
     private var billingClient: BillingClient? = null
 
 
@@ -54,6 +54,7 @@ class AccessAllFeaturesActivity : BaseActivity() {
         }
 
         fun onYearlyClick() {
+            //yearly
             binding!!.llPerYear.backgroundTintList =
                 ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.primary)
             binding!!.tvYearlyTitle.setTextColor(
@@ -70,6 +71,24 @@ class AccessAllFeaturesActivity : BaseActivity() {
             )
             binding!!.imgCheckYearly.visibility = View.VISIBLE
 
+            //Lifetime
+            binding!!.llPerLifetime.backgroundTintList =
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+            binding!!.tvLifetimePrice.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.tvLifetimeTitle.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.imgCheckLifetime.visibility = View.GONE
+
+            //monthly
             binding!!.llPerMonth.backgroundTintList =
                 ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
             binding!!.tvMonthlyPrice.setTextColor(
@@ -86,10 +105,28 @@ class AccessAllFeaturesActivity : BaseActivity() {
             )
             binding!!.imgCheckMonthly.visibility = View.GONE
 
+            //weekly
+            binding!!.llPerWeek.backgroundTintList =
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+            binding!!.tvWeeklyPrice.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.tvWeeklyTitle.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.imgCheckWeekly.visibility = View.GONE
+
             skuDetail = Constant.YEARLY_SKU
         }
 
         fun onPerMonthClick() {
+            //yearly
             binding!!.llPerYear.backgroundTintList =
                 ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
             binding!!.tvYearlyTitle.setTextColor(
@@ -106,6 +143,41 @@ class AccessAllFeaturesActivity : BaseActivity() {
             )
             binding!!.imgCheckYearly.visibility = View.GONE
 
+            //weekly
+            binding!!.llPerWeek.backgroundTintList =
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+            binding!!.tvWeeklyPrice.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.tvWeeklyTitle.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.imgCheckWeekly.visibility = View.GONE
+
+            //Lifetime
+            binding!!.llPerLifetime.backgroundTintList =
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+            binding!!.tvLifetimePrice.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.tvLifetimeTitle.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.imgCheckLifetime.visibility = View.GONE
+
+            //monthly
             binding!!.llPerMonth.backgroundTintList =
                 ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.primary)
             binding!!.tvMonthlyPrice.setTextColor(
@@ -123,28 +195,192 @@ class AccessAllFeaturesActivity : BaseActivity() {
             binding!!.imgCheckMonthly.visibility = View.VISIBLE
             skuDetail = Constant.MONTHLY_SKU
         }
+
+        fun onWeeklyClick() {
+            //yearly
+            binding!!.llPerYear.backgroundTintList =
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+            binding!!.tvYearlyTitle.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.tvYearlyPrice.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.imgCheckYearly.visibility = View.GONE
+
+            //monthly
+            binding!!.llPerMonth.backgroundTintList =
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+            binding!!.tvMonthlyTitle.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.tvMonthlyPrice.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.imgCheckMonthly.visibility = View.GONE
+
+            //Lifetime
+            binding!!.llPerLifetime.backgroundTintList =
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+            binding!!.tvLifetimePrice.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.tvLifetimeTitle.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.imgCheckLifetime.visibility = View.GONE
+
+            //weekly
+            binding!!.llPerWeek.backgroundTintList =
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.primary)
+            binding!!.tvWeeklyPrice.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.primary
+                )
+            )
+            binding!!.tvWeeklyTitle.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.primary
+                )
+            )
+            binding!!.imgCheckWeekly.visibility = View.VISIBLE
+            skuDetail = Constant.WEEKLY_SKU
+        }
+
+        fun onLifetimeClick() {
+            //yearly
+            binding!!.llPerYear.backgroundTintList =
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+            binding!!.tvYearlyTitle.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.tvYearlyPrice.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.imgCheckYearly.visibility = View.GONE
+
+            //monthly
+            binding!!.llPerMonth.backgroundTintList =
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+            binding!!.tvMonthlyTitle.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.tvMonthlyPrice.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.imgCheckMonthly.visibility = View.GONE
+
+            //weekly
+            binding!!.llPerWeek.backgroundTintList =
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+            binding!!.tvWeeklyPrice.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.tvWeeklyTitle.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.imgCheckWeekly.visibility = View.GONE
+
+            //Lifetime
+            binding!!.llPerLifetime.backgroundTintList =
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.primary)
+            binding!!.tvLifetimePrice.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.primary
+                )
+            )
+            binding!!.tvLifetimeTitle.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.primary
+                )
+            )
+            binding!!.imgCheckLifetime.visibility = View.VISIBLE
+            skuDetail = Constant.LIFETIME_SKU
+        }
         fun onContinueClick() {
             onPurchaseClick(skuDetail)
         }
     }
 
     private fun onPurchaseClick(SKU: String) {
-        val skuList = arrayListOf<String>()
-        skuList.add(SKU)
-        val params = SkuDetailsParams.newBuilder()
-        params.setSkusList(skuList).setType(BillingClient.SkuType.SUBS)
-        billingClient!!.querySkuDetailsAsync(params.build()) { _, list ->
-            if (list?.isNotEmpty() == true) {
-                runOnUiThread {
-                    val billingFlowParams = BillingFlowParams.newBuilder()
-                        .setSkuDetails(list[0])
-                        .build()
-                    val responseCode =
-                        billingClient!!.launchBillingFlow(this, billingFlowParams).responseCode
-                    Log.e("BillingFlow response", responseCode.toString() + "")
+        billingClient!!.startConnection(object : BillingClientStateListener {
+            override fun onBillingServiceDisconnected() {
+
+            }
+
+            override fun onBillingSetupFinished(billingResult: BillingResult) {
+                if(billingResult.responseCode ==BillingClient.BillingResponseCode.OK){
+                    val productList = listOf(
+                        QueryProductDetailsParams.Product.newBuilder()
+                            .setProductId(SKU)
+                            .setProductType(BillingClient.ProductType.SUBS)
+                            .build()
+                    )
+                    val param = QueryProductDetailsParams.newBuilder()
+                        .setProductList(productList)
+
+                    billingClient!!.queryProductDetailsAsync(param.build()){
+                            _,
+                            productDetailsList ->
+                        for (productDetails in productDetailsList){
+                            val offerToken = productDetails.subscriptionOfferDetails!![0].offerToken
+                            val productDetailsParamsList = listOf(
+                                offerToken?.let {
+                                    BillingFlowParams.ProductDetailsParams.newBuilder()
+                                        .setProductDetails(productDetails)
+                                        .setOfferToken(it)
+                                        .build()
+                                }
+                            )
+                            val billingFlowParams = BillingFlowParams.newBuilder()
+                                .setProductDetailsParamsList(productDetailsParamsList)
+                                .build()
+                            billingClient!!.launchBillingFlow(this@AccessAllFeaturesActivity, billingFlowParams)
+                        }
+                    }
                 }
             }
-        }
+        })
     }
 
 
@@ -167,10 +403,10 @@ class AccessAllFeaturesActivity : BaseActivity() {
     }
 
     private val purchaseUpdateListener: PurchasesUpdatedListener =
-        PurchasesUpdatedListener { result, _ ->
+        PurchasesUpdatedListener { billingResult, _ ->
             try {
-                if (result.responseCode != BillingClient.BillingResponseCode.OK) {
-                    if (result.responseCode == BillingClient.BillingResponseCode.ITEM_ALREADY_OWNED) {
+                if (billingResult.responseCode != BillingClient.BillingResponseCode.OK) {
+                    if (billingResult.responseCode == BillingClient.BillingResponseCode.ITEM_ALREADY_OWNED) {
                         Utils.setPref(this, Constant.PREF_KEY_PURCHASE_STATUS, true)
                         startActivity(Intent(this, HomeActivity::class.java))
                         finish()
@@ -202,7 +438,7 @@ class AccessAllFeaturesActivity : BaseActivity() {
                         if (purchaseList.isNotEmpty()) {
                             for (i in 0 until purchaseList.size) {
                                 val purchaseData = purchaseList[i]
-                                if ((purchaseData.products.contains(Constant.MONTHLY_SKU)) || (purchaseData.products.contains(Constant.YEARLY_SKU))) {
+                                if ((purchaseData.products.contains(Constant.MONTHLY_SKU)) || (purchaseData.products.contains(Constant.YEARLY_SKU)) || (purchaseData.products.contains(Constant.WEEKLY_SKU))) {
                                     isPurchasedSku = true
                                 }
 
@@ -241,6 +477,10 @@ class AccessAllFeaturesActivity : BaseActivity() {
                     .setProductId(Constant.YEARLY_SKU)
                     .setProductType(BillingClient.ProductType.SUBS)
                     .build(),
+                QueryProductDetailsParams.Product.newBuilder()
+                    .setProductId(Constant.WEEKLY_SKU)
+                    .setProductType(BillingClient.ProductType.SUBS)
+                    .build(),
             )
 
         val paramsNewMonth = QueryProductDetailsParams.newBuilder().setProductList(productListMonth)
@@ -258,10 +498,32 @@ class AccessAllFeaturesActivity : BaseActivity() {
                                 Constant.YEARLY_SKU -> {
                                     binding!!.tvYearlyPrice.text = "${thisResponse.subscriptionOfferDetails!![0].pricingPhases.pricingPhaseList[0].formattedPrice} / Yearly"
                                 }
+                                Constant.WEEKLY_SKU -> {
+                                    binding!!.tvWeeklyPrice.text = "${thisResponse.subscriptionOfferDetails!![0].pricingPhases.pricingPhaseList[0].formattedPrice} / Weekly"
+                                }
                             }
                         }
                     } catch (e: java.lang.Exception) {
                         e.printStackTrace()
+                    }
+                }
+            }
+        }
+        val params = QueryProductDetailsParams.newBuilder()
+            .setProductList(
+                listOf(
+                    QueryProductDetailsParams.Product.newBuilder()
+                        .setProductId(Constant.LIFETIME_SKU)
+                        .setProductType(BillingClient.ProductType.INAPP)
+                        .build()
+                )
+            ).build()
+        billingClient!!.queryProductDetailsAsync(params) { billingResult, productDetailsList ->
+            if (billingResult.responseCode == BillingClient.BillingResponseCode.OK) {
+                if (productDetailsList.isNotEmpty()) {
+                    val productDetails = productDetailsList[0]
+                    runOnUiThread {
+                        binding!!.tvLifetimePrice.text = "${productDetails.oneTimePurchaseOfferDetails!!.formattedPrice} / Lifetime"
                     }
                 }
             }

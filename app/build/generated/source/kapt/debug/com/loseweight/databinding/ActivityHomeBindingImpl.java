@@ -32,7 +32,7 @@ public class ActivityHomeBindingImpl extends ActivityHomeBinding implements com.
     private final android.widget.LinearLayout mboundView2;
     // variables
     @Nullable
-    private final android.view.View.OnClickListener mCallback87;
+    private final android.view.View.OnClickListener mCallback89;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -59,7 +59,7 @@ public class ActivityHomeBindingImpl extends ActivityHomeBinding implements com.
         this.mboundView2.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback87 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback89 = new com.loseweight.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -142,7 +142,7 @@ public class ActivityHomeBindingImpl extends ActivityHomeBinding implements com.
         if ((dirtyFlags & 0x4L) != 0) {
             // api target 1
 
-            this.flWaterProgress.setOnClickListener(mCallback87);
+            this.flWaterProgress.setOnClickListener(mCallback89);
         }
         executeBindingsOn(bottombar);
     }
