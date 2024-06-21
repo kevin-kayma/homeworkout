@@ -70,7 +70,7 @@
                     android:drawablePadding="@dimen/_7sdp"
                     android:gravity="center"
                     android:drawableTint="@color/white"
-                    android:text="Unlock Once"
+                    android:text="Watch an ad"
                     android:textAllCaps="true" />
 
             </LinearLayout>

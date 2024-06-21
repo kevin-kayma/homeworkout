@@ -200,7 +200,7 @@
 
                             <com.common.view.CTextView
                                 android:id="@+id/tvMonthlyPrice"
-                                style="@style/txt_999_18"
+                                style="@style/txt_999_14"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/_2sdp"
@@ -249,7 +249,7 @@
 
                             <com.common.view.CBTextView
                                 android:id="@+id/tvYearlyTitle"
-                                style="@style/txt_theme_14"
+                                style="@style/txt_theme_18"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Premium" />

@@ -338,11 +338,15 @@ class AccessAllFeaturesActivity : BaseActivity() {
             skuDetail = Constant.LIFETIME_SKU
         }
         fun onContinueClick() {
-            onPurchaseClick(skuDetail)
+            if(skuDetail == Constant.WEEKLY_SKU || skuDetail == Constant.MONTHLY_SKU || skuDetail == Constant.YEARLY_SKU){
+                onPurchaseClick(skuDetail, BillingClient.ProductType.SUBS)
+            }else{
+                onPurchaseClick(skuDetail, BillingClient.ProductType.INAPP)
+            }
         }
     }
 
-    private fun onPurchaseClick(SKU: String) {
+    private fun onPurchaseClick(SKU: String, productType: String) {
         billingClient!!.startConnection(object : BillingClientStateListener {
             override fun onBillingServiceDisconnected() {
 
@@ -353,7 +357,7 @@ class AccessAllFeaturesActivity : BaseActivity() {
                     val productList = listOf(
                         QueryProductDetailsParams.Product.newBuilder()
                             .setProductId(SKU)
-                            .setProductType(BillingClient.ProductType.SUBS)
+                            .setProductType(productType)
                             .build()
                     )
                     val param = QueryProductDetailsParams.newBuilder()

@@ -139,7 +139,9 @@ internal object Constant {
     var GOOGLE_ADMOB_APP_ID = "ca-app-pub-2737102509284323~4207369869"
     const val GOOGLE_BANNER_ID = "ca-app-pub-2737102509284323/7875152133"
     const val GOOGLE_INTERSTITIAL_ID = "ca-app-pub-2737102509284323/5743812814"
+    const val GOOGLE_REWARDED_ID = "ca-app-pub-2737102509284323/9429359654"
 
+    const val NO_ADS = "Unable to load ads, Please try again later."
 
     var AD_GOOGLE = "google"
 

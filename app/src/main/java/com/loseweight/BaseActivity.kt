@@ -1027,22 +1027,6 @@ open class BaseActivity() : AppCompatActivity() {
         }
 
         dialogbinding.llUnlockOnce.setOnClickListener {
-            /*showInterstialAd(object : CallbackListener {
-                override fun onSuccess() {
-                    dialog.dismiss()
-                }
-
-                override fun onCancel() {
-                    dialog.dismiss()
-                    finish()
-                }
-
-                override fun onRetry() {
-
-                }
-
-            })*/
-
             if (Utils.isInternetConnected(mContext)) {
                 if (Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, "") == Constant.ENABLE) {
                     showRewardedAdGoogle(mContext,object :AdsCallback{
@@ -1056,6 +1040,9 @@ open class BaseActivity() : AppCompatActivity() {
 
                         override fun startNextScreen() {
                             dialog.dismiss()
+                        }
+                        override fun goBackScreen() {
+                            finish()
                         }
                     })
                 }

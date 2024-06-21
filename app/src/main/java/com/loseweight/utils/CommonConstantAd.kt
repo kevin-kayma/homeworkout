@@ -6,6 +6,7 @@ import android.util.Log
 import android.view.View
 import android.widget.LinearLayout
 import android.widget.RelativeLayout
+import android.widget.Toast
 import com.facebook.ads.Ad
 import com.facebook.ads.InterstitialAdListener
 import com.google.android.gms.ads.*
@@ -163,7 +164,7 @@ object CommonConstantAd {
 
 
             RewardedAd.load(
-                context, "ca-app-pub-8360405123776241/2724481042", getAdRequest(),
+                context, Constant.GOOGLE_REWARDED_ID, getAdRequest(),
                 object : RewardedAdLoadCallback() {
                     override fun onAdFailedToLoad(adError: LoadAdError) {
                         Log.e("TAG ERRRR:::: ", adError.message)
@@ -212,7 +213,8 @@ object CommonConstantAd {
                 mRewardedAd?.show(context as Activity) { adsCallback.startNextScreen() }
             } else {
                 Log.e("TAG", "showInterstitialAdsGoogle:::::NOT LOADED:::::  " )
-                adsCallback.startNextScreen()
+                Toast.makeText(context,Constant.NO_ADS,Toast.LENGTH_SHORT).show()
+                adsCallback.goBackScreen()
             }
         } catch (e: Exception) {
             e.printStackTrace()
