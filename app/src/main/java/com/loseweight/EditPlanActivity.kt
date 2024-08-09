@@ -44,7 +44,7 @@ class EditPlanActivity : BaseActivity(), CallbackListener {
 
 //        AdUtils.loadBannerAd(binding!!.adView,this)
 //        AdUtils.loadBannerGoogleAd(this,binding!!.llAdView,Constant.BANNER_TYPE)
-        loadBannerAd(binding!!.llAdView,binding!!.llAdViewFacebook)
+//        loadBannerAd(binding!!.llAdView,binding!!.llAdViewFacebook)
         initIntentParam()
         init()
     }

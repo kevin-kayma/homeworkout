@@ -4,7 +4,7 @@
             "outputFile": "com.loseweight.app-mergeDebugResources-73:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/harsh/.gradle/caches/transforms-3/60ef5fd6bb510b86781e867c17d6012e/transformed/appcompat-1.6.1/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/harsh/.gradle/caches/transforms-3/7b112857c43956320fc8a9d53f9a1215/transformed/appcompat-1.6.1/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/harsh/.gradle/caches/transforms-3/8142ff0c9c44f0b5163f27cf7bc42a5a/transformed/material-1.0.0/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/harsh/.gradle/caches/transforms-3/0bc00294022181e09581867986ce2b30/transformed/material-1.0.0/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

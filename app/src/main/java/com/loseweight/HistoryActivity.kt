@@ -37,7 +37,7 @@ class HistoryActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_history)
 
-        loadBannerAd(binding!!.llAdView,binding!!.llAdViewFacebook)
+//        loadBannerAd(binding!!.llAdView,binding!!.llAdViewFacebook)
         initIntentParam()
         init()
     }

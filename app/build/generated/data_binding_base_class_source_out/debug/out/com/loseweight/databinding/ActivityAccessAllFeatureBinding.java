@@ -51,9 +51,6 @@ public abstract class ActivityAccessAllFeatureBinding extends ViewDataBinding {
   public final LinearLayout llPerYear;
 
   @NonNull
-  public final AppCompatImageView titleImage;
-
-  @NonNull
   public final CTextView tvDes;
 
   @NonNull
@@ -80,9 +77,6 @@ public abstract class ActivityAccessAllFeatureBinding extends ViewDataBinding {
   @NonNull
   public final CBTextView tvYearlyTitle;
 
-  @NonNull
-  public final View viewMask;
-
   @Bindable
   protected AccessAllFeaturesActivity.ClickHandler mHandler;
 
@@ -91,10 +85,10 @@ public abstract class ActivityAccessAllFeatureBinding extends ViewDataBinding {
       AppCompatImageView imgCheckLifetime, AppCompatImageView imgCheckMonthly,
       AppCompatImageView imgCheckWeekly, AppCompatImageView imgCheckYearly,
       LinearLayout llPerLifetime, LinearLayout llPerMonth, LinearLayout llPerWeek,
-      LinearLayout llPerYear, AppCompatImageView titleImage, CTextView tvDes,
-      CTextView tvLifetimePrice, CBTextView tvLifetimeTitle, CTextView tvMonthlyPrice,
-      CBTextView tvMonthlyTitle, CTextView tvWeeklyPrice, CBTextView tvWeeklyTitle,
-      CTextView tvYearlyPrice, CBTextView tvYearlyTitle, View viewMask) {
+      LinearLayout llPerYear, CTextView tvDes, CTextView tvLifetimePrice,
+      CBTextView tvLifetimeTitle, CTextView tvMonthlyPrice, CBTextView tvMonthlyTitle,
+      CTextView tvWeeklyPrice, CBTextView tvWeeklyTitle, CTextView tvYearlyPrice,
+      CBTextView tvYearlyTitle) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnContinue = btnContinue;
     this.imgBack = imgBack;
@@ -106,7 +100,6 @@ public abstract class ActivityAccessAllFeatureBinding extends ViewDataBinding {
     this.llPerMonth = llPerMonth;
     this.llPerWeek = llPerWeek;
     this.llPerYear = llPerYear;
-    this.titleImage = titleImage;
     this.tvDes = tvDes;
     this.tvLifetimePrice = tvLifetimePrice;
     this.tvLifetimeTitle = tvLifetimeTitle;
@@ -116,7 +109,6 @@ public abstract class ActivityAccessAllFeatureBinding extends ViewDataBinding {
     this.tvWeeklyTitle = tvWeeklyTitle;
     this.tvYearlyPrice = tvYearlyPrice;
     this.tvYearlyTitle = tvYearlyTitle;
-    this.viewMask = viewMask;
   }
 
   public abstract void setHandler(@Nullable AccessAllFeaturesActivity.ClickHandler handler);

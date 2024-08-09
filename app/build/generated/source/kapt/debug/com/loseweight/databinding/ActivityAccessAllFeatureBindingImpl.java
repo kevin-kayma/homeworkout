@@ -14,25 +14,23 @@ public class ActivityAccessAllFeatureBindingImpl extends ActivityAccessAllFeatur
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.title_image, 7);
-        sViewsWithIds.put(R.id.view_mask, 8);
-        sViewsWithIds.put(R.id.tvDes, 9);
-        sViewsWithIds.put(R.id.llPerWeek, 10);
-        sViewsWithIds.put(R.id.tvWeeklyTitle, 11);
-        sViewsWithIds.put(R.id.tvWeeklyPrice, 12);
-        sViewsWithIds.put(R.id.imgCheckWeekly, 13);
-        sViewsWithIds.put(R.id.llPerMonth, 14);
-        sViewsWithIds.put(R.id.tvMonthlyTitle, 15);
-        sViewsWithIds.put(R.id.tvMonthlyPrice, 16);
-        sViewsWithIds.put(R.id.imgCheckMonthly, 17);
-        sViewsWithIds.put(R.id.llPerYear, 18);
-        sViewsWithIds.put(R.id.tvYearlyTitle, 19);
-        sViewsWithIds.put(R.id.tvYearlyPrice, 20);
-        sViewsWithIds.put(R.id.imgCheckYearly, 21);
-        sViewsWithIds.put(R.id.llPerLifetime, 22);
-        sViewsWithIds.put(R.id.tvLifetimeTitle, 23);
-        sViewsWithIds.put(R.id.tvLifetimePrice, 24);
-        sViewsWithIds.put(R.id.imgCheckLifetime, 25);
+        sViewsWithIds.put(R.id.tvDes, 7);
+        sViewsWithIds.put(R.id.llPerWeek, 8);
+        sViewsWithIds.put(R.id.tvWeeklyTitle, 9);
+        sViewsWithIds.put(R.id.tvWeeklyPrice, 10);
+        sViewsWithIds.put(R.id.imgCheckWeekly, 11);
+        sViewsWithIds.put(R.id.llPerMonth, 12);
+        sViewsWithIds.put(R.id.tvMonthlyTitle, 13);
+        sViewsWithIds.put(R.id.tvMonthlyPrice, 14);
+        sViewsWithIds.put(R.id.imgCheckMonthly, 15);
+        sViewsWithIds.put(R.id.llPerYear, 16);
+        sViewsWithIds.put(R.id.tvYearlyTitle, 17);
+        sViewsWithIds.put(R.id.tvYearlyPrice, 18);
+        sViewsWithIds.put(R.id.imgCheckYearly, 19);
+        sViewsWithIds.put(R.id.llPerLifetime, 20);
+        sViewsWithIds.put(R.id.tvLifetimeTitle, 21);
+        sViewsWithIds.put(R.id.tvLifetimePrice, 22);
+        sViewsWithIds.put(R.id.imgCheckLifetime, 23);
     }
     // views
     @NonNull
@@ -63,31 +61,29 @@ public class ActivityAccessAllFeatureBindingImpl extends ActivityAccessAllFeatur
     // Inverse Binding Event Handlers
 
     public ActivityAccessAllFeatureBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 26, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 24, sIncludes, sViewsWithIds));
     }
     private ActivityAccessAllFeatureBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (com.common.view.CBButtonView) bindings[6]
             , (androidx.appcompat.widget.AppCompatImageView) bindings[1]
-            , (androidx.appcompat.widget.AppCompatImageView) bindings[25]
-            , (androidx.appcompat.widget.AppCompatImageView) bindings[17]
-            , (androidx.appcompat.widget.AppCompatImageView) bindings[13]
-            , (androidx.appcompat.widget.AppCompatImageView) bindings[21]
-            , (android.widget.LinearLayout) bindings[22]
-            , (android.widget.LinearLayout) bindings[14]
-            , (android.widget.LinearLayout) bindings[10]
-            , (android.widget.LinearLayout) bindings[18]
-            , (androidx.appcompat.widget.AppCompatImageView) bindings[7]
-            , (com.common.view.CTextView) bindings[9]
-            , (com.common.view.CTextView) bindings[24]
-            , (com.common.view.CBTextView) bindings[23]
-            , (com.common.view.CTextView) bindings[16]
-            , (com.common.view.CBTextView) bindings[15]
-            , (com.common.view.CTextView) bindings[12]
-            , (com.common.view.CBTextView) bindings[11]
-            , (com.common.view.CTextView) bindings[20]
-            , (com.common.view.CBTextView) bindings[19]
-            , (android.view.View) bindings[8]
+            , (androidx.appcompat.widget.AppCompatImageView) bindings[23]
+            , (androidx.appcompat.widget.AppCompatImageView) bindings[15]
+            , (androidx.appcompat.widget.AppCompatImageView) bindings[11]
+            , (androidx.appcompat.widget.AppCompatImageView) bindings[19]
+            , (android.widget.LinearLayout) bindings[20]
+            , (android.widget.LinearLayout) bindings[12]
+            , (android.widget.LinearLayout) bindings[8]
+            , (android.widget.LinearLayout) bindings[16]
+            , (com.common.view.CTextView) bindings[7]
+            , (com.common.view.CTextView) bindings[22]
+            , (com.common.view.CBTextView) bindings[21]
+            , (com.common.view.CTextView) bindings[14]
+            , (com.common.view.CBTextView) bindings[13]
+            , (com.common.view.CTextView) bindings[10]
+            , (com.common.view.CBTextView) bindings[9]
+            , (com.common.view.CTextView) bindings[18]
+            , (com.common.view.CBTextView) bindings[17]
             );
         this.btnContinue.setTag(null);
         this.imgBack.setTag(null);

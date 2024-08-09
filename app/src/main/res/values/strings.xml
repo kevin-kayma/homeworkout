@@ -160,8 +160,8 @@
     <string name="restart_progress">Renew Progress</string>
     <string name="remove_ads">Remove Ads</string>
 
-    <string name="iap_detail">1. All payments made through Play Store are controlled and managed by Google.\n2. Payments will be charged to your Play Store Account at confirmation of purchase.\n3. Subscription automatically renews, unless auto-renew is turned off at least 24 hours before the end of the current period.\n4. Account will be charged for renewal within 24 hours prior to the end of the current period.\n5. You may manage your subscriptions and auto-renewal may be turned off by going to your Play Store account settings after purchase.\n6. Any unused portion of a free trial period, if offered, will be forfeited if you purchase a subscription to the publication, where applicable.</string>
-    <string name="start">Start</string>
+    <string name="iap_detail">Workout Planner requires a subscription fee for access to premium features. You may cancel your subscription at any time through your Google Play account settings.</string>
+    <string name="start">Continue</string>
     <string name="target_weight">Target weight</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>

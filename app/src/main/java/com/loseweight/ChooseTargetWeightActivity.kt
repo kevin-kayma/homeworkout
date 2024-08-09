@@ -89,6 +89,7 @@ class ChooseTargetWeightActivity : BaseActivity() {
         binding!!.tvSkip.setOnClickListener {
             val intent = Intent(getActivity(), HomeActivity::class.java)
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
+            intent.putExtra("fromIntro", true)
             startActivity(intent)
         }
     }

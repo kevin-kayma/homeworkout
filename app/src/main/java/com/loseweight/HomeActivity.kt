@@ -46,13 +46,24 @@ class HomeActivity : BaseActivity() {
         else if (dialogPermission != null && dialogPermission!!.isShowing.not())
             checkPermissions(getActivity())
 
+        if(!Utils.isPurchased(this)){
+            // Check if the activity was started from the intro
+            val fromIntro = intent.getBooleanExtra("fromIntro", false)
+
+            if (fromIntro) {
+                // Redirect to AccessAllFeaturesActivity if fromIntro is true
+                val intent = Intent(this, AccessAllFeaturesActivity::class.java)
+                startActivity(intent)
+            }
+        }
+
         AudienceNetworkInitializeHelper.initialize(this)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_home)
         DataHelper(this).checkDBExist()
         Utils.printHashKey(this)
         initIntentParam()
         callGetAdsId()
-        loadBannerAd(binding!!.llAdView,binding!!.llAdViewFacebook)
+//        loadBannerAd(binding!!.llAdView,binding!!.llAdViewFacebook)
         init()
     }
 
@@ -343,8 +354,8 @@ class HomeActivity : BaseActivity() {
         try {
             if (Utils.isInternetConnected(this)) {
                 if (Constant.ENABLE_DISABLE == Constant.ENABLE && !Utils.isPurchased(this)) {
-                    Utils.setPref(this, Constant.GOOGLE_BANNER, Constant.GOOGLE_BANNER_ID)
-                    Utils.setPref(this, Constant.GOOGLE_INTERSTITIAL, Constant.GOOGLE_INTERSTITIAL_ID)
+//                    Utils.setPref(this, Constant.GOOGLE_BANNER, Constant.GOOGLE_BANNER_ID)
+//                    Utils.setPref(this, Constant.GOOGLE_INTERSTITIAL, Constant.GOOGLE_INTERSTITIAL_ID)
                     Utils.setPref(this, Constant.STATUS_ENABLE_DISABLE, Constant.ENABLE_DISABLE)
                     setAppAdId(Constant.GOOGLE_ADMOB_APP_ID)
                     Log.e("TAG", "callGetAdsId::::: "+Utils.isPurchased(this) )

@@ -30,7 +30,7 @@ class ReminderActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_reminder)
 
-        loadBannerAd(binding!!.llAdView,binding!!.llAdViewFacebook)
+//        loadBannerAd(binding!!.llAdView,binding!!.llAdViewFacebook)
         initIntentParam()
         initBack()
         init()

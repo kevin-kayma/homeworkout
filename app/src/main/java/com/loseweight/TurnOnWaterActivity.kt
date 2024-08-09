@@ -18,7 +18,7 @@ class TurnOnWaterActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_turn_on_water)
-        loadBannerAd(binding!!.llAdView,binding!!.llAdViewFacebook)
+//        loadBannerAd(binding!!.llAdView,binding!!.llAdViewFacebook)
         init()
     }
 

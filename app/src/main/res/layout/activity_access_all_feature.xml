@@ -29,42 +29,35 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-                <androidx.constraintlayout.widget.ConstraintLayout
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="220dp"
-                    app:layout_collapseMode="parallax">
-
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:id="@+id/title_image"
-                        android:layout_width="0dp"
-                        android:layout_height="0dp"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/cover_subscription"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintLeft_toLeftOf="parent"
-                        app:layout_constraintRight_toRightOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <View
-                        android:id="@+id/view_mask"
-                        android:layout_width="0dp"
-                        android:layout_height="0dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintLeft_toLeftOf="parent"
-                        app:layout_constraintRight_toRightOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:orientation="horizontal"
+                    android:gravity="center">
 
                     <com.common.view.CBTextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        app:layout_constraintBottom_toTopOf="@id/tvDes"
-                        android:layout_marginBottom="@dimen/_5sdp"
-                        app:layout_constraintStart_toStartOf="parent"
-                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_weight="1"
                         android:text="Change Starts\nToday!"
                         android:textAllCaps="true"
+                        android:paddingTop="@dimen/_11ssp"
+                        android:paddingStart="@dimen/_15sdp"
                         style="@style/txt_fff_24"/>
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/imgBack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:onClick="@{(v)->handler.onBackClick()}"
+                        android:padding="20dp"
+                        android:src="@drawable/ic_close"
+                        app:layout_collapseMode="pin" />
+
+                </LinearLayout>
 
                     <com.common.view.CTextView
                         android:id="@+id/tvDes"
@@ -72,39 +65,51 @@
                         android:layout_height="wrap_content"
                         app:layout_constraintBottom_toBottomOf="parent"
                         android:layout_marginBottom="@dimen/_20sdp"
+                        android:visibility="gone"
                         app:layout_constraintStart_toStartOf="parent"
                         android:layout_marginStart="@dimen/_15sdp"
                         android:text="Result not typical.Disclaimer"
                         style="@style/txt_fff_14"/>
 
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:id="@+id/imgBack"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="@dimen/_10sdp"
-                        android:onClick="@{(v)->handler.onBackClick()}"
-                        android:padding="10dp"
-                        android:src="@drawable/ic_close"
-                        app:tint="@color/white"
-                        app:layout_collapseMode="pin"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                </androidx.constraintlayout.widget.ConstraintLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="-10dp"
-                    android:background="@color/transparent"
-                    android:orientation="vertical"
-                    android:paddingBottom="@dimen/_58sdp">
-
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:background="@drawable/bg_top_corner_radius">
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:orientation="vertical">
+
+                            <com.common.view.CTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/noads"
+                                style="@style/txt_666_16"
+                                android:drawablePadding="@dimen/_5sdp"
+                                android:text="Remove Ads"/>
+
+                            <com.common.view.CTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/icon_fast"
+                                style="@style/txt_666_16"
+                                android:drawablePadding="@dimen/_5sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:text="100 + Workouts for fat burning"/>
+
+                            <com.common.view.CTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/feature"
+                                style="@style/txt_666_16"
+                                android:drawablePadding="@dimen/_5sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:text="Unlimited workouts plans"/>
+
+                        </LinearLayout>
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
@@ -164,7 +169,7 @@
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
+                         <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/_10sdp"
@@ -220,9 +225,9 @@
                             app:layout_constraintTop_toTopOf="@id/llPerMonth"
                             android:layout_marginEnd="@dimen/_15sdp"/>
 
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
+                        <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/_10sdp"
@@ -275,7 +280,7 @@
                             app:layout_constraintTop_toTopOf="@id/llPerYear"
                             android:layout_marginEnd="@dimen/_15sdp"/>
 
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
@@ -351,73 +356,34 @@
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:paddingTop="@dimen/_10sdp"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:layout_marginTop="@dimen/_10sdp"
-                        android:orientation="vertical">
-
-                        <com.common.view.CTextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:drawableStart="@drawable/noads"
-                            style="@style/txt_666_16"
-                            android:drawablePadding="@dimen/_5sdp"
-                            android:text="Remove Ads"/>
-
-                        <com.common.view.CTextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:drawableStart="@drawable/icon_fast"
-                            style="@style/txt_666_16"
-                            android:drawablePadding="@dimen/_5sdp"
+                        <com.common.view.CBButtonView
+                            android:id="@+id/btnContinue"
+                            style="@style/txt_fff_18"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/btn_height"
+                            android:layout_marginStart="@dimen/_15sdp"
                             android:layout_marginTop="@dimen/_10sdp"
-                            android:text="100 + Workouts for fat burning"/>
+                            android:layout_marginEnd="@dimen/_15sdp"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:background="@drawable/btn_bg_round_theme"
+                            android:layout_gravity="bottom"
+                            android:text="@string/start"
+                            android:onClick="@{(v)->handler.onContinueClick()}"/>
 
                         <com.common.view.CTextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="@dimen/_100sdp"
                             android:layout_height="wrap_content"
-                            android:drawableStart="@drawable/feature"
-                            style="@style/txt_666_16"
-                            android:drawablePadding="@dimen/_5sdp"
-                            android:layout_marginTop="@dimen/_10sdp"
-                            android:text="Unlimited workouts plans"/>
+                            android:paddingStart="@dimen/_15sdp"
+                            android:paddingEnd="@dimen/_15sdp"
+                            style="@style/txt_999_14"
+                            android:text="@string/iap_detail"/>
 
                     </LinearLayout>
-
-                    <com.common.view.CTextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingStart="@dimen/_15sdp"
-                        android:paddingEnd="@dimen/_15sdp"
-                        style="@style/txt_999_14"
-                        android:text="@string/iap_detail"/>
-
-                    </LinearLayout>
-
-                </LinearLayout>
 
 
             </LinearLayout>
 
         </androidx.core.widget.NestedScrollView>
-
-        <com.common.view.CBButtonView
-            android:id="@+id/btnContinue"
-            style="@style/txt_fff_18"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:layout_marginStart="@dimen/_15sdp"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:layout_marginEnd="@dimen/_15sdp"
-            android:layout_marginBottom="@dimen/_10sdp"
-            android:background="@drawable/btn_bg_round_theme"
-            android:layout_gravity="bottom"
-            android:text="@string/start"
-            android:onClick="@{(v)->handler.onContinueClick()}"/>
 
     </FrameLayout>
 

@@ -65,7 +65,7 @@ class PerformWorkOutActivity : BaseActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_perform_exercies)
 
         initIntentParam()
-        loadInterstialAd()
+//        loadInterstialAd()
         init()
         initReadyToGo()
 
@@ -494,6 +494,10 @@ class PerformWorkOutActivity : BaseActivity() {
                 startCompleteActivity()
             }
 
+            override fun goBackScreen() {
+                TODO("Not yet implemented")
+            }
+
         }
 
         if (Constant.ENABLE == Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, "")) {
@@ -731,6 +735,10 @@ class PerformWorkOutActivity : BaseActivity() {
 
                 override fun startNextScreen() {
                     saveData()
+                }
+
+                override fun goBackScreen() {
+                    TODO("Not yet implemented")
                 }
 
             }

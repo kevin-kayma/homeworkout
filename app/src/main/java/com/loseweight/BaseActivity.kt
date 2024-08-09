@@ -68,16 +68,16 @@ open class BaseActivity() : AppCompatActivity() {
         return this
     }
 
-    fun loadBannerAd(llAdView:RelativeLayout,llAdViewFacebook:LinearLayout) {
-        if(Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, Constant.ENABLE_DISABLE) == Constant.ENABLE && !Utils.isPurchased(this)) {
-                CommonConstantAd.loadBannerGoogleAd(
-                    this,
-                    llAdView,
-                    Utils.getPref(this, Constant.GOOGLE_BANNER, "")!!,
-                    Constant.GOOGLE_BANNER_TYPE_AD
-                )
-        }
-    }
+//    fun loadBannerAd(llAdView:RelativeLayout,llAdViewFacebook:LinearLayout) {
+//        if(Utils.getPref(this, Constant.STATUS_ENABLE_DISABLE, Constant.ENABLE_DISABLE) == Constant.ENABLE && !Utils.isPurchased(this)) {
+//                CommonConstantAd.loadBannerGoogleAd(
+//                    this,
+//                    llAdView,
+//                    Utils.getPref(this, Constant.GOOGLE_BANNER, "")!!,
+//                    Constant.GOOGLE_BANNER_TYPE_AD
+//                )
+//        }
+//    }
 
     fun initBack() {
         findViewById<AppCompatImageView>(R.id.imgBack_)!!.visibility = View.VISIBLE
@@ -1060,19 +1060,19 @@ open class BaseActivity() : AppCompatActivity() {
             dialog.show()
         dialog.window!!.setLayout(width.toInt(), height.toInt())
         dialog.window!!.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
-        loadInterstialAd()
+//        loadInterstialAd()
 
     }
 
 
-    fun loadInterstialAd() {
-        if(Utils.getPref(this,Constant.STATUS_ENABLE_DISABLE,"") == Constant.ENABLE) {
-                CommonConstantAd.googlebeforloadAd(
-                    this,
-                    Utils.getPref(this, Constant.GOOGLE_INTERSTITIAL, "")!!
-                )
-        }
-    }
+//    fun loadInterstialAd() {
+//        if(Utils.getPref(this,Constant.STATUS_ENABLE_DISABLE,"") == Constant.ENABLE) {
+//                CommonConstantAd.googlebeforloadAd(
+//                    this,
+//                    Utils.getPref(this, Constant.GOOGLE_INTERSTITIAL, "")!!
+//                )
+//        }
+//    }
 
     fun showTimePickerDialog(context: Context, date: Date, eventListener: DateEventListener?) {
         val c = Calendar.getInstance()

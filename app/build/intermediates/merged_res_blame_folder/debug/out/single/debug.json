@@ -1060,10 +1060,6 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/drawable-xhdpi-v4/icon_thumbnail_20_min_body_calorie_burner.png"
     },
     {
-        "merged": "com.loseweight.app-merged_res-75:/layout_dialog_unloack_training.xml.flat",
-        "source": "com.loseweight.app-main-77:/layout/dialog_unloack_training.xml"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/layout_item_common_question_parent.xml.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/item_common_question_parent.xml"
     },
@@ -1882,6 +1878,10 @@
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/layout_fragment_plan.xml.flat",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-77:/layout/fragment_plan.xml"
+    },
+    {
+        "merged": "com.loseweight.app-merged_res-75:/layout_activity_access_all_feature.xml.flat",
+        "source": "com.loseweight.app-main-77:/layout/activity_access_all_feature.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-merged_res-75:/drawable_ic_chevron_right.xml.flat",

@@ -38,7 +38,7 @@ class ExercisesListActivity : BaseActivity() {
         if(Utils.isPurchased(this).not()) {
             showUnlockTrainingDialog(this)
         }
-        loadBannerAd(binding!!.llAdView,binding!!.llAdViewFacebook)
+//        loadBannerAd(binding!!.llAdView,binding!!.llAdViewFacebook)
         initIntentParam()
         init()
     }
@@ -237,6 +237,10 @@ class ExercisesListActivity : BaseActivity() {
 
                 override fun startNextScreen() {
                     startExerciseActivity()
+                }
+
+                override fun goBackScreen() {
+                    TODO("Not yet implemented")
                 }
 
             }
