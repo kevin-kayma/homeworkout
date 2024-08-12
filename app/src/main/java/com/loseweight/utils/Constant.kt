@@ -134,13 +134,14 @@ internal object Constant {
     var GOOGLE_BANNER = "GOOGLE_BANNER"
     var GOOGLE_INTERSTITIAL = "GOOGLE_INTERSTITIAL"
     var GOOGLE_REWARDED = "GOOGLE_REWARDED"
+    val LOG_TAG = "AppOpenAdManager"
     var STATUS_ENABLE_DISABLE = "STATUS_ENABLE_DISABLE"
 
     var GOOGLE_ADMOB_APP_ID = "ca-app-pub-2737102509284323~4207369869"
     const val GOOGLE_BANNER_ID = "ca-app-pub-2737102509284323/7875152133"
     const val GOOGLE_INTERSTITIAL_ID = "ca-app-pub-2737102509284323/5743812814"
     const val GOOGLE_REWARDED_ID = "ca-app-pub-2737102509284323/9429359654"
-    const val GOOGLE_APPOPEN_ID = "ca-app-pub-2737102509284323/9472425362"
+    const val GOOGLE_APP_OPEN_ID = "ca-app-pub-2737102509284323/9472425362"
 
     const val NO_ADS = "Unable to load ads, Please try again later."
 

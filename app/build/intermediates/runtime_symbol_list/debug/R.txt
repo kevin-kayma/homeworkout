@@ -2809,6 +2809,7 @@ int drawable btn_bg_round_border_theme 0x7f08006d
 int drawable btn_bg_round_grediant 0x7f08006e
 int drawable btn_bg_round_grediant_blue 0x7f08006f
 int drawable btn_bg_round_theme 0x7f080070
+int drawable btn_bg_round_theme_transparent 0x7f0801eb
 int drawable btn_checkbox_checked_mtrl 0x7f080071
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f080072
 int drawable btn_checkbox_unchecked_mtrl 0x7f080073
@@ -3493,10 +3494,6 @@ int id imgBack_ 0x7f0a012d
 int id imgBeginer 0x7f0a012e
 int id imgCancel 0x7f0a012f
 int id imgChange 0x7f0a0130
-int id imgCheckLifetime 0x7f0a0131
-int id imgCheckMonthly 0x7f0a0132
-int id imgCheckWeekly 0x7f0a0133
-int id imgCheckYearly 0x7f0a0134
 int id imgClose 0x7f0a0135
 int id imgCommonQuestion 0x7f0a0136
 int id imgCompleted 0x7f0a0137
@@ -3953,6 +3950,8 @@ int id tvMinutes 0x7f0a02f9
 int id tvMinutesTitle 0x7f0a02fa
 int id tvMonth 0x7f0a02fb
 int id tvMonthYear 0x7f0a02fc
+int id tvMonthlyApprox 0x7f0a0353
+int id tvMonthlyPerYear 0x7f0a0354
 int id tvMonthlyPrice 0x7f0a02fd
 int id tvMonthlyTitle 0x7f0a02fe
 int id tvName 0x7f0a02ff
@@ -3996,6 +3995,8 @@ int id tvWeek 0x7f0a0324
 int id tvWeekDay 0x7f0a0325
 int id tvWeekDays 0x7f0a0326
 int id tvWeekName 0x7f0a0327
+int id tvWeeklyApprox 0x7f0a0355
+int id tvWeeklyPerYear 0x7f0a0356
 int id tvWeeklyPrice 0x7f0a0328
 int id tvWeeklyTitle 0x7f0a0329
 int id tvWeightString 0x7f0a032a
@@ -4003,6 +4004,8 @@ int id tvWikiPedia 0x7f0a032b
 int id tvWorkOuts 0x7f0a032c
 int id tvWorkoutName 0x7f0a032d
 int id tvWorkoutTime 0x7f0a032e
+int id tvYearlyApprox 0x7f0a0357
+int id tvYearlyPerYear 0x7f0a0358
 int id tvYearlyPrice 0x7f0a032f
 int id tvYearlyTitle 0x7f0a0330
 int id tv_badge_text 0x7f0a0331

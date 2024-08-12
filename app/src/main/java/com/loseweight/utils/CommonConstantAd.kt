@@ -8,14 +8,12 @@ import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import android.widget.Toast
 import com.facebook.ads.Ad
-import com.facebook.ads.InterstitialAdListener
 import com.google.android.gms.ads.*
 import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import com.google.android.gms.ads.rewarded.RewardedAd
 import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
 import com.loseweight.interfaces.AdsCallback
-
 
 object CommonConstantAd {
 
@@ -90,10 +88,7 @@ object CommonConstantAd {
         return AdRequest.Builder().build()
     }
 
-
     /*Google Full Ad*/
-
-
     var mInterstitialAd: InterstitialAd? = null
     fun googlebeforloadAd(context: Context,adId:String) {
 

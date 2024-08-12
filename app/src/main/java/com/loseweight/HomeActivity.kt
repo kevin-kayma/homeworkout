@@ -5,7 +5,6 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.content.res.ColorStateList
 import android.os.Bundle
-import android.os.Handler
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +14,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
 import androidx.viewpager.widget.ViewPager
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.LoadAdError
+import com.google.android.gms.ads.appopen.AppOpenAd
 import com.google.firebase.messaging.FirebaseMessaging
 import com.loseweight.databinding.ActivityHomeBinding
 import com.loseweight.facebookad.AudienceNetworkInitializeHelper
@@ -22,8 +24,8 @@ import com.loseweight.fragments.MeFragment
 import com.loseweight.fragments.PlanFragment
 import com.loseweight.fragments.ReportsFragment
 import com.loseweight.interfaces.BottomBarClickListener
-import com.loseweight.utils.*
 import com.loseweight.utils.Constant
+import com.loseweight.utils.Constant.GOOGLE_APP_OPEN_ID
 import com.loseweight.utils.Debug
 import com.loseweight.utils.ExitStrategy
 import com.loseweight.utils.Utils
@@ -37,6 +39,9 @@ class HomeActivity : BaseActivity() {
 
     var binding: ActivityHomeBinding? = null
     private var pagerAdapter: ScreenSlidePagerAdapter? = null
+    private var appOpenAd: AppOpenAd? = null
+    private var isAdDisplayed: Boolean = false
+    private var isAdLoaded: Boolean = false
 
     @SuppressLint("HardwareIds")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -63,8 +68,33 @@ class HomeActivity : BaseActivity() {
         Utils.printHashKey(this)
         initIntentParam()
         callGetAdsId()
+        loadAppOpenAd()
 //        loadBannerAd(binding!!.llAdView,binding!!.llAdViewFacebook)
         init()
+    }
+
+    private val appOpenAdLoadCallback = object : AppOpenAd.AppOpenAdLoadCallback() {
+        override fun onAdLoaded(ad: AppOpenAd) {
+            appOpenAd = ad
+            appOpenAd!!.show(this@HomeActivity)
+            isAdLoaded = true
+        }
+
+        override fun onAdFailedToLoad(loadAdError: LoadAdError) {
+            // Handle ad loading failure
+            isAdLoaded = false
+        }
+    }
+
+    private fun loadAppOpenAd() {
+        val adRequest = AdRequest.Builder().build()
+        AppOpenAd.load(
+            this,
+            GOOGLE_APP_OPEN_ID,
+            adRequest,
+            AppOpenAd.APP_OPEN_AD_ORIENTATION_PORTRAIT,
+            appOpenAdLoadCallback
+        )
     }
 
     fun startapp() {
@@ -205,10 +235,16 @@ class HomeActivity : BaseActivity() {
 
     override fun onResume() {
         super.onResume()
-
+        if (!isAdDisplayed && isAdLoaded) {
+            appOpenAd?.let {
+                it.show(this)
+                isAdDisplayed = true // Mark the ad as displayed
+            } ?: run {
+                loadAppOpenAd() // If the ad is null, load it again
+            }
+        }
         fillWaterTracker()
     }
-
 
     open inner class BotomBarClickListener : BottomBarClickListener {
         override fun onTopBarClickListener(view: View?, value: String?) {

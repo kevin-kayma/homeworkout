@@ -55,25 +55,35 @@ class AccessAllFeaturesActivity : BaseActivity() {
 
         fun onYearlyClick() {
             //yearly
-            binding!!.llPerYear.backgroundTintList =
-                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.primary)
+            binding!!.llPerYear.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity, R.drawable.btn_bg_round_border_theme)
             binding!!.tvYearlyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.primary
+                    R.color.white
                 )
             )
             binding!!.tvYearlyPrice.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.primary
+                    R.color.white
                 )
             )
-            binding!!.imgCheckYearly.visibility = View.VISIBLE
+            binding!!.tvYearlyApprox.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.white
+                )
+            )
+            binding!!.tvYearlyPerYear.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.white
+                )
+            )
 
             //Lifetime
             binding!!.llPerLifetime.backgroundTintList =
-                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.white)
             binding!!.tvLifetimePrice.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
@@ -86,11 +96,9 @@ class AccessAllFeaturesActivity : BaseActivity() {
                     R.color.col_999
                 )
             )
-            binding!!.imgCheckLifetime.visibility = View.GONE
 
             //monthly
-            binding!!.llPerMonth.backgroundTintList =
-                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+            binding!!.llPerMonth.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity, R.drawable.btn_bg_round_theme_transparent)
             binding!!.tvMonthlyPrice.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
@@ -103,11 +111,21 @@ class AccessAllFeaturesActivity : BaseActivity() {
                     R.color.col_999
                 )
             )
-            binding!!.imgCheckMonthly.visibility = View.GONE
+            binding!!.tvMonthlyApprox.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.tvMonthlyPerYear.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
 
             //weekly
-            binding!!.llPerWeek.backgroundTintList =
-                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+            binding!!.llPerWeek.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity, R.drawable.btn_bg_round_theme_transparent)
             binding!!.tvWeeklyPrice.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
@@ -120,15 +138,24 @@ class AccessAllFeaturesActivity : BaseActivity() {
                     R.color.col_999
                 )
             )
-            binding!!.imgCheckWeekly.visibility = View.GONE
-
+            binding!!.tvWeeklyApprox.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.tvWeeklyPerYear.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
             skuDetail = Constant.YEARLY_SKU
         }
 
         fun onPerMonthClick() {
             //yearly
-            binding!!.llPerYear.backgroundTintList =
-                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+            binding!!.llPerYear.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity, R.drawable.btn_bg_round_theme_transparent)
             binding!!.tvYearlyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
@@ -141,11 +168,21 @@ class AccessAllFeaturesActivity : BaseActivity() {
                     R.color.col_999
                 )
             )
-            binding!!.imgCheckYearly.visibility = View.GONE
+            binding!!.tvYearlyApprox.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.tvYearlyPerYear.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
 
             //weekly
-            binding!!.llPerWeek.backgroundTintList =
-                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+            binding!!.llPerWeek.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity, R.drawable.btn_bg_round_theme_transparent)
             binding!!.tvWeeklyPrice.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
@@ -158,11 +195,22 @@ class AccessAllFeaturesActivity : BaseActivity() {
                     R.color.col_999
                 )
             )
-            binding!!.imgCheckWeekly.visibility = View.GONE
+            binding!!.tvWeeklyApprox.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.tvWeeklyPerYear.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
 
             //Lifetime
             binding!!.llPerLifetime.backgroundTintList =
-                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.white)
             binding!!.tvLifetimePrice.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
@@ -175,31 +223,39 @@ class AccessAllFeaturesActivity : BaseActivity() {
                     R.color.col_999
                 )
             )
-            binding!!.imgCheckLifetime.visibility = View.GONE
 
             //monthly
-            binding!!.llPerMonth.backgroundTintList =
-                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.primary)
+            binding!!.llPerMonth.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity, R.drawable.btn_bg_round_border_theme)
             binding!!.tvMonthlyPrice.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.primary
+                    R.color.white
                 )
             )
             binding!!.tvMonthlyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.primary
+                    R.color.white
                 )
             )
-            binding!!.imgCheckMonthly.visibility = View.VISIBLE
+            binding!!.tvMonthlyApprox.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.white
+                )
+            )
+            binding!!.tvMonthlyPerYear.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.white
+                )
+            )
             skuDetail = Constant.MONTHLY_SKU
         }
 
         fun onWeeklyClick() {
             //yearly
-            binding!!.llPerYear.backgroundTintList =
-                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+            binding!!.llPerYear.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity, R.drawable.btn_bg_round_theme_transparent)
             binding!!.tvYearlyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
@@ -212,11 +268,21 @@ class AccessAllFeaturesActivity : BaseActivity() {
                     R.color.col_999
                 )
             )
-            binding!!.imgCheckYearly.visibility = View.GONE
+            binding!!.tvYearlyApprox.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.tvYearlyPerYear.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
 
             //monthly
-            binding!!.llPerMonth.backgroundTintList =
-                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+            binding!!.llPerMonth.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity, R.drawable.btn_bg_round_theme_transparent)
             binding!!.tvMonthlyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
@@ -229,11 +295,22 @@ class AccessAllFeaturesActivity : BaseActivity() {
                     R.color.col_999
                 )
             )
-            binding!!.imgCheckMonthly.visibility = View.GONE
+            binding!!.tvMonthlyApprox.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
+            binding!!.tvMonthlyPerYear.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.col_999
+                )
+            )
 
             //Lifetime
             binding!!.llPerLifetime.backgroundTintList =
-                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.white)
             binding!!.tvLifetimePrice.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
@@ -246,31 +323,40 @@ class AccessAllFeaturesActivity : BaseActivity() {
                     R.color.col_999
                 )
             )
-            binding!!.imgCheckLifetime.visibility = View.GONE
 
             //weekly
-            binding!!.llPerWeek.backgroundTintList =
-                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.primary)
+            binding!!.llPerWeek.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity, R.drawable.btn_bg_round_border_theme)
             binding!!.tvWeeklyPrice.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.primary
+                    R.color.white
                 )
             )
             binding!!.tvWeeklyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.primary
+                    R.color.white
                 )
             )
-            binding!!.imgCheckWeekly.visibility = View.VISIBLE
+            binding!!.tvWeeklyApprox.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.white
+                )
+            )
+            binding!!.tvWeeklyPerYear.setTextColor(
+                ContextCompat.getColor(
+                    this@AccessAllFeaturesActivity,
+                    R.color.white
+                )
+            )
             skuDetail = Constant.WEEKLY_SKU
         }
 
         fun onLifetimeClick() {
             //yearly
             binding!!.llPerYear.backgroundTintList =
-                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.white)
             binding!!.tvYearlyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
@@ -283,11 +369,10 @@ class AccessAllFeaturesActivity : BaseActivity() {
                     R.color.col_999
                 )
             )
-            binding!!.imgCheckYearly.visibility = View.GONE
 
             //monthly
             binding!!.llPerMonth.backgroundTintList =
-                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.white)
             binding!!.tvMonthlyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
@@ -300,11 +385,10 @@ class AccessAllFeaturesActivity : BaseActivity() {
                     R.color.col_999
                 )
             )
-            binding!!.imgCheckMonthly.visibility = View.GONE
 
             //weekly
             binding!!.llPerWeek.backgroundTintList =
-                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.col_999)
+                ContextCompat.getColorStateList(this@AccessAllFeaturesActivity, R.color.white)
             binding!!.tvWeeklyPrice.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
@@ -317,7 +401,6 @@ class AccessAllFeaturesActivity : BaseActivity() {
                     R.color.col_999
                 )
             )
-            binding!!.imgCheckWeekly.visibility = View.GONE
 
             //Lifetime
             binding!!.llPerLifetime.backgroundTintList =
@@ -325,16 +408,15 @@ class AccessAllFeaturesActivity : BaseActivity() {
             binding!!.tvLifetimePrice.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.primary
+                    R.color.white
                 )
             )
             binding!!.tvLifetimeTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.primary
+                    R.color.white
                 )
             )
-            binding!!.imgCheckLifetime.visibility = View.VISIBLE
             skuDetail = Constant.LIFETIME_SKU
         }
         fun onContinueClick() {

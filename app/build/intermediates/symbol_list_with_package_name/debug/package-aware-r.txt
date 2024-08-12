@@ -2810,6 +2810,7 @@ drawable btn_bg_round_border_theme
 drawable btn_bg_round_grediant
 drawable btn_bg_round_grediant_blue
 drawable btn_bg_round_theme
+drawable btn_bg_round_theme_transparent
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3494,10 +3495,6 @@ id imgBack_
 id imgBeginer
 id imgCancel
 id imgChange
-id imgCheckLifetime
-id imgCheckMonthly
-id imgCheckWeekly
-id imgCheckYearly
 id imgClose
 id imgCommonQuestion
 id imgCompleted
@@ -3954,6 +3951,8 @@ id tvMinutes
 id tvMinutesTitle
 id tvMonth
 id tvMonthYear
+id tvMonthlyApprox
+id tvMonthlyPerYear
 id tvMonthlyPrice
 id tvMonthlyTitle
 id tvName
@@ -3997,6 +3996,8 @@ id tvWeek
 id tvWeekDay
 id tvWeekDays
 id tvWeekName
+id tvWeeklyApprox
+id tvWeeklyPerYear
 id tvWeeklyPrice
 id tvWeeklyTitle
 id tvWeightString
@@ -4004,6 +4005,8 @@ id tvWikiPedia
 id tvWorkOuts
 id tvWorkoutName
 id tvWorkoutTime
+id tvYearlyApprox
+id tvYearlyPerYear
 id tvYearlyPrice
 id tvYearlyTitle
 id tv_badge_text

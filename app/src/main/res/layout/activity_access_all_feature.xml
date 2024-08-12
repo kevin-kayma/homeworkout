@@ -31,13 +31,12 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:background="@color/transparent"
-                    android:orientation="horizontal"
                     android:gravity="center">
 
                     <com.common.view.CBTextView
-                        android:layout_width="0dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="Change Starts\nToday!"
@@ -79,15 +78,16 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_marginTop="@dimen/_10sdp"
+                            android:layout_marginStart="@dimen/_15sdp"
+                            android:layout_marginTop="@dimen/_20sdp"
+                            android:layout_marginBottom="@dimen/_20sdp"
                             android:orientation="vertical">
 
                             <com.common.view.CTextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:drawableStart="@drawable/noads"
-                                style="@style/txt_666_16"
+                                style="@style/txt_666_20"
                                 android:drawablePadding="@dimen/_5sdp"
                                 android:text="Remove Ads"/>
 
@@ -95,7 +95,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:drawableStart="@drawable/icon_fast"
-                                style="@style/txt_666_16"
+                                style="@style/txt_666_20"
                                 android:drawablePadding="@dimen/_5sdp"
                                 android:layout_marginTop="@dimen/_10sdp"
                                 android:text="100 + Workouts for fat burning"/>
@@ -104,7 +104,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:drawableStart="@drawable/feature"
-                                style="@style/txt_666_16"
+                                style="@style/txt_666_20"
                                 android:drawablePadding="@dimen/_5sdp"
                                 android:layout_marginTop="@dimen/_10sdp"
                                 android:text="Unlimited workouts plans"/>
@@ -124,10 +124,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="@dimen/_5sdp"
                                 android:layout_marginEnd="@dimen/_5sdp"
-                                android:background="@drawable/btn_bg_round_border_theme"
-                                android:backgroundTint="@color/col_999"
-                                android:gravity="center"
-                                android:orientation="vertical"
+                                android:background="@drawable/btn_bg_round_theme_transparent"
+                                android:orientation="horizontal"
                                 android:paddingStart="@dimen/_12sdp"
                                 android:paddingEnd="@dimen/_12sdp"
                                 android:paddingVertical="@dimen/_8sdp"
@@ -137,34 +135,52 @@
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent">
 
-                                <com.common.view.CBTextView
-                                    android:id="@+id/tvWeeklyTitle"
-                                    style="@style/txt_999_18"
-                                    android:layout_width="wrap_content"
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
                                     android:layout_height="wrap_content"
-                                    android:text="Starter" />
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:orientation="vertical">
 
-                                <com.common.view.CTextView
-                                    android:id="@+id/tvWeeklyPrice"
-                                    style="@style/txt_999_14"
+                                    <com.common.view.CBTextView
+                                        android:id="@+id/tvWeeklyTitle"
+                                        style="@style/txt_999_18"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Starter" />
+
+                                    <com.common.view.CTextView
+                                        android:id="@+id/tvWeeklyPrice"
+                                        style="@style/txt_999_14"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/_2sdp"
+                                        android:text="480/Weekly" />
+                                </LinearLayout>
+
+                                <LinearLayout
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginTop="@dimen/_2sdp"
-                                    android:text="480 / Weekly" />
+                                    android:layout_marginEnd="@dimen/_10sdp"
+                                    android:orientation="vertical">
+
+                                    <com.common.view.CBTextView
+                                        android:id="@+id/tvWeeklyApprox"
+                                        style="@style/txt_999_14"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="approx" />
+
+                                    <com.common.view.CTextView
+                                        android:id="@+id/tvWeeklyPerYear"
+                                        style="@style/txt_999_14"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/_2sdp"
+                                        android:text="per year" />
+                                </LinearLayout>
 
                             </LinearLayout>
-
-                            <androidx.appcompat.widget.AppCompatImageView
-                                android:id="@+id/imgCheckWeekly"
-                                android:layout_width="@dimen/_27sdp"
-                                android:layout_height="@dimen/_27sdp"
-                                android:src="@drawable/ic_check_circle"
-                                android:tint="@color/colorPrimary"
-                                android:visibility="gone"
-                                app:layout_constraintBottom_toBottomOf="@id/llPerWeek"
-                                app:layout_constraintEnd_toEndOf="@+id/llPerWeek"
-                                app:layout_constraintTop_toTopOf="@id/llPerWeek"
-                                android:layout_marginEnd="@dimen/_15sdp"/>
 
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -184,10 +200,8 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="@dimen/_5sdp"
                             android:layout_marginEnd="@dimen/_5sdp"
-                            android:background="@drawable/btn_bg_round_border_theme"
-                            android:backgroundTint="@color/col_999"
-                            android:gravity="center"
-                            android:orientation="vertical"
+                            android:background="@drawable/btn_bg_round_theme_transparent"
+                            android:orientation="horizontal"
                             android:paddingStart="@dimen/_12sdp"
                             android:paddingEnd="@dimen/_12sdp"
                             android:paddingVertical="@dimen/_8sdp"
@@ -196,34 +210,52 @@
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent">
 
-                            <com.common.view.CBTextView
-                                android:id="@+id/tvMonthlyTitle"
-                                style="@style/txt_999_18"
-                                android:layout_width="wrap_content"
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
                                 android:layout_height="wrap_content"
-                                android:text="Basic" />
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:orientation="vertical">
 
-                            <com.common.view.CTextView
-                                android:id="@+id/tvMonthlyPrice"
-                                style="@style/txt_999_14"
+                                <com.common.view.CBTextView
+                                    android:id="@+id/tvMonthlyTitle"
+                                    style="@style/txt_999_18"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Basic" />
+
+                                <com.common.view.CTextView
+                                    android:id="@+id/tvMonthlyPrice"
+                                    style="@style/txt_999_14"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_2sdp"
+                                    android:text="430.00/Month" />
+                            </LinearLayout>
+
+                            <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="@dimen/_2sdp"
-                                android:text="430.00/Month" />
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:orientation="vertical">
+
+                                <com.common.view.CBTextView
+                                    android:id="@+id/tvMonthlyApprox"
+                                    style="@style/txt_999_14"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="approx" />
+
+                                <com.common.view.CTextView
+                                    android:id="@+id/tvMonthlyPerYear"
+                                    style="@style/txt_999_14"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_2sdp"
+                                    android:text="per year" />
+                            </LinearLayout>
 
                         </LinearLayout>
-
-                        <androidx.appcompat.widget.AppCompatImageView
-                            android:id="@+id/imgCheckMonthly"
-                            android:layout_width="@dimen/_27sdp"
-                            android:layout_height="@dimen/_27sdp"
-                            android:src="@drawable/ic_check_circle"
-                            android:tint="@color/colorPrimary"
-                            android:visibility="gone"
-                            app:layout_constraintBottom_toBottomOf="@id/llPerMonth"
-                            app:layout_constraintEnd_toEndOf="@+id/llPerMonth"
-                            app:layout_constraintTop_toTopOf="@id/llPerMonth"
-                            android:layout_marginEnd="@dimen/_15sdp"/>
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -241,8 +273,7 @@
                             android:layout_marginStart="@dimen/_5sdp"
                             android:layout_marginEnd="@dimen/_5sdp"
                             android:background="@drawable/btn_bg_round_border_theme"
-                            android:gravity="center"
-                            android:orientation="vertical"
+                            android:orientation="horizontal"
                             android:paddingStart="@dimen/_12sdp"
                             android:paddingEnd="@dimen/_12sdp"
                             android:paddingVertical="@dimen/_8sdp"
@@ -252,33 +283,56 @@
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent">
 
-                            <com.common.view.CBTextView
-                                android:id="@+id/tvYearlyTitle"
-                                style="@style/txt_theme_18"
-                                android:layout_width="wrap_content"
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
                                 android:layout_height="wrap_content"
-                                android:text="Premium" />
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:orientation="vertical">
 
-                            <com.common.view.CTextView
-                                android:id="@+id/tvYearlyPrice"
-                                style="@style/txt_theme_14"
+                                <com.common.view.CBTextView
+                                    android:id="@+id/tvYearlyTitle"
+                                    style="@style/txt_theme_18"
+                                    android:textColor="@color/white"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Premium" />
+
+                                <com.common.view.CTextView
+                                    android:id="@+id/tvYearlyPrice"
+                                    style="@style/txt_theme_14"
+                                    android:textColor="@color/white"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_2sdp"
+                                    android:text="1700.00/year" />
+                            </LinearLayout>
+
+                            <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="@dimen/_2sdp"
-                                android:text="1700.00/year" />
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:orientation="vertical">
+
+                                <com.common.view.CBTextView
+                                    android:id="@+id/tvYearlyApprox"
+                                    style="@style/txt_999_14"
+                                    android:textColor="@color/white"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="approx" />
+
+                                <com.common.view.CTextView
+                                    android:id="@+id/tvYearlyPerYear"
+                                    style="@style/txt_999_14"
+                                    android:textColor="@color/white"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_2sdp"
+                                    android:text="per year" />
+                            </LinearLayout>
 
                         </LinearLayout>
-
-                        <androidx.appcompat.widget.AppCompatImageView
-                            android:id="@+id/imgCheckYearly"
-                            android:layout_width="@dimen/_27sdp"
-                            android:layout_height="@dimen/_27sdp"
-                            android:src="@drawable/ic_check_circle"
-                            android:tint="@color/colorPrimary"
-                            app:layout_constraintBottom_toBottomOf="@id/llPerYear"
-                            app:layout_constraintEnd_toEndOf="@+id/llPerYear"
-                            app:layout_constraintTop_toTopOf="@id/llPerYear"
-                            android:layout_marginEnd="@dimen/_15sdp"/>
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -326,18 +380,6 @@
 
                             </LinearLayout>
 
-                            <androidx.appcompat.widget.AppCompatImageView
-                                android:id="@+id/imgCheckLifetime"
-                                android:layout_width="@dimen/_27sdp"
-                                android:layout_height="@dimen/_27sdp"
-                                android:src="@drawable/ic_check_circle"
-                                android:tint="@color/colorPrimary"
-                                android:visibility="gone"
-                                app:layout_constraintBottom_toBottomOf="@id/llPerLifetime"
-                                app:layout_constraintEnd_toEndOf="@+id/llPerLifetime"
-                                app:layout_constraintTop_toTopOf="@id/llPerLifetime"
-                                android:layout_marginEnd="@dimen/_15sdp"/>
-
                             <com.common.view.CMTextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -371,7 +413,7 @@
                             android:onClick="@{(v)->handler.onContinueClick()}"/>
 
                         <com.common.view.CTextView
-                            android:layout_width="@dimen/_100sdp"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:paddingStart="@dimen/_15sdp"
                             android:paddingEnd="@dimen/_15sdp"
