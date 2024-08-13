@@ -169,7 +169,7 @@
                                         style="@style/txt_999_14"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="approx" />
+                                        android:text="price" />
 
                                     <com.common.view.CTextView
                                         android:id="@+id/tvWeeklyPerYear"
@@ -244,7 +244,7 @@
                                     style="@style/txt_999_14"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="approx" />
+                                    android:text="price" />
 
                                 <com.common.view.CTextView
                                     android:id="@+id/tvMonthlyPerYear"
@@ -310,7 +310,7 @@
                                     style="@style/txt_999_14"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="approx" />
+                                    android:text="price" />
 
                                 <com.common.view.CTextView
                                     android:id="@+id/tvYearlyPerYear"
@@ -380,7 +380,7 @@
                                         android:textColor="@color/white"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="approx" />
+                                        android:text="price" />
                                 </LinearLayout>
 
                             </LinearLayout>
