@@ -272,7 +272,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="@dimen/_5sdp"
                             android:layout_marginEnd="@dimen/_5sdp"
-                            android:background="@drawable/btn_bg_round_border_theme"
+                            android:background="@drawable/btn_bg_round_theme_transparent"
                             android:orientation="horizontal"
                             android:paddingStart="@dimen/_12sdp"
                             android:paddingEnd="@dimen/_12sdp"
@@ -286,26 +286,17 @@
                             <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
+                                android:layout_gravity="center"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="@dimen/_10sdp"
                                 android:orientation="vertical">
 
                                 <com.common.view.CBTextView
                                     android:id="@+id/tvYearlyTitle"
-                                    style="@style/txt_theme_18"
-                                    android:textColor="@color/white"
+                                    style="@style/txt_999_18"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Premium" />
-
-                                <com.common.view.CTextView
-                                    android:id="@+id/tvYearlyPrice"
-                                    style="@style/txt_theme_14"
-                                    android:textColor="@color/white"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="@dimen/_2sdp"
-                                    android:text="1700.00/year" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -317,7 +308,6 @@
                                 <com.common.view.CBTextView
                                     android:id="@+id/tvYearlyApprox"
                                     style="@style/txt_999_14"
-                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="approx" />
@@ -325,7 +315,6 @@
                                 <com.common.view.CTextView
                                     android:id="@+id/tvYearlyPerYear"
                                     style="@style/txt_999_14"
-                                    android:textColor="@color/white"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="@dimen/_2sdp"
@@ -339,7 +328,6 @@
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:visibility="gone"
                             android:layout_marginStart="@dimen/_10sdp"
                             android:layout_marginEnd="@dimen/_10sdp"
                             android:onClick="@{(v)->handler.onLifetimeClick()}">
@@ -347,13 +335,12 @@
                             <LinearLayout
                                 android:id="@+id/llPerLifetime"
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                                android:layout_height="match_parent"
                                 android:layout_marginStart="@dimen/_5sdp"
                                 android:layout_marginEnd="@dimen/_5sdp"
                                 android:background="@drawable/btn_bg_round_border_theme"
-                                android:backgroundTint="@color/col_999"
-                                android:gravity="center"
-                                android:orientation="vertical"
+                                android:orientation="horizontal"
+                                app:layout_constraintDimensionRatio="1:1"
                                 android:paddingStart="@dimen/_12sdp"
                                 android:paddingEnd="@dimen/_12sdp"
                                 android:paddingVertical="@dimen/_8sdp"
@@ -363,20 +350,38 @@
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent">
 
-                                <com.common.view.CBTextView
-                                    android:id="@+id/tvLifetimeTitle"
-                                    style="@style/txt_999_18"
-                                    android:layout_width="wrap_content"
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_gravity="center"
                                     android:layout_height="wrap_content"
-                                    android:text="Access all features" />
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:orientation="vertical">
 
-                                <com.common.view.CTextView
-                                    android:id="@+id/tvLifetimePrice"
-                                    style="@style/txt_999_14"
+                                    <com.common.view.CBTextView
+                                        android:id="@+id/tvLifetimeTitle"
+                                        style="@style/txt_999_18"
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Access all features" />
+                                </LinearLayout>
+
+                                <LinearLayout
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginTop="@dimen/_2sdp"
-                                    android:text="1700.00/year" />
+                                    android:layout_marginEnd="@dimen/_10sdp"
+                                    android:layout_gravity="center"
+                                    android:orientation="vertical">
+
+                                    <com.common.view.CBTextView
+                                        android:id="@+id/tvLifetimePrice"
+                                        style="@style/txt_999_14"
+                                        android:textColor="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="approx" />
+                                </LinearLayout>
 
                             </LinearLayout>
 
@@ -390,11 +395,11 @@
                                 android:paddingEnd="@dimen/_5sdp"
                                 android:paddingBottom="@dimen/_2sdp"
                                 android:paddingStart="@dimen/_5sdp"
-                                android:layout_marginEnd="@dimen/_30sdp"
+                                android:layout_marginStart="@dimen/_20sdp"
                                 app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintEnd_toEndOf="@id/llPerLifetime"
+                                app:layout_constraintStart_toStartOf="@id/llPerLifetime"
                                 android:layout_marginTop="3dp"
-                                android:text="Best offer"/>
+                                android:text="50% off"/>
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
 

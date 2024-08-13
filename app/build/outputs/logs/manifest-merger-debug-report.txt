@@ -230,6 +230,7 @@ ADDED from /Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifes
 application
 ADDED from /Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:17:5-342:19
 INJECTED from /Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:17:5-342:19
+INJECTED from /Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:17:5-342:19
 MERGED from [com.nex3z:notification-badge:1.0.4] /Users/harsh/.gradle/caches/transforms-3/22d0909f0bc7dbbacea63137c43beb49/transformed/jetified-notification-badge-1.0.4/AndroidManifest.xml:11:5-20
 MERGED from [com.nex3z:notification-badge:1.0.4] /Users/harsh/.gradle/caches/transforms-3/22d0909f0bc7dbbacea63137c43beb49/transformed/jetified-notification-badge-1.0.4/AndroidManifest.xml:11:5-20
 MERGED from [com.android.billingclient:billing:6.1.0] /Users/harsh/.gradle/caches/transforms-3/1f1b260e1989f9795fee573f3d567f04/transformed/jetified-billing-6.1.0/AndroidManifest.xml:18:5-28:19
@@ -348,6 +349,8 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/ha
 		REJECTED from [androidx.core:core:1.9.0] /Users/harsh/.gradle/caches/transforms-3/8000a8a5058549d064e3696c39984268/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:fullBackupContent
 		ADDED from /Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:21:9-42
+	android:testOnly
+		INJECTED from /Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml
 	android:allowBackup
 		ADDED from /Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:19:9-36
 		REJECTED from [:DebugSettings:] /Users/harsh/.gradle/caches/transforms-3/312e37331834af94a85cfabe492e4d4d/transformed/jetified-DebugSettings/AndroidManifest.xml:6:9-36
@@ -893,6 +896,14 @@ ADDED from /Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifes
 		ADDED from /Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:80:17-55
 	android:name
 		ADDED from /Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml:79:17-67
+profileable
+INJECTED from /Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml reason: profileable injection requested
+INJECTED from /Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml
+INJECTED from /Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml
+	android:enabled
+		INJECTED from /Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml
+	android:shell
+		INJECTED from /Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml
 uses-sdk
 INJECTED from /Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/harsh/Documents/GitHub/homeworkout/app/src/main/AndroidManifest.xml

@@ -4006,7 +4006,6 @@ int id tvWorkoutName 0x7f0a032d
 int id tvWorkoutTime 0x7f0a032e
 int id tvYearlyApprox 0x7f0a0357
 int id tvYearlyPerYear 0x7f0a0358
-int id tvYearlyPrice 0x7f0a032f
 int id tvYearlyTitle 0x7f0a0330
 int id tv_badge_text 0x7f0a0331
 int id tv_des 0x7f0a0332

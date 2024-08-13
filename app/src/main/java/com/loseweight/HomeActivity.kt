@@ -42,6 +42,9 @@ class HomeActivity : BaseActivity() {
     private var appOpenAd: AppOpenAd? = null
     private var isAdDisplayed: Boolean = false
     private var isAdLoaded: Boolean = false
+    // Check if the activity was started from the intro
+    private var fromIntro : Boolean =false
+    private var isFirstLaunched : Boolean =false
 
     @SuppressLint("HardwareIds")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -50,11 +53,8 @@ class HomeActivity : BaseActivity() {
             checkPermissions(getActivity())
         else if (dialogPermission != null && dialogPermission!!.isShowing.not())
             checkPermissions(getActivity())
-
+        fromIntro = intent.getBooleanExtra("fromIntro", false)
         if(!Utils.isPurchased(this)){
-            // Check if the activity was started from the intro
-            val fromIntro = intent.getBooleanExtra("fromIntro", false)
-
             if (fromIntro) {
                 // Redirect to AccessAllFeaturesActivity if fromIntro is true
                 val intent = Intent(this, AccessAllFeaturesActivity::class.java)
@@ -69,14 +69,15 @@ class HomeActivity : BaseActivity() {
         initIntentParam()
         callGetAdsId()
         loadAppOpenAd()
-//        loadBannerAd(binding!!.llAdView,binding!!.llAdViewFacebook)
         init()
     }
 
     private val appOpenAdLoadCallback = object : AppOpenAd.AppOpenAdLoadCallback() {
         override fun onAdLoaded(ad: AppOpenAd) {
             appOpenAd = ad
-            appOpenAd!!.show(this@HomeActivity)
+            if (!fromIntro && !isFirstLaunched) {
+                appOpenAd!!.show(this@HomeActivity)
+            }
             isAdLoaded = true
         }
 
@@ -108,21 +109,9 @@ class HomeActivity : BaseActivity() {
             val i = Intent(getActivity(), ChooseYourPlanActivity::class.java)
             i.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
             startActivity(i)
+            isFirstLaunched = true;
             finish()
         }
-//            } else {
-//                val i = Intent(getActivity(), HomeActivity::class.java)
-//
-//                if(intent.extras != null){
-//                    if(intent.extras!!.containsKey("isFrom") && intent.extras!!.get("isFrom") == Constant.FROM_DRINK_NOTIFICATION)
-//                    {
-//                        i.putExtra("isFrom",Constant.FROM_DRINK_NOTIFICATION)
-//                    }
-//                }
-//                i.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
-//                startActivity(i)
-//                finish()
-//            }
     }
 
     private fun initIntentParam() {
@@ -235,7 +224,7 @@ class HomeActivity : BaseActivity() {
 
     override fun onResume() {
         super.onResume()
-        if (!isAdDisplayed && isAdLoaded) {
+        if (!isAdDisplayed && isAdLoaded && !fromIntro) {
             appOpenAd?.let {
                 it.show(this)
                 isAdDisplayed = true // Mark the ad as displayed

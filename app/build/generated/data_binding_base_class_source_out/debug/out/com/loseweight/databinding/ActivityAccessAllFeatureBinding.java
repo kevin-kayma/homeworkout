@@ -42,7 +42,7 @@ public abstract class ActivityAccessAllFeatureBinding extends ViewDataBinding {
   public final CTextView tvDes;
 
   @NonNull
-  public final CTextView tvLifetimePrice;
+  public final CBTextView tvLifetimePrice;
 
   @NonNull
   public final CBTextView tvLifetimeTitle;
@@ -78,9 +78,6 @@ public abstract class ActivityAccessAllFeatureBinding extends ViewDataBinding {
   public final CTextView tvYearlyPerYear;
 
   @NonNull
-  public final CTextView tvYearlyPrice;
-
-  @NonNull
   public final CBTextView tvYearlyTitle;
 
   @Bindable
@@ -89,12 +86,11 @@ public abstract class ActivityAccessAllFeatureBinding extends ViewDataBinding {
   protected ActivityAccessAllFeatureBinding(Object _bindingComponent, View _root,
       int _localFieldCount, CBButtonView btnContinue, AppCompatImageView imgBack,
       LinearLayout llPerLifetime, LinearLayout llPerMonth, LinearLayout llPerWeek,
-      LinearLayout llPerYear, CTextView tvDes, CTextView tvLifetimePrice,
+      LinearLayout llPerYear, CTextView tvDes, CBTextView tvLifetimePrice,
       CBTextView tvLifetimeTitle, CBTextView tvMonthlyApprox, CTextView tvMonthlyPerYear,
       CTextView tvMonthlyPrice, CBTextView tvMonthlyTitle, CBTextView tvWeeklyApprox,
       CTextView tvWeeklyPerYear, CTextView tvWeeklyPrice, CBTextView tvWeeklyTitle,
-      CBTextView tvYearlyApprox, CTextView tvYearlyPerYear, CTextView tvYearlyPrice,
-      CBTextView tvYearlyTitle) {
+      CBTextView tvYearlyApprox, CTextView tvYearlyPerYear, CBTextView tvYearlyTitle) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnContinue = btnContinue;
     this.imgBack = imgBack;
@@ -115,7 +111,6 @@ public abstract class ActivityAccessAllFeatureBinding extends ViewDataBinding {
     this.tvWeeklyTitle = tvWeeklyTitle;
     this.tvYearlyApprox = tvYearlyApprox;
     this.tvYearlyPerYear = tvYearlyPerYear;
-    this.tvYearlyPrice = tvYearlyPrice;
     this.tvYearlyTitle = tvYearlyTitle;
   }
 

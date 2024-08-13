@@ -27,12 +27,11 @@ public class ActivityAccessAllFeatureBindingImpl extends ActivityAccessAllFeatur
         sViewsWithIds.put(R.id.tvMonthlyPerYear, 17);
         sViewsWithIds.put(R.id.llPerYear, 18);
         sViewsWithIds.put(R.id.tvYearlyTitle, 19);
-        sViewsWithIds.put(R.id.tvYearlyPrice, 20);
-        sViewsWithIds.put(R.id.tvYearlyApprox, 21);
-        sViewsWithIds.put(R.id.tvYearlyPerYear, 22);
-        sViewsWithIds.put(R.id.llPerLifetime, 23);
-        sViewsWithIds.put(R.id.tvLifetimeTitle, 24);
-        sViewsWithIds.put(R.id.tvLifetimePrice, 25);
+        sViewsWithIds.put(R.id.tvYearlyApprox, 20);
+        sViewsWithIds.put(R.id.tvYearlyPerYear, 21);
+        sViewsWithIds.put(R.id.llPerLifetime, 22);
+        sViewsWithIds.put(R.id.tvLifetimeTitle, 23);
+        sViewsWithIds.put(R.id.tvLifetimePrice, 24);
     }
     // views
     @NonNull
@@ -63,19 +62,19 @@ public class ActivityAccessAllFeatureBindingImpl extends ActivityAccessAllFeatur
     // Inverse Binding Event Handlers
 
     public ActivityAccessAllFeatureBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 26, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 25, sIncludes, sViewsWithIds));
     }
     private ActivityAccessAllFeatureBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (com.common.view.CBButtonView) bindings[6]
             , (androidx.appcompat.widget.AppCompatImageView) bindings[1]
-            , (android.widget.LinearLayout) bindings[23]
+            , (android.widget.LinearLayout) bindings[22]
             , (android.widget.LinearLayout) bindings[13]
             , (android.widget.LinearLayout) bindings[8]
             , (android.widget.LinearLayout) bindings[18]
             , (com.common.view.CTextView) bindings[7]
-            , (com.common.view.CTextView) bindings[25]
             , (com.common.view.CBTextView) bindings[24]
+            , (com.common.view.CBTextView) bindings[23]
             , (com.common.view.CBTextView) bindings[16]
             , (com.common.view.CTextView) bindings[17]
             , (com.common.view.CTextView) bindings[15]
@@ -84,9 +83,8 @@ public class ActivityAccessAllFeatureBindingImpl extends ActivityAccessAllFeatur
             , (com.common.view.CTextView) bindings[12]
             , (com.common.view.CTextView) bindings[10]
             , (com.common.view.CBTextView) bindings[9]
-            , (com.common.view.CBTextView) bindings[21]
-            , (com.common.view.CTextView) bindings[22]
-            , (com.common.view.CTextView) bindings[20]
+            , (com.common.view.CBTextView) bindings[20]
+            , (com.common.view.CTextView) bindings[21]
             , (com.common.view.CBTextView) bindings[19]
             );
         this.btnContinue.setTag(null);

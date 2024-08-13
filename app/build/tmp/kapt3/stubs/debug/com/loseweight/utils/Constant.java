@@ -180,7 +180,7 @@ public final class Constant {
     @org.jetbrains.annotations.NotNull
     public static final java.lang.String GOOGLE_REWARDED_ID = "ca-app-pub-2737102509284323/9429359654";
     @org.jetbrains.annotations.NotNull
-    public static final java.lang.String GOOGLE_APP_OPEN_ID = "ca-app-pub-3940256099942544/9257395921";
+    public static final java.lang.String GOOGLE_APP_OPEN_ID = "ca-app-pub-2737102509284323/9472425362";
     @org.jetbrains.annotations.NotNull
     public static final java.lang.String NO_ADS = "Unable to load ads, Please try again later.";
     @org.jetbrains.annotations.NotNull

@@ -4007,7 +4007,6 @@ id tvWorkoutName
 id tvWorkoutTime
 id tvYearlyApprox
 id tvYearlyPerYear
-id tvYearlyPrice
 id tvYearlyTitle
 id tv_badge_text
 id tv_des
