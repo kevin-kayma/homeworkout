@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.loseweight.app-mergeDebugResources-73:/values-v11/values-v11.xml",
+            "outputFile": "com.loseweight.app-mergeDebugResources-76:/values-v11/values-v11.xml",
             "map": [
                 {
                     "source": "/Users/harsh/.gradle/caches/transforms-3/863bb5fdae807f9fb59c4ab8ab1b25d7/transformed/jetified-materialize-1.2.0/res/values-v11/values-v11.xml",

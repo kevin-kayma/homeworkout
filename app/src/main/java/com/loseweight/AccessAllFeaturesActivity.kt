@@ -34,6 +34,16 @@ class AccessAllFeaturesActivity : BaseActivity() {
         init()
     }
 
+    override fun onBackPressed() {
+        super.onBackPressed()
+        if(intent.getBooleanExtra("fromIntro", false)){
+            val intent = Intent(this@AccessAllFeaturesActivity, ActivityReviewPrompt::class.java)
+            startActivity(intent)
+        }else{
+            finish()
+        }
+    }
+
     private fun initIntentParam() {
         try {
 
@@ -48,16 +58,15 @@ class AccessAllFeaturesActivity : BaseActivity() {
         initInAppPurchase()
     }
 
-
-    override fun onResume() {
-        super.onResume()
-    }
-
-
     inner class ClickHandler {
-
         fun onBackClick() {
-            finish()
+            if(intent.getBooleanExtra("fromIntro", false)){
+                val intent = Intent(this@AccessAllFeaturesActivity, ActivityReviewPrompt::class.java)
+                startActivity(intent)
+                finish()
+            }else{
+                finish()
+            }
         }
 
         fun onYearlyClick() {

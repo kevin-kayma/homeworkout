@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.loseweight.app-mergeDebugResources-73:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "com.loseweight.app-mergeDebugResources-76:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/harsh/.gradle/caches/transforms-3/84a64c0b97a59cc11007194b317b3c58/transformed/jetified-materialdrawer-6.1.2/res/values-sw600dp-v13/values-sw600dp-v13.xml",
@@ -18,25 +18,6 @@
                         "startOffsets": "33870",
                         "endColumns": "63",
                         "endOffsets": "33929"
-                    }
-                },
-                {
-                    "source": "/Users/harsh/.gradle/caches/transforms-3/0bc00294022181e09581867986ce2b30/transformed/material-1.0.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,115,185,256,328,386,444,553,617,680",
-                        "endLines": "2,3,4,5,6,7,9,10,11,15",
-                        "endColumns": "59,69,70,71,57,57,10,63,62,10",
-                        "endOffsets": "110,180,251,323,381,439,548,612,675,847"
-                    },
-                    "to": {
-                        "startLines": "770,771,772,773,774,775,776,778,781,782",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "33308,33368,33438,33509,33581,33639,33697,33806,33989,34052",
-                        "endLines": "770,771,772,773,774,775,777,778,781,785",
-                        "endColumns": "59,69,70,71,57,57,10,63,62,10",
-                        "endOffsets": "33363,33433,33504,33576,33634,33692,33801,33865,34047,34219"
                     }
                 },
                 {
@@ -105,6 +86,25 @@
                         "startOffsets": "33934",
                         "endColumns": "54",
                         "endOffsets": "33984"
+                    }
+                },
+                {
+                    "source": "/Users/harsh/.gradle/caches/transforms-3/f410102998bb320cae1add1f333bd294/transformed/material-1.10.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,553,617,673,732,795",
+                        "endLines": "2,3,4,5,6,7,9,10,11,12,13,17",
+                        "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
+                        "endOffsets": "110,180,251,323,381,439,548,612,668,727,790,962"
+                    },
+                    "to": {
+                        "startLines": "770,771,772,773,774,775,776,778,781,782,783,784",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "33308,33368,33438,33509,33581,33639,33697,33806,33989,34045,34104,34167",
+                        "endLines": "770,771,772,773,774,775,777,778,781,782,783,787",
+                        "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
+                        "endOffsets": "33363,33433,33504,33576,33634,33692,33801,33865,34040,34099,34162,34334"
                     }
                 }
             ]

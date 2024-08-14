@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.loseweight.app-mergeDebugResources-73:/values-sw630dp-v13/values-sw630dp-v13.xml",
+            "outputFile": "com.loseweight.app-mergeDebugResources-76:/values-sw630dp-v13/values-sw630dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/harsh/.gradle/caches/transforms-3/c9088fdad4ba6fcf1421d77c6e4337f0/transformed/jetified-ssp-android-1.1.0/res/values-sw630dp-v13/values-sw630dp-v13.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.loseweight.app-mergeDebugResources-73:/values-es-rGT/values-es-rGT.xml",
+            "outputFile": "com.loseweight.app-mergeDebugResources-76:/values-es-rGT/values-es-rGT.xml",
             "map": [
                 {
                     "source": "/Users/harsh/.gradle/caches/transforms-3/63bca473dad0bcc2d7e3046f7db07fc5/transformed/jetified-android-image-cropper-2.8.0/res/values-es-rGT/values-es-rGT.xml",

@@ -121,7 +121,7 @@
                             <LinearLayout
                                 android:id="@+id/llPerWeek"
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                                android:layout_height="@dimen/_55sdp"
                                 android:layout_marginStart="@dimen/_5sdp"
                                 android:layout_marginEnd="@dimen/_5sdp"
                                 android:background="@drawable/btn_bg_round_theme_transparent"
@@ -197,7 +197,7 @@
                         <LinearLayout
                             android:id="@+id/llPerMonth"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="@dimen/_55sdp"
                             android:layout_marginStart="@dimen/_5sdp"
                             android:layout_marginEnd="@dimen/_5sdp"
                             android:background="@drawable/btn_bg_round_theme_transparent"
@@ -269,7 +269,7 @@
                         <LinearLayout
                             android:id="@+id/llPerYear"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="@dimen/_55sdp"
                             android:layout_marginStart="@dimen/_5sdp"
                             android:layout_marginEnd="@dimen/_5sdp"
                             android:background="@drawable/btn_bg_round_theme_transparent"
@@ -335,7 +335,7 @@
                             <LinearLayout
                                 android:id="@+id/llPerLifetime"
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
+                                android:layout_height="@dimen/_55sdp"
                                 android:layout_marginStart="@dimen/_5sdp"
                                 android:layout_marginEnd="@dimen/_5sdp"
                                 android:background="@drawable/btn_bg_round_border_theme"

@@ -31,7 +31,7 @@ import com.loseweight.utils.ExitStrategy
 import com.loseweight.utils.Utils
 import com.loseweight.utils.watertracker.AlarmHelper
 import com.utillity.db.DataHelper
-import java.util.*
+import java.util.Date
 import kotlin.math.roundToInt
 
 
@@ -58,10 +58,10 @@ class HomeActivity : BaseActivity() {
             if (fromIntro) {
                 // Redirect to AccessAllFeaturesActivity if fromIntro is true
                 val intent = Intent(this, AccessAllFeaturesActivity::class.java)
+                intent.putExtra("fromIntro", fromIntro)
                 startActivity(intent)
             }
         }
-
         AudienceNetworkInitializeHelper.initialize(this)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_home)
         DataHelper(this).checkDBExist()
