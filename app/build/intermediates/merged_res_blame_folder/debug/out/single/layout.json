@@ -12,12 +12,12 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-80:/layout/activity_choose_weight.xml"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-77:/layout/popup_logout.xml",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-80:/layout/popup_logout.xml"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-77:/layout/item_workout_list.xml",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-80:/layout/item_workout_list.xml"
+    },
+    {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-77:/layout/popup_logout.xml",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-80:/layout/popup_logout.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-77:/layout/dialog_weight_with_date.xml",
@@ -28,12 +28,12 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-80:/layout/activity_fast_work_out.xml"
     },
     {
-        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-77:/layout/item_body_focus.xml",
-        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-80:/layout/item_body_focus.xml"
-    },
-    {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-77:/layout/item_recent.xml",
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-80:/layout/item_recent.xml"
+    },
+    {
+        "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-77:/layout/item_body_focus.xml",
+        "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-80:/layout/item_body_focus.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-77:/layout/item_common_question_parent.xml",
@@ -180,8 +180,8 @@
         "source": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-main-80:/layout/item_common_question_child.xml"
     },
     {
-        "merged": "com.loseweight.app-mergeDebugResources-77:/layout/activity_access_all_feature.xml",
-        "source": "com.loseweight.app-main-80:/layout/activity_access_all_feature.xml"
+        "merged": "com.loseweight.app-mergeDebugResources-77:/layout/bottom_bar.xml",
+        "source": "com.loseweight.app-main-80:/layout/bottom_bar.xml"
     },
     {
         "merged": "/Users/harsh/.gradle/daemon/8.0/com.loseweight.app-mergeDebugResources-77:/layout/dialog_gender_dob.xml",
