@@ -17,21 +17,16 @@ public class ActivityAccessAllFeatureBindingImpl extends ActivityAccessAllFeatur
         sViewsWithIds.put(R.id.tvDes, 7);
         sViewsWithIds.put(R.id.llPerWeek, 8);
         sViewsWithIds.put(R.id.tvWeeklyTitle, 9);
-        sViewsWithIds.put(R.id.tvWeeklyPrice, 10);
-        sViewsWithIds.put(R.id.tvWeeklyApprox, 11);
-        sViewsWithIds.put(R.id.tvWeeklyPerYear, 12);
-        sViewsWithIds.put(R.id.llPerMonth, 13);
-        sViewsWithIds.put(R.id.tvMonthlyTitle, 14);
-        sViewsWithIds.put(R.id.tvMonthlyPrice, 15);
-        sViewsWithIds.put(R.id.tvMonthlyApprox, 16);
-        sViewsWithIds.put(R.id.tvMonthlyPerYear, 17);
-        sViewsWithIds.put(R.id.llPerYear, 18);
-        sViewsWithIds.put(R.id.tvYearlyTitle, 19);
-        sViewsWithIds.put(R.id.tvYearlyApprox, 20);
-        sViewsWithIds.put(R.id.tvYearlyPerYear, 21);
-        sViewsWithIds.put(R.id.llPerLifetime, 22);
-        sViewsWithIds.put(R.id.tvLifetimeTitle, 23);
-        sViewsWithIds.put(R.id.tvLifetimePrice, 24);
+        sViewsWithIds.put(R.id.tvWeeklyApprox, 10);
+        sViewsWithIds.put(R.id.llPerMonth, 11);
+        sViewsWithIds.put(R.id.tvMonthlyTitle, 12);
+        sViewsWithIds.put(R.id.tvMonthlyApprox, 13);
+        sViewsWithIds.put(R.id.llPerYear, 14);
+        sViewsWithIds.put(R.id.tvYearlyTitle, 15);
+        sViewsWithIds.put(R.id.tvYearlyApprox, 16);
+        sViewsWithIds.put(R.id.llPerLifetime, 17);
+        sViewsWithIds.put(R.id.tvLifetimeTitle, 18);
+        sViewsWithIds.put(R.id.tvLifetimePrice, 19);
     }
     // views
     @NonNull
@@ -46,15 +41,15 @@ public class ActivityAccessAllFeatureBindingImpl extends ActivityAccessAllFeatur
     private final androidx.constraintlayout.widget.ConstraintLayout mboundView5;
     // variables
     @Nullable
+    private final android.view.View.OnClickListener mCallback28;
+    @Nullable
+    private final android.view.View.OnClickListener mCallback32;
+    @Nullable
     private final android.view.View.OnClickListener mCallback33;
     @Nullable
     private final android.view.View.OnClickListener mCallback29;
     @Nullable
     private final android.view.View.OnClickListener mCallback30;
-    @Nullable
-    private final android.view.View.OnClickListener mCallback28;
-    @Nullable
-    private final android.view.View.OnClickListener mCallback32;
     @Nullable
     private final android.view.View.OnClickListener mCallback31;
     // values
@@ -62,30 +57,25 @@ public class ActivityAccessAllFeatureBindingImpl extends ActivityAccessAllFeatur
     // Inverse Binding Event Handlers
 
     public ActivityAccessAllFeatureBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 25, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 20, sIncludes, sViewsWithIds));
     }
     private ActivityAccessAllFeatureBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (com.common.view.CBButtonView) bindings[6]
             , (androidx.appcompat.widget.AppCompatImageView) bindings[1]
-            , (android.widget.LinearLayout) bindings[22]
-            , (android.widget.LinearLayout) bindings[13]
+            , (android.widget.LinearLayout) bindings[17]
+            , (android.widget.LinearLayout) bindings[11]
             , (android.widget.LinearLayout) bindings[8]
-            , (android.widget.LinearLayout) bindings[18]
+            , (android.widget.LinearLayout) bindings[14]
             , (com.common.view.CTextView) bindings[7]
-            , (com.common.view.CBTextView) bindings[24]
-            , (com.common.view.CBTextView) bindings[23]
-            , (com.common.view.CBTextView) bindings[16]
-            , (com.common.view.CTextView) bindings[17]
-            , (com.common.view.CTextView) bindings[15]
-            , (com.common.view.CBTextView) bindings[14]
-            , (com.common.view.CBTextView) bindings[11]
-            , (com.common.view.CTextView) bindings[12]
-            , (com.common.view.CTextView) bindings[10]
-            , (com.common.view.CBTextView) bindings[9]
-            , (com.common.view.CBTextView) bindings[20]
-            , (com.common.view.CTextView) bindings[21]
             , (com.common.view.CBTextView) bindings[19]
+            , (com.common.view.CBTextView) bindings[18]
+            , (com.common.view.CBTextView) bindings[13]
+            , (com.common.view.CBTextView) bindings[12]
+            , (com.common.view.CBTextView) bindings[10]
+            , (com.common.view.CBTextView) bindings[9]
+            , (com.common.view.CBTextView) bindings[16]
+            , (com.common.view.CBTextView) bindings[15]
             );
         this.btnContinue.setTag(null);
         this.imgBack.setTag(null);
@@ -101,11 +91,11 @@ public class ActivityAccessAllFeatureBindingImpl extends ActivityAccessAllFeatur
         this.mboundView5.setTag(null);
         setRootTag(root);
         // listeners
+        mCallback28 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback32 = new com.loseweight.generated.callback.OnClickListener(this, 5);
         mCallback33 = new com.loseweight.generated.callback.OnClickListener(this, 6);
         mCallback29 = new com.loseweight.generated.callback.OnClickListener(this, 2);
         mCallback30 = new com.loseweight.generated.callback.OnClickListener(this, 3);
-        mCallback28 = new com.loseweight.generated.callback.OnClickListener(this, 1);
-        mCallback32 = new com.loseweight.generated.callback.OnClickListener(this, 5);
         mCallback31 = new com.loseweight.generated.callback.OnClickListener(this, 4);
         invalidateAll();
     }
@@ -180,6 +170,40 @@ public class ActivityAccessAllFeatureBindingImpl extends ActivityAccessAllFeatur
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
+            case 1: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.AccessAllFeaturesActivity.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onBackClick();
+                }
+                break;
+            }
+            case 5: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.AccessAllFeaturesActivity.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onLifetimeClick();
+                }
+                break;
+            }
             case 6: {
                 // localize variables for thread safety
                 // handler
@@ -228,40 +252,6 @@ public class ActivityAccessAllFeatureBindingImpl extends ActivityAccessAllFeatur
 
 
                     handler.onPerMonthClick();
-                }
-                break;
-            }
-            case 1: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.AccessAllFeaturesActivity.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onBackClick();
-                }
-                break;
-            }
-            case 5: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.AccessAllFeaturesActivity.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onLifetimeClick();
                 }
                 break;
             }

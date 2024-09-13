@@ -51,31 +51,16 @@ public abstract class ActivityAccessAllFeatureBinding extends ViewDataBinding {
   public final CBTextView tvMonthlyApprox;
 
   @NonNull
-  public final CTextView tvMonthlyPerYear;
-
-  @NonNull
-  public final CTextView tvMonthlyPrice;
-
-  @NonNull
   public final CBTextView tvMonthlyTitle;
 
   @NonNull
   public final CBTextView tvWeeklyApprox;
 
   @NonNull
-  public final CTextView tvWeeklyPerYear;
-
-  @NonNull
-  public final CTextView tvWeeklyPrice;
-
-  @NonNull
   public final CBTextView tvWeeklyTitle;
 
   @NonNull
   public final CBTextView tvYearlyApprox;
-
-  @NonNull
-  public final CTextView tvYearlyPerYear;
 
   @NonNull
   public final CBTextView tvYearlyTitle;
@@ -87,10 +72,9 @@ public abstract class ActivityAccessAllFeatureBinding extends ViewDataBinding {
       int _localFieldCount, CBButtonView btnContinue, AppCompatImageView imgBack,
       LinearLayout llPerLifetime, LinearLayout llPerMonth, LinearLayout llPerWeek,
       LinearLayout llPerYear, CTextView tvDes, CBTextView tvLifetimePrice,
-      CBTextView tvLifetimeTitle, CBTextView tvMonthlyApprox, CTextView tvMonthlyPerYear,
-      CTextView tvMonthlyPrice, CBTextView tvMonthlyTitle, CBTextView tvWeeklyApprox,
-      CTextView tvWeeklyPerYear, CTextView tvWeeklyPrice, CBTextView tvWeeklyTitle,
-      CBTextView tvYearlyApprox, CTextView tvYearlyPerYear, CBTextView tvYearlyTitle) {
+      CBTextView tvLifetimeTitle, CBTextView tvMonthlyApprox, CBTextView tvMonthlyTitle,
+      CBTextView tvWeeklyApprox, CBTextView tvWeeklyTitle, CBTextView tvYearlyApprox,
+      CBTextView tvYearlyTitle) {
     super(_bindingComponent, _root, _localFieldCount);
     this.btnContinue = btnContinue;
     this.imgBack = imgBack;
@@ -102,15 +86,10 @@ public abstract class ActivityAccessAllFeatureBinding extends ViewDataBinding {
     this.tvLifetimePrice = tvLifetimePrice;
     this.tvLifetimeTitle = tvLifetimeTitle;
     this.tvMonthlyApprox = tvMonthlyApprox;
-    this.tvMonthlyPerYear = tvMonthlyPerYear;
-    this.tvMonthlyPrice = tvMonthlyPrice;
     this.tvMonthlyTitle = tvMonthlyTitle;
     this.tvWeeklyApprox = tvWeeklyApprox;
-    this.tvWeeklyPerYear = tvWeeklyPerYear;
-    this.tvWeeklyPrice = tvWeeklyPrice;
     this.tvWeeklyTitle = tvWeeklyTitle;
     this.tvYearlyApprox = tvYearlyApprox;
-    this.tvYearlyPerYear = tvYearlyPerYear;
     this.tvYearlyTitle = tvYearlyTitle;
   }
 

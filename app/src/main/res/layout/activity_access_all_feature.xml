@@ -138,46 +138,34 @@
                                 <LinearLayout
                                     android:layout_width="0dp"
                                     android:layout_weight="1"
+                                    android:layout_gravity="center_vertical"
                                     android:layout_height="wrap_content"
                                     android:layout_marginStart="@dimen/_10sdp"
                                     android:orientation="vertical">
 
                                     <com.common.view.CBTextView
                                         android:id="@+id/tvWeeklyTitle"
-                                        style="@style/txt_999_18"
+                                        style="@style/txt_000_18"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="Starter" />
 
-                                    <com.common.view.CTextView
-                                        android:id="@+id/tvWeeklyPrice"
-                                        style="@style/txt_999_14"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginTop="@dimen/_2sdp"
-                                        android:text="480/Weekly" />
                                 </LinearLayout>
 
                                 <LinearLayout
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
                                     android:layout_marginEnd="@dimen/_10sdp"
                                     android:orientation="vertical">
 
                                     <com.common.view.CBTextView
                                         android:id="@+id/tvWeeklyApprox"
-                                        style="@style/txt_999_14"
+                                        style="@style/txt_000_18"
+                                        android:layout_gravity="end"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="price" />
-
-                                    <com.common.view.CTextView
-                                        android:id="@+id/tvWeeklyPerYear"
-                                        style="@style/txt_999_14"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginTop="@dimen/_2sdp"
-                                        android:text="per year" />
                                 </LinearLayout>
 
                             </LinearLayout>
@@ -213,46 +201,36 @@
                             <LinearLayout
                                 android:layout_width="0dp"
                                 android:layout_weight="1"
+                                android:layout_gravity="center_vertical"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="@dimen/_10sdp"
                                 android:orientation="vertical">
 
                                 <com.common.view.CBTextView
                                     android:id="@+id/tvMonthlyTitle"
-                                    style="@style/txt_999_18"
+                                    style="@style/txt_000_18"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Basic" />
 
-                                <com.common.view.CTextView
-                                    android:id="@+id/tvMonthlyPrice"
-                                    style="@style/txt_999_14"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="@dimen/_2sdp"
-                                    android:text="430.00/Month" />
+
                             </LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginEnd="@dimen/_10sdp"
+                                android:layout_gravity="center_vertical"
                                 android:orientation="vertical">
 
                                 <com.common.view.CBTextView
                                     android:id="@+id/tvMonthlyApprox"
-                                    style="@style/txt_999_14"
+                                    style="@style/txt_000_18"
+                                    android:layout_gravity="end"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="price" />
 
-                                <com.common.view.CTextView
-                                    android:id="@+id/tvMonthlyPerYear"
-                                    style="@style/txt_999_14"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="@dimen/_2sdp"
-                                    android:text="per year" />
                             </LinearLayout>
 
                         </LinearLayout>
@@ -293,7 +271,7 @@
 
                                 <com.common.view.CBTextView
                                     android:id="@+id/tvYearlyTitle"
-                                    style="@style/txt_999_18"
+                                    style="@style/txt_000_18"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Premium" />
@@ -302,23 +280,17 @@
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
                                 android:layout_marginEnd="@dimen/_10sdp"
                                 android:orientation="vertical">
 
                                 <com.common.view.CBTextView
                                     android:id="@+id/tvYearlyApprox"
-                                    style="@style/txt_999_14"
+                                    style="@style/txt_000_18"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="price" />
 
-                                <com.common.view.CTextView
-                                    android:id="@+id/tvYearlyPerYear"
-                                    style="@style/txt_999_14"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="@dimen/_2sdp"
-                                    android:text="per year" />
                             </LinearLayout>
 
                         </LinearLayout>
@@ -360,7 +332,7 @@
 
                                     <com.common.view.CBTextView
                                         android:id="@+id/tvLifetimeTitle"
-                                        style="@style/txt_999_18"
+                                        style="@style/txt_000_18"
                                         android:textColor="@color/white"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
@@ -376,7 +348,7 @@
 
                                     <com.common.view.CBTextView
                                         android:id="@+id/tvLifetimePrice"
-                                        style="@style/txt_999_14"
+                                        style="@style/txt_000_18"
                                         android:textColor="@color/white"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"

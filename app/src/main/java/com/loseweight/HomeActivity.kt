@@ -60,6 +60,16 @@ class HomeActivity : BaseActivity() {
                 val intent = Intent(this, AccessAllFeaturesActivity::class.java)
                 intent.putExtra("fromIntro", fromIntro)
                 startActivity(intent)
+            }else{
+                if (!Utils.getPref(
+                        this@HomeActivity,
+                        Constant.PREF_IS_FIRST_TIME,
+                        true
+                    )
+                ){
+                    val intent = Intent(this, AccessAllFeaturesActivity::class.java)
+                    startActivity(intent)
+                }
             }
         }
         AudienceNetworkInitializeHelper.initialize(this)

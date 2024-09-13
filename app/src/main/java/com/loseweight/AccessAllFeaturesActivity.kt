@@ -84,79 +84,48 @@ class AccessAllFeaturesActivity : BaseActivity() {
                     R.color.white
                 )
             )
-            binding!!.tvYearlyPerYear.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.white
-                )
-            )
 
             //Lifetime
             binding!!.llPerLifetime.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity,R.drawable.btn_bg_round_theme_transparent)
             binding!!.tvLifetimePrice.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
             binding!!.tvLifetimeTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
 
             //monthly
             binding!!.llPerMonth.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity, R.drawable.btn_bg_round_theme_transparent)
-            binding!!.tvMonthlyPrice.setTextColor(
+            binding!!.tvMonthlyApprox.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
             binding!!.tvMonthlyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
-            binding!!.tvMonthlyApprox.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.col_999
-                )
-            )
-            binding!!.tvMonthlyPerYear.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.col_999
-                )
-            )
-
             //weekly
             binding!!.llPerWeek.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity, R.drawable.btn_bg_round_theme_transparent)
-            binding!!.tvWeeklyPrice.setTextColor(
+            binding!!.tvWeeklyApprox.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
             binding!!.tvWeeklyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
-                )
-            )
-            binding!!.tvWeeklyApprox.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.col_999
-                )
-            )
-            binding!!.tvWeeklyPerYear.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
             skuDetail = Constant.YEARLY_SKU
@@ -168,85 +137,53 @@ class AccessAllFeaturesActivity : BaseActivity() {
             binding!!.tvYearlyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
             binding!!.tvYearlyApprox.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
-            binding!!.tvYearlyPerYear.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.col_999
-                )
-            )
-
             //weekly
             binding!!.llPerWeek.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity, R.drawable.btn_bg_round_theme_transparent)
-            binding!!.tvWeeklyPrice.setTextColor(
+            binding!!.tvWeeklyApprox.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
             binding!!.tvWeeklyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
-            binding!!.tvWeeklyApprox.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.col_999
-                )
-            )
-            binding!!.tvWeeklyPerYear.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.col_999
-                )
-            )
-
             //Lifetime
             binding!!.llPerLifetime.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity,R.drawable.btn_bg_round_theme_transparent)
             binding!!.tvLifetimePrice.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
             binding!!.tvLifetimeTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
 
             //monthly
             binding!!.llPerMonth.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity, R.drawable.btn_bg_round_border_theme)
-            binding!!.tvMonthlyPrice.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.white
-                )
-            )
-            binding!!.tvMonthlyTitle.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.white
-                )
-            )
             binding!!.tvMonthlyApprox.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
                     R.color.white
                 )
             )
-            binding!!.tvMonthlyPerYear.setTextColor(
+            binding!!.tvMonthlyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
                     R.color.white
@@ -261,85 +198,53 @@ class AccessAllFeaturesActivity : BaseActivity() {
             binding!!.tvYearlyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
             binding!!.tvYearlyApprox.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
-            binding!!.tvYearlyPerYear.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.col_999
-                )
-            )
-
             //monthly
             binding!!.llPerMonth.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity, R.drawable.btn_bg_round_theme_transparent)
             binding!!.tvMonthlyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
-                )
-            )
-            binding!!.tvMonthlyPrice.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
             binding!!.tvMonthlyApprox.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
-            binding!!.tvMonthlyPerYear.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.col_999
-                )
-            )
-
             //Lifetime
             binding!!.llPerLifetime.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity,R.drawable.btn_bg_round_theme_transparent)
             binding!!.tvLifetimePrice.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
             binding!!.tvLifetimeTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
 
             //weekly
             binding!!.llPerWeek.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity, R.drawable.btn_bg_round_border_theme)
-            binding!!.tvWeeklyPrice.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.white
-                )
-            )
-            binding!!.tvWeeklyTitle.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.white
-                )
-            )
             binding!!.tvWeeklyApprox.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
                     R.color.white
                 )
             )
-            binding!!.tvWeeklyPerYear.setTextColor(
+            binding!!.tvWeeklyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
                     R.color.white
@@ -369,73 +274,42 @@ class AccessAllFeaturesActivity : BaseActivity() {
             binding!!.tvYearlyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
             binding!!.tvYearlyApprox.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
-            binding!!.tvYearlyPerYear.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.col_999
-                )
-            )
-
             //monthly
             binding!!.llPerMonth.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity, R.drawable.btn_bg_round_theme_transparent)
             binding!!.tvMonthlyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
-                )
-            )
-            binding!!.tvMonthlyPrice.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
             binding!!.tvMonthlyApprox.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
-                )
-            )
-            binding!!.tvMonthlyPerYear.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
 
             //weekly
             binding!!.llPerWeek.background = ContextCompat.getDrawable(this@AccessAllFeaturesActivity, R.drawable.btn_bg_round_theme_transparent)
-            binding!!.tvWeeklyPrice.setTextColor(
+            binding!!.tvWeeklyApprox.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
             binding!!.tvWeeklyTitle.setTextColor(
                 ContextCompat.getColor(
                     this@AccessAllFeaturesActivity,
-                    R.color.col_999
-                )
-            )
-            binding!!.tvWeeklyApprox.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.col_999
-                )
-            )
-            binding!!.tvWeeklyPerYear.setTextColor(
-                ContextCompat.getColor(
-                    this@AccessAllFeaturesActivity,
-                    R.color.col_999
+                    R.color.black
                 )
             )
             skuDetail = Constant.LIFETIME_SKU
@@ -644,21 +518,11 @@ class AccessAllFeaturesActivity : BaseActivity() {
                                     binding!!.tvYearlyTitle.text = thisResponse.name
                                 }
                                 Constant.MONTHLY_SKU -> {
-                                    val monthlyPrice = thisResponse.subscriptionOfferDetails!![0].pricingPhases.pricingPhaseList[0].priceAmountMicros / 1_000_000.0
-                                    val yearlyPriceFromMonthly = monthlyPrice * 12
-                                    val currencySymbol = thisResponse.subscriptionOfferDetails!![0].pricingPhases.pricingPhaseList[0].formattedPrice.takeWhile { it.isLetterOrDigit().not() } // Extract the currency symbol
-
-                                    binding!!.tvMonthlyPrice.text = "${thisResponse.subscriptionOfferDetails!![0].pricingPhases.pricingPhaseList[0].formattedPrice} / Month"
-                                    binding!!.tvMonthlyApprox.text = "$currencySymbol${"%.2f".format(yearlyPriceFromMonthly)}"
+                                    binding!!.tvMonthlyApprox.text = thisResponse.subscriptionOfferDetails!![0].pricingPhases.pricingPhaseList[0].formattedPrice
                                     binding!!.tvMonthlyTitle.text = thisResponse.name
                                 }
                                 Constant.WEEKLY_SKU -> {
-                                    val weeklyPrice = thisResponse.subscriptionOfferDetails!![0].pricingPhases.pricingPhaseList[0].priceAmountMicros / 1_000_000.0
-                                    val yearlyPriceFromWeekly = weeklyPrice * 52
-                                    val currencySymbol = thisResponse.subscriptionOfferDetails!![0].pricingPhases.pricingPhaseList[0].formattedPrice.takeWhile { it.isLetterOrDigit().not() } // Extract the currency symbol
-
-                                    binding!!.tvWeeklyPrice.text = "${thisResponse.subscriptionOfferDetails!![0].pricingPhases.pricingPhaseList[0].formattedPrice} / Week"
-                                    binding!!.tvWeeklyApprox.text = "$currencySymbol${"%.2f".format(yearlyPriceFromWeekly)}"
+                                    binding!!.tvWeeklyApprox.text = thisResponse.subscriptionOfferDetails!![0].pricingPhases.pricingPhaseList[0].formattedPrice
                                     binding!!.tvWeeklyTitle.text = thisResponse.name
                                 }
 

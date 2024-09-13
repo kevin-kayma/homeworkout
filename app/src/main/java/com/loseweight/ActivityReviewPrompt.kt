@@ -27,6 +27,7 @@ class ActivityReviewPrompt : AppCompatActivity() {
                     flow.addOnCompleteListener { task ->
                         if (task.isSuccessful) {
                             // Review flow completed successfully
+                            Log.e("ReviewFlow", "Review flow Done")
                         } else {
                             // Review flow failed
                             Log.e("ReviewFlow", "Review flow failed: ${task.exception}")
