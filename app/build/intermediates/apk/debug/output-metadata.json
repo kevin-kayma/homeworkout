@@ -11,10 +11,11 @@
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 5,
-      "versionName": "1.0.1",
-      "outputFile": "Lose-Weight-For-Women-debug-1.0.1.apk"
+      "versionCode": 6,
+      "versionName": "1.0.2",
+      "outputFile": "Lose-Weight-For-Women-debug-1.0.2.apk"
     }
   ],
-  "elementType": "File"
+  "elementType": "File",
+  "minSdkVersionForDexing": 24
 }
