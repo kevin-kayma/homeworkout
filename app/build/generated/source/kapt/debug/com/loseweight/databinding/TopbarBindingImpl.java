@@ -30,13 +30,13 @@ public class TopbarBindingImpl extends TopbarBinding implements com.loseweight.g
     @Nullable
     private final android.view.View.OnClickListener mCallback69;
     @Nullable
-    private final android.view.View.OnClickListener mCallback67;
+    private final android.view.View.OnClickListener mCallback72;
     @Nullable
     private final android.view.View.OnClickListener mCallback70;
     @Nullable
     private final android.view.View.OnClickListener mCallback68;
     @Nullable
-    private final android.view.View.OnClickListener mCallback66;
+    private final android.view.View.OnClickListener mCallback71;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -67,11 +67,11 @@ public class TopbarBindingImpl extends TopbarBinding implements com.loseweight.g
         this.tvReset.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback69 = new com.loseweight.generated.callback.OnClickListener(this, 4);
-        mCallback67 = new com.loseweight.generated.callback.OnClickListener(this, 2);
-        mCallback70 = new com.loseweight.generated.callback.OnClickListener(this, 5);
-        mCallback68 = new com.loseweight.generated.callback.OnClickListener(this, 3);
-        mCallback66 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback69 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback72 = new com.loseweight.generated.callback.OnClickListener(this, 5);
+        mCallback70 = new com.loseweight.generated.callback.OnClickListener(this, 3);
+        mCallback68 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback71 = new com.loseweight.generated.callback.OnClickListener(this, 4);
         invalidateAll();
     }
 
@@ -383,11 +383,11 @@ public class TopbarBindingImpl extends TopbarBinding implements com.loseweight.g
         if ((dirtyFlags & 0x800L) != 0) {
             // api target 1
 
-            this.imgBack.setOnClickListener(mCallback67);
-            this.mboundView1.setOnClickListener(mCallback66);
-            this.mboundView3.setOnClickListener(mCallback68);
-            this.mboundView5.setOnClickListener(mCallback69);
-            this.tvReset.setOnClickListener(mCallback70);
+            this.imgBack.setOnClickListener(mCallback69);
+            this.mboundView1.setOnClickListener(mCallback68);
+            this.mboundView3.setOnClickListener(mCallback70);
+            this.mboundView5.setOnClickListener(mCallback71);
+            this.tvReset.setOnClickListener(mCallback72);
         }
         if ((dirtyFlags & 0x820L) != 0) {
             // api target 1
@@ -429,25 +429,6 @@ public class TopbarBindingImpl extends TopbarBinding implements com.loseweight.g
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
-            case 4: {
-                // localize variables for thread safety
-                // topBarClickListener
-                com.loseweight.interfaces.TopBarClickListener topBarClickListener = mTopBarClickListener;
-                // topBarClickListener != null
-                boolean topBarClickListenerJavaLangObjectNull = false;
-
-
-
-                topBarClickListenerJavaLangObjectNull = (topBarClickListener) != (null);
-                if (topBarClickListenerJavaLangObjectNull) {
-
-
-
-
-                    topBarClickListener.onTopBarClickListener(callbackArg_0, mboundView5.getResources().getString(R.string.more));
-                }
-                break;
-            }
             case 2: {
                 // localize variables for thread safety
                 // topBarClickListener
@@ -521,6 +502,25 @@ public class TopbarBindingImpl extends TopbarBinding implements com.loseweight.g
 
 
                     topBarClickListener.onTopBarClickListener(callbackArg_0, mboundView1.getResources().getString(R.string.home));
+                }
+                break;
+            }
+            case 4: {
+                // localize variables for thread safety
+                // topBarClickListener
+                com.loseweight.interfaces.TopBarClickListener topBarClickListener = mTopBarClickListener;
+                // topBarClickListener != null
+                boolean topBarClickListenerJavaLangObjectNull = false;
+
+
+
+                topBarClickListenerJavaLangObjectNull = (topBarClickListener) != (null);
+                if (topBarClickListenerJavaLangObjectNull) {
+
+
+
+
+                    topBarClickListener.onTopBarClickListener(callbackArg_0, mboundView5.getResources().getString(R.string.more));
                 }
                 break;
             }

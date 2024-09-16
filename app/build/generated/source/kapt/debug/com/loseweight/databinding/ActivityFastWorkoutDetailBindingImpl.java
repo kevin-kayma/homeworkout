@@ -41,11 +41,11 @@ public class ActivityFastWorkoutDetailBindingImpl extends ActivityFastWorkoutDet
     @Nullable
     private final android.view.View.OnClickListener mCallback59;
     @Nullable
-    private final android.view.View.OnClickListener mCallback57;
+    private final android.view.View.OnClickListener mCallback62;
     @Nullable
     private final android.view.View.OnClickListener mCallback60;
     @Nullable
-    private final android.view.View.OnClickListener mCallback58;
+    private final android.view.View.OnClickListener mCallback61;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -87,10 +87,10 @@ public class ActivityFastWorkoutDetailBindingImpl extends ActivityFastWorkoutDet
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback59 = new com.loseweight.generated.callback.OnClickListener(this, 3);
-        mCallback57 = new com.loseweight.generated.callback.OnClickListener(this, 1);
-        mCallback60 = new com.loseweight.generated.callback.OnClickListener(this, 4);
-        mCallback58 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback59 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback62 = new com.loseweight.generated.callback.OnClickListener(this, 4);
+        mCallback60 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback61 = new com.loseweight.generated.callback.OnClickListener(this, 3);
         invalidateAll();
     }
 
@@ -152,33 +152,16 @@ public class ActivityFastWorkoutDetailBindingImpl extends ActivityFastWorkoutDet
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.imgBack.setOnClickListener(mCallback57);
-            this.llAdvanced.setOnClickListener(mCallback60);
-            this.llBeginner.setOnClickListener(mCallback58);
-            this.llIntermediate.setOnClickListener(mCallback59);
+            this.imgBack.setOnClickListener(mCallback59);
+            this.llAdvanced.setOnClickListener(mCallback62);
+            this.llBeginner.setOnClickListener(mCallback60);
+            this.llIntermediate.setOnClickListener(mCallback61);
         }
     }
     // Listener Stub Implementations
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
-            case 3: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.FastWorkOutDetailActivity.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onIntermediateClick();
-                }
-                break;
-            }
             case 1: {
                 // localize variables for thread safety
                 // handler
@@ -227,6 +210,23 @@ public class ActivityFastWorkoutDetailBindingImpl extends ActivityFastWorkoutDet
 
 
                     handler.onBeginnerClick();
+                }
+                break;
+            }
+            case 3: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.FastWorkOutDetailActivity.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onIntermediateClick();
                 }
                 break;
             }

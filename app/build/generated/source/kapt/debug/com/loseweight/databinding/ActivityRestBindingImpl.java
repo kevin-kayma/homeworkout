@@ -33,11 +33,11 @@ public class ActivityRestBindingImpl extends ActivityRestBinding implements com.
     private final android.widget.LinearLayout mboundView3;
     // variables
     @Nullable
+    private final android.view.View.OnClickListener mCallback65;
+    @Nullable
     private final android.view.View.OnClickListener mCallback63;
     @Nullable
-    private final android.view.View.OnClickListener mCallback61;
-    @Nullable
-    private final android.view.View.OnClickListener mCallback62;
+    private final android.view.View.OnClickListener mCallback64;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -69,9 +69,9 @@ public class ActivityRestBindingImpl extends ActivityRestBinding implements com.
         this.mboundView3.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback63 = new com.loseweight.generated.callback.OnClickListener(this, 3);
-        mCallback61 = new com.loseweight.generated.callback.OnClickListener(this, 1);
-        mCallback62 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback65 = new com.loseweight.generated.callback.OnClickListener(this, 3);
+        mCallback63 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback64 = new com.loseweight.generated.callback.OnClickListener(this, 2);
         invalidateAll();
     }
 
@@ -133,9 +133,9 @@ public class ActivityRestBindingImpl extends ActivityRestBinding implements com.
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.btnContinue.setOnClickListener(mCallback61);
-            this.btnSkip.setOnClickListener(mCallback62);
-            this.mboundView3.setOnClickListener(mCallback63);
+            this.btnContinue.setOnClickListener(mCallback63);
+            this.btnSkip.setOnClickListener(mCallback64);
+            this.mboundView3.setOnClickListener(mCallback65);
         }
     }
     // Listener Stub Implementations

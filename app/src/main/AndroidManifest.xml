@@ -28,10 +28,15 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:appComponentFactory,android:supportsRtl,android:allowBackup">
+        <activity
+            android:name=".LifeTimeOfferActivity"
+            android:exported="false" />
+
         <property
             android:name="android.adservices.AD_SERVICES_CONFIG"
             android:resource="@xml/gma_ad_services_config"
             tools:replace="android:resource" />
+
         <receiver
             android:name=".MyApplication$InternetConnectionReceiver"
             android:exported="true">
@@ -93,15 +98,13 @@
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
-
         <activity
             android:name=".ActivityReviewPrompt"
             android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
             android:exported="true"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing"/>
-
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
         <activity
             android:name=".HomeActivity"
             android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"

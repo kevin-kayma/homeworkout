@@ -161,6 +161,7 @@
 
     <string name="iap_detail">Workout Planner requires a subscription fee for access to premium features. You may cancel your subscription at any time through your Google Play account settings.</string>
     <string name="start">Continue</string>
+    <string name="discount">Claim your discount</string>
     <string name="target_weight">Target weight</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>

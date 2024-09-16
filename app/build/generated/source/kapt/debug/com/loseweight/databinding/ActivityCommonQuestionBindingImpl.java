@@ -31,7 +31,7 @@ public class ActivityCommonQuestionBindingImpl extends ActivityCommonQuestionBin
     private final android.widget.LinearLayout mboundView1;
     // variables
     @Nullable
-    private final android.view.View.OnClickListener mCallback34;
+    private final android.view.View.OnClickListener mCallback36;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -57,7 +57,7 @@ public class ActivityCommonQuestionBindingImpl extends ActivityCommonQuestionBin
         setContainedBinding(this.topbar);
         setRootTag(root);
         // listeners
-        mCallback34 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback36 = new com.loseweight.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -140,7 +140,7 @@ public class ActivityCommonQuestionBindingImpl extends ActivityCommonQuestionBin
         if ((dirtyFlags & 0x4L) != 0) {
             // api target 1
 
-            this.btnFeedBack.setOnClickListener(mCallback34);
+            this.btnFeedBack.setOnClickListener(mCallback36);
         }
         executeBindingsOn(topbar);
     }

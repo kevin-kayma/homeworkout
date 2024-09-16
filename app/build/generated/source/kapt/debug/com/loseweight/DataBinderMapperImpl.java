@@ -23,6 +23,7 @@ import com.loseweight.databinding.ActivityFastWorkoutDetailBindingImpl;
 import com.loseweight.databinding.ActivityHistoryBindingImpl;
 import com.loseweight.databinding.ActivityHomeBindingImpl;
 import com.loseweight.databinding.ActivityHomeDetailBindingImpl;
+import com.loseweight.databinding.ActivityLifeTimeOfferBindingImpl;
 import com.loseweight.databinding.ActivityMyProfileBindingImpl;
 import com.loseweight.databinding.ActivityPerformExerciesBindingImpl;
 import com.loseweight.databinding.ActivityRecentBindingImpl;
@@ -122,115 +123,117 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_ACTIVITYHOMEDETAIL = 17;
 
-  private static final int LAYOUT_ACTIVITYMYPROFILE = 18;
+  private static final int LAYOUT_ACTIVITYLIFETIMEOFFER = 18;
 
-  private static final int LAYOUT_ACTIVITYPERFORMEXERCIES = 19;
+  private static final int LAYOUT_ACTIVITYMYPROFILE = 19;
 
-  private static final int LAYOUT_ACTIVITYRECENT = 20;
+  private static final int LAYOUT_ACTIVITYPERFORMEXERCIES = 20;
 
-  private static final int LAYOUT_ACTIVITYREMINDER = 21;
+  private static final int LAYOUT_ACTIVITYRECENT = 21;
 
-  private static final int LAYOUT_ACTIVITYREST = 22;
+  private static final int LAYOUT_ACTIVITYREMINDER = 22;
 
-  private static final int LAYOUT_ACTIVITYRESTDAY = 23;
+  private static final int LAYOUT_ACTIVITYREST = 23;
 
-  private static final int LAYOUT_ACTIVITYTURNONWATER = 24;
+  private static final int LAYOUT_ACTIVITYRESTDAY = 24;
 
-  private static final int LAYOUT_ACTIVITYVOICEOPTIONS = 25;
+  private static final int LAYOUT_ACTIVITYTURNONWATER = 25;
 
-  private static final int LAYOUT_ACTIVITYWATERTRACKER = 26;
+  private static final int LAYOUT_ACTIVITYVOICEOPTIONS = 26;
 
-  private static final int LAYOUT_ACTIVITYWELLDONE = 27;
+  private static final int LAYOUT_ACTIVITYWATERTRACKER = 27;
 
-  private static final int LAYOUT_ACTIVITYWHATSYOURGOAL = 28;
+  private static final int LAYOUT_ACTIVITYWELLDONE = 28;
 
-  private static final int LAYOUT_ACTIVITYYOURPLAN = 29;
+  private static final int LAYOUT_ACTIVITYWHATSYOURGOAL = 29;
 
-  private static final int LAYOUT_BOTTOMBAR = 30;
+  private static final int LAYOUT_ACTIVITYYOURPLAN = 30;
 
-  private static final int LAYOUT_BOTTOMSHEETEXDETAIL = 31;
+  private static final int LAYOUT_BOTTOMBAR = 31;
 
-  private static final int LAYOUT_BOTTOMSHEETREPLACEEX = 32;
+  private static final int LAYOUT_BOTTOMSHEETEXDETAIL = 32;
 
-  private static final int LAYOUT_BOTTOMSHEETRESTARTCONF = 33;
+  private static final int LAYOUT_BOTTOMSHEETREPLACEEX = 33;
 
-  private static final int LAYOUT_DIALOGDOB = 34;
+  private static final int LAYOUT_BOTTOMSHEETRESTARTCONF = 34;
 
-  private static final int LAYOUT_DIALOGGENDERDOB = 35;
+  private static final int LAYOUT_DIALOGDOB = 35;
 
-  private static final int LAYOUT_DIALOGHEIGHT = 36;
+  private static final int LAYOUT_DIALOGGENDERDOB = 36;
 
-  private static final int LAYOUT_DIALOGHEIGHTWEIGHT = 37;
+  private static final int LAYOUT_DIALOGHEIGHT = 37;
 
-  private static final int LAYOUT_DIALOGQUITEWORKOUT = 38;
+  private static final int LAYOUT_DIALOGHEIGHTWEIGHT = 38;
 
-  private static final int LAYOUT_DIALOGSELECTTTSENGINE = 39;
+  private static final int LAYOUT_DIALOGQUITEWORKOUT = 39;
 
-  private static final int LAYOUT_DIALOGSOUNDOPTION = 40;
+  private static final int LAYOUT_DIALOGSELECTTTSENGINE = 40;
 
-  private static final int LAYOUT_DIALOGTESTVOICEFAIL = 41;
+  private static final int LAYOUT_DIALOGSOUNDOPTION = 41;
 
-  private static final int LAYOUT_DIALOGUNLOACKTRAINING = 42;
+  private static final int LAYOUT_DIALOGTESTVOICEFAIL = 42;
 
-  private static final int LAYOUT_DIALOGWEIGHT = 43;
+  private static final int LAYOUT_DIALOGUNLOACKTRAINING = 43;
 
-  private static final int LAYOUT_DIALOGWEIGHTWITHDATE = 44;
+  private static final int LAYOUT_DIALOGWEIGHT = 44;
 
-  private static final int LAYOUT_FRAGMENTANIMATION = 45;
+  private static final int LAYOUT_DIALOGWEIGHTWITHDATE = 45;
 
-  private static final int LAYOUT_FRAGMENTME = 46;
+  private static final int LAYOUT_FRAGMENTANIMATION = 46;
 
-  private static final int LAYOUT_FRAGMENTPLAN = 47;
+  private static final int LAYOUT_FRAGMENTME = 47;
 
-  private static final int LAYOUT_FRAGMENTREPORT = 48;
+  private static final int LAYOUT_FRAGMENTPLAN = 48;
 
-  private static final int LAYOUT_FRAGMENTVIDEO = 49;
+  private static final int LAYOUT_FRAGMENTREPORT = 49;
 
-  private static final int LAYOUT_ITEMBODYFOCUS = 50;
+  private static final int LAYOUT_FRAGMENTVIDEO = 50;
 
-  private static final int LAYOUT_ITEMCAPTUREDIMAGES = 51;
+  private static final int LAYOUT_ITEMBODYFOCUS = 51;
 
-  private static final int LAYOUT_ITEMCHOOSEYOURPLAN = 52;
+  private static final int LAYOUT_ITEMCAPTUREDIMAGES = 52;
 
-  private static final int LAYOUT_ITEMCOMMONQUESTIONCHILD = 53;
+  private static final int LAYOUT_ITEMCHOOSEYOURPLAN = 53;
 
-  private static final int LAYOUT_ITEMCOMMONQUESTIONPARENT = 54;
+  private static final int LAYOUT_ITEMCOMMONQUESTIONCHILD = 54;
 
-  private static final int LAYOUT_ITEMCOMMONQUESTIONTITLE = 55;
+  private static final int LAYOUT_ITEMCOMMONQUESTIONPARENT = 55;
 
-  private static final int LAYOUT_ITEMDAYSCHILD = 56;
+  private static final int LAYOUT_ITEMCOMMONQUESTIONTITLE = 56;
 
-  private static final int LAYOUT_ITEMDAYSPARENT = 57;
+  private static final int LAYOUT_ITEMDAYSCHILD = 57;
 
-  private static final int LAYOUT_ITEMEDITPLAN = 58;
+  private static final int LAYOUT_ITEMDAYSPARENT = 58;
 
-  private static final int LAYOUT_ITEMHISTORYCHILD = 59;
+  private static final int LAYOUT_ITEMEDITPLAN = 59;
 
-  private static final int LAYOUT_ITEMHISTORYPARENT = 60;
+  private static final int LAYOUT_ITEMHISTORYCHILD = 60;
 
-  private static final int LAYOUT_ITEMHOMEDETAIL = 61;
+  private static final int LAYOUT_ITEMHISTORYPARENT = 61;
 
-  private static final int LAYOUT_ITEMRANDOMWORKOUT = 62;
+  private static final int LAYOUT_ITEMHOMEDETAIL = 62;
 
-  private static final int LAYOUT_ITEMRECENT = 63;
+  private static final int LAYOUT_ITEMRANDOMWORKOUT = 63;
 
-  private static final int LAYOUT_ITEMREMINDER = 64;
+  private static final int LAYOUT_ITEMRECENT = 64;
 
-  private static final int LAYOUT_ITEMREPLACEWORKOUTLIST = 65;
+  private static final int LAYOUT_ITEMREMINDER = 65;
 
-  private static final int LAYOUT_ITEMREPORTWEEKDAY = 66;
+  private static final int LAYOUT_ITEMREPLACEWORKOUTLIST = 66;
 
-  private static final int LAYOUT_ITEMWHATSYOURGOAL = 67;
+  private static final int LAYOUT_ITEMREPORTWEEKDAY = 67;
 
-  private static final int LAYOUT_ITEMWORKOUTLIST = 68;
+  private static final int LAYOUT_ITEMWHATSYOURGOAL = 68;
 
-  private static final int LAYOUT_ITEMWORKOUTSTATUSINDICATOR = 69;
+  private static final int LAYOUT_ITEMWORKOUTLIST = 69;
 
-  private static final int LAYOUT_POPUPLOGOUT = 70;
+  private static final int LAYOUT_ITEMWORKOUTSTATUSINDICATOR = 70;
 
-  private static final int LAYOUT_TOPBAR = 71;
+  private static final int LAYOUT_POPUPLOGOUT = 71;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(71);
+  private static final int LAYOUT_TOPBAR = 72;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(72);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.loseweight.R.layout.activity_about, LAYOUT_ACTIVITYABOUT);
@@ -250,6 +253,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.loseweight.R.layout.activity_history, LAYOUT_ACTIVITYHISTORY);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.loseweight.R.layout.activity_home, LAYOUT_ACTIVITYHOME);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.loseweight.R.layout.activity_home_detail, LAYOUT_ACTIVITYHOMEDETAIL);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.loseweight.R.layout.activity_life_time_offer, LAYOUT_ACTIVITYLIFETIMEOFFER);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.loseweight.R.layout.activity_my_profile, LAYOUT_ACTIVITYMYPROFILE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.loseweight.R.layout.activity_perform_exercies, LAYOUT_ACTIVITYPERFORMEXERCIES);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.loseweight.R.layout.activity_recent, LAYOUT_ACTIVITYRECENT);
@@ -410,6 +414,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           return new ActivityHomeDetailBindingImpl(component, view);
         }
         throw new IllegalArgumentException("The tag for activity_home_detail is invalid. Received: " + tag);
+      }
+      case  LAYOUT_ACTIVITYLIFETIMEOFFER: {
+        if ("layout/activity_life_time_offer_0".equals(tag)) {
+          return new ActivityLifeTimeOfferBindingImpl(component, view);
+        }
+        throw new IllegalArgumentException("The tag for activity_life_time_offer is invalid. Received: " + tag);
       }
       case  LAYOUT_ACTIVITYMYPROFILE: {
         if ("layout/activity_my_profile_0".equals(tag)) {
@@ -603,12 +613,6 @@ public class DataBinderMapperImpl extends DataBinderMapper {
         }
         throw new IllegalArgumentException("The tag for fragment_video is invalid. Received: " + tag);
       }
-      case  LAYOUT_ITEMBODYFOCUS: {
-        if ("layout/item_body_focus_0".equals(tag)) {
-          return new ItemBodyFocusBindingImpl(component, view);
-        }
-        throw new IllegalArgumentException("The tag for item_body_focus is invalid. Received: " + tag);
-      }
     }
     return null;
   }
@@ -616,6 +620,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   private final ViewDataBinding internalGetViewDataBinding1(DataBindingComponent component,
       View view, int internalId, Object tag) {
     switch(internalId) {
+      case  LAYOUT_ITEMBODYFOCUS: {
+        if ("layout/item_body_focus_0".equals(tag)) {
+          return new ItemBodyFocusBindingImpl(component, view);
+        }
+        throw new IllegalArgumentException("The tag for item_body_focus is invalid. Received: " + tag);
+      }
       case  LAYOUT_ITEMCAPTUREDIMAGES: {
         if ("layout/item_captured_images_0".equals(tag)) {
           return new ItemCapturedImagesBindingImpl(component, view);
@@ -830,7 +840,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(71);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(72);
 
     static {
       sKeys.put("layout/activity_about_0", com.loseweight.R.layout.activity_about);
@@ -850,6 +860,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       sKeys.put("layout/activity_history_0", com.loseweight.R.layout.activity_history);
       sKeys.put("layout/activity_home_0", com.loseweight.R.layout.activity_home);
       sKeys.put("layout/activity_home_detail_0", com.loseweight.R.layout.activity_home_detail);
+      sKeys.put("layout/activity_life_time_offer_0", com.loseweight.R.layout.activity_life_time_offer);
       sKeys.put("layout/activity_my_profile_0", com.loseweight.R.layout.activity_my_profile);
       sKeys.put("layout/activity_perform_exercies_0", com.loseweight.R.layout.activity_perform_exercies);
       sKeys.put("layout/activity_recent_0", com.loseweight.R.layout.activity_recent);

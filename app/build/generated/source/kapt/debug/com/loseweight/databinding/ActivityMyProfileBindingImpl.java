@@ -28,15 +28,15 @@ public class ActivityMyProfileBindingImpl extends ActivityMyProfileBinding imple
     private final android.widget.LinearLayout mboundView1;
     // variables
     @Nullable
+    private final android.view.View.OnClickListener mCallback76;
+    @Nullable
+    private final android.view.View.OnClickListener mCallback77;
+    @Nullable
     private final android.view.View.OnClickListener mCallback74;
     @Nullable
     private final android.view.View.OnClickListener mCallback75;
     @Nullable
-    private final android.view.View.OnClickListener mCallback72;
-    @Nullable
     private final android.view.View.OnClickListener mCallback73;
-    @Nullable
-    private final android.view.View.OnClickListener mCallback71;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -67,11 +67,11 @@ public class ActivityMyProfileBindingImpl extends ActivityMyProfileBinding imple
         this.tvLbsFt.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback74 = new com.loseweight.generated.callback.OnClickListener(this, 4);
-        mCallback75 = new com.loseweight.generated.callback.OnClickListener(this, 5);
-        mCallback72 = new com.loseweight.generated.callback.OnClickListener(this, 2);
-        mCallback73 = new com.loseweight.generated.callback.OnClickListener(this, 3);
-        mCallback71 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback76 = new com.loseweight.generated.callback.OnClickListener(this, 4);
+        mCallback77 = new com.loseweight.generated.callback.OnClickListener(this, 5);
+        mCallback74 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback75 = new com.loseweight.generated.callback.OnClickListener(this, 3);
+        mCallback73 = new com.loseweight.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -154,11 +154,11 @@ public class ActivityMyProfileBindingImpl extends ActivityMyProfileBinding imple
         if ((dirtyFlags & 0x4L) != 0) {
             // api target 1
 
-            this.editHeight.setOnClickListener(mCallback73);
-            this.editTargetWeight.setOnClickListener(mCallback75);
-            this.editWeight.setOnClickListener(mCallback74);
-            this.tvKgCm.setOnClickListener(mCallback71);
-            this.tvLbsFt.setOnClickListener(mCallback72);
+            this.editHeight.setOnClickListener(mCallback75);
+            this.editTargetWeight.setOnClickListener(mCallback77);
+            this.editWeight.setOnClickListener(mCallback76);
+            this.tvKgCm.setOnClickListener(mCallback73);
+            this.tvLbsFt.setOnClickListener(mCallback74);
         }
         executeBindingsOn(topbar);
     }

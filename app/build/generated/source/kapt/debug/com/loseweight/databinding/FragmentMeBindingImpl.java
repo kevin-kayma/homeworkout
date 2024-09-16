@@ -50,17 +50,17 @@ public class FragmentMeBindingImpl extends FragmentMeBinding implements com.lose
     @Nullable
     private final android.view.View.OnClickListener mCallback47;
     @Nullable
-    private final android.view.View.OnClickListener mCallback48;
+    private final android.view.View.OnClickListener mCallback58;
     @Nullable
-    private final android.view.View.OnClickListener mCallback45;
+    private final android.view.View.OnClickListener mCallback48;
     @Nullable
     private final android.view.View.OnClickListener mCallback56;
     @Nullable
     private final android.view.View.OnClickListener mCallback46;
     @Nullable
-    private final android.view.View.OnClickListener mCallback54;
+    private final android.view.View.OnClickListener mCallback57;
     @Nullable
-    private final android.view.View.OnClickListener mCallback44;
+    private final android.view.View.OnClickListener mCallback54;
     @Nullable
     private final android.view.View.OnClickListener mCallback55;
     @Nullable
@@ -113,19 +113,19 @@ public class FragmentMeBindingImpl extends FragmentMeBinding implements com.lose
         this.mboundView9.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback49 = new com.loseweight.generated.callback.OnClickListener(this, 6);
-        mCallback47 = new com.loseweight.generated.callback.OnClickListener(this, 4);
-        mCallback48 = new com.loseweight.generated.callback.OnClickListener(this, 5);
-        mCallback45 = new com.loseweight.generated.callback.OnClickListener(this, 2);
-        mCallback56 = new com.loseweight.generated.callback.OnClickListener(this, 13);
-        mCallback46 = new com.loseweight.generated.callback.OnClickListener(this, 3);
-        mCallback54 = new com.loseweight.generated.callback.OnClickListener(this, 11);
-        mCallback44 = new com.loseweight.generated.callback.OnClickListener(this, 1);
-        mCallback55 = new com.loseweight.generated.callback.OnClickListener(this, 12);
-        mCallback52 = new com.loseweight.generated.callback.OnClickListener(this, 9);
-        mCallback53 = new com.loseweight.generated.callback.OnClickListener(this, 10);
-        mCallback50 = new com.loseweight.generated.callback.OnClickListener(this, 7);
-        mCallback51 = new com.loseweight.generated.callback.OnClickListener(this, 8);
+        mCallback49 = new com.loseweight.generated.callback.OnClickListener(this, 4);
+        mCallback47 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback58 = new com.loseweight.generated.callback.OnClickListener(this, 13);
+        mCallback48 = new com.loseweight.generated.callback.OnClickListener(this, 3);
+        mCallback56 = new com.loseweight.generated.callback.OnClickListener(this, 11);
+        mCallback46 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback57 = new com.loseweight.generated.callback.OnClickListener(this, 12);
+        mCallback54 = new com.loseweight.generated.callback.OnClickListener(this, 9);
+        mCallback55 = new com.loseweight.generated.callback.OnClickListener(this, 10);
+        mCallback52 = new com.loseweight.generated.callback.OnClickListener(this, 7);
+        mCallback53 = new com.loseweight.generated.callback.OnClickListener(this, 8);
+        mCallback50 = new com.loseweight.generated.callback.OnClickListener(this, 5);
+        mCallback51 = new com.loseweight.generated.callback.OnClickListener(this, 6);
         invalidateAll();
     }
 
@@ -187,42 +187,25 @@ public class FragmentMeBindingImpl extends FragmentMeBinding implements com.lose
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.llGoPremium.setOnClickListener(mCallback46);
-            this.mboundView1.setOnClickListener(mCallback44);
-            this.mboundView10.setOnClickListener(mCallback53);
-            this.mboundView11.setOnClickListener(mCallback54);
-            this.mboundView12.setOnClickListener(mCallback55);
-            this.mboundView13.setOnClickListener(mCallback56);
-            this.mboundView2.setOnClickListener(mCallback45);
-            this.mboundView4.setOnClickListener(mCallback47);
-            this.mboundView5.setOnClickListener(mCallback48);
-            this.mboundView6.setOnClickListener(mCallback49);
-            this.mboundView7.setOnClickListener(mCallback50);
-            this.mboundView8.setOnClickListener(mCallback51);
-            this.mboundView9.setOnClickListener(mCallback52);
+            this.llGoPremium.setOnClickListener(mCallback48);
+            this.mboundView1.setOnClickListener(mCallback46);
+            this.mboundView10.setOnClickListener(mCallback55);
+            this.mboundView11.setOnClickListener(mCallback56);
+            this.mboundView12.setOnClickListener(mCallback57);
+            this.mboundView13.setOnClickListener(mCallback58);
+            this.mboundView2.setOnClickListener(mCallback47);
+            this.mboundView4.setOnClickListener(mCallback49);
+            this.mboundView5.setOnClickListener(mCallback50);
+            this.mboundView6.setOnClickListener(mCallback51);
+            this.mboundView7.setOnClickListener(mCallback52);
+            this.mboundView8.setOnClickListener(mCallback53);
+            this.mboundView9.setOnClickListener(mCallback54);
         }
     }
     // Listener Stub Implementations
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
-            case 6: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.fragments.MeFragment.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onRestartProgressClick();
-                }
-                break;
-            }
             case 4: {
                 // localize variables for thread safety
                 // handler
@@ -237,23 +220,6 @@ public class FragmentMeBindingImpl extends FragmentMeBinding implements com.lose
 
 
                     handler.onMyProfileClick();
-                }
-                break;
-            }
-            case 5: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.fragments.MeFragment.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onChangeLanguageClick();
                 }
                 break;
             }
@@ -424,6 +390,40 @@ public class FragmentMeBindingImpl extends FragmentMeBinding implements com.lose
 
 
                     handler.onShareWithFriendClick();
+                }
+                break;
+            }
+            case 5: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.fragments.MeFragment.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onChangeLanguageClick();
+                }
+                break;
+            }
+            case 6: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.fragments.MeFragment.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onRestartProgressClick();
                 }
                 break;
             }

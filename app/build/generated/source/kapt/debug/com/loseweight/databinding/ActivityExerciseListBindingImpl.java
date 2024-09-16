@@ -47,7 +47,7 @@ public class ActivityExerciseListBindingImpl extends ActivityExerciseListBinding
     @Nullable
     private final android.view.View.OnClickListener mCallback37;
     @Nullable
-    private final android.view.View.OnClickListener mCallback35;
+    private final android.view.View.OnClickListener mCallback45;
     @Nullable
     private final android.view.View.OnClickListener mCallback43;
     @Nullable
@@ -57,7 +57,7 @@ public class ActivityExerciseListBindingImpl extends ActivityExerciseListBinding
     @Nullable
     private final android.view.View.OnClickListener mCallback38;
     @Nullable
-    private final android.view.View.OnClickListener mCallback36;
+    private final android.view.View.OnClickListener mCallback44;
     @Nullable
     private final android.view.View.OnClickListener mCallback41;
     // values
@@ -115,15 +115,15 @@ public class ActivityExerciseListBindingImpl extends ActivityExerciseListBinding
         this.tvEdit.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback39 = new com.loseweight.generated.callback.OnClickListener(this, 5);
-        mCallback37 = new com.loseweight.generated.callback.OnClickListener(this, 3);
-        mCallback35 = new com.loseweight.generated.callback.OnClickListener(this, 1);
-        mCallback43 = new com.loseweight.generated.callback.OnClickListener(this, 9);
-        mCallback42 = new com.loseweight.generated.callback.OnClickListener(this, 8);
-        mCallback40 = new com.loseweight.generated.callback.OnClickListener(this, 6);
-        mCallback38 = new com.loseweight.generated.callback.OnClickListener(this, 4);
-        mCallback36 = new com.loseweight.generated.callback.OnClickListener(this, 2);
-        mCallback41 = new com.loseweight.generated.callback.OnClickListener(this, 7);
+        mCallback39 = new com.loseweight.generated.callback.OnClickListener(this, 3);
+        mCallback37 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback45 = new com.loseweight.generated.callback.OnClickListener(this, 9);
+        mCallback43 = new com.loseweight.generated.callback.OnClickListener(this, 7);
+        mCallback42 = new com.loseweight.generated.callback.OnClickListener(this, 6);
+        mCallback40 = new com.loseweight.generated.callback.OnClickListener(this, 4);
+        mCallback38 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback44 = new com.loseweight.generated.callback.OnClickListener(this, 8);
+        mCallback41 = new com.loseweight.generated.callback.OnClickListener(this, 5);
         invalidateAll();
     }
 
@@ -185,38 +185,21 @@ public class ActivityExerciseListBindingImpl extends ActivityExerciseListBinding
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.btnContinue.setOnClickListener(mCallback41);
-            this.btnDoItAgain.setOnClickListener(mCallback43);
-            this.btnRestart.setOnClickListener(mCallback40);
-            this.btnStart.setOnClickListener(mCallback42);
-            this.imgBack.setOnClickListener(mCallback37);
-            this.llIntroductionTitle.setOnClickListener(mCallback38);
-            this.tvAbout.setOnClickListener(mCallback35);
-            this.tvCommonQuestion.setOnClickListener(mCallback36);
-            this.tvEdit.setOnClickListener(mCallback39);
+            this.btnContinue.setOnClickListener(mCallback43);
+            this.btnDoItAgain.setOnClickListener(mCallback45);
+            this.btnRestart.setOnClickListener(mCallback42);
+            this.btnStart.setOnClickListener(mCallback44);
+            this.imgBack.setOnClickListener(mCallback39);
+            this.llIntroductionTitle.setOnClickListener(mCallback40);
+            this.tvAbout.setOnClickListener(mCallback37);
+            this.tvCommonQuestion.setOnClickListener(mCallback38);
+            this.tvEdit.setOnClickListener(mCallback41);
         }
     }
     // Listener Stub Implementations
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
-            case 5: {
-                // localize variables for thread safety
-                // handler
-                com.loseweight.ExercisesListActivity.ClickHandler handler = mHandler;
-                // handler != null
-                boolean handlerJavaLangObjectNull = false;
-
-
-
-                handlerJavaLangObjectNull = (handler) != (null);
-                if (handlerJavaLangObjectNull) {
-
-
-                    handler.onEditClick();
-                }
-                break;
-            }
             case 3: {
                 // localize variables for thread safety
                 // handler
@@ -268,7 +251,7 @@ public class ActivityExerciseListBindingImpl extends ActivityExerciseListBinding
                 }
                 break;
             }
-            case 8: {
+            case 7: {
                 // localize variables for thread safety
                 // handler
                 com.loseweight.ExercisesListActivity.ClickHandler handler = mHandler;
@@ -281,7 +264,7 @@ public class ActivityExerciseListBindingImpl extends ActivityExerciseListBinding
                 if (handlerJavaLangObjectNull) {
 
 
-                    handler.onStartClick();
+                    handler.onContinueClick();
                 }
                 break;
             }
@@ -336,7 +319,7 @@ public class ActivityExerciseListBindingImpl extends ActivityExerciseListBinding
                 }
                 break;
             }
-            case 7: {
+            case 8: {
                 // localize variables for thread safety
                 // handler
                 com.loseweight.ExercisesListActivity.ClickHandler handler = mHandler;
@@ -349,7 +332,24 @@ public class ActivityExerciseListBindingImpl extends ActivityExerciseListBinding
                 if (handlerJavaLangObjectNull) {
 
 
-                    handler.onContinueClick();
+                    handler.onStartClick();
+                }
+                break;
+            }
+            case 5: {
+                // localize variables for thread safety
+                // handler
+                com.loseweight.ExercisesListActivity.ClickHandler handler = mHandler;
+                // handler != null
+                boolean handlerJavaLangObjectNull = false;
+
+
+
+                handlerJavaLangObjectNull = (handler) != (null);
+                if (handlerJavaLangObjectNull) {
+
+
+                    handler.onEditClick();
                 }
                 break;
             }

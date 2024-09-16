@@ -43,21 +43,21 @@ public class FragmentPlanBindingImpl extends FragmentPlanBinding implements com.
     private final androidx.cardview.widget.CardView mboundView6;
     // variables
     @Nullable
+    private final android.view.View.OnClickListener mCallback89;
+    @Nullable
     private final android.view.View.OnClickListener mCallback87;
     @Nullable
     private final android.view.View.OnClickListener mCallback86;
     @Nullable
     private final android.view.View.OnClickListener mCallback84;
     @Nullable
-    private final android.view.View.OnClickListener mCallback82;
+    private final android.view.View.OnClickListener mCallback90;
     @Nullable
     private final android.view.View.OnClickListener mCallback88;
     @Nullable
     private final android.view.View.OnClickListener mCallback85;
     @Nullable
     private final android.view.View.OnClickListener mCallback83;
-    @Nullable
-    private final android.view.View.OnClickListener mCallback81;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -105,14 +105,14 @@ public class FragmentPlanBindingImpl extends FragmentPlanBinding implements com.
         this.tvViewAll.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback87 = new com.loseweight.generated.callback.OnClickListener(this, 7);
-        mCallback86 = new com.loseweight.generated.callback.OnClickListener(this, 6);
-        mCallback84 = new com.loseweight.generated.callback.OnClickListener(this, 4);
-        mCallback82 = new com.loseweight.generated.callback.OnClickListener(this, 2);
-        mCallback88 = new com.loseweight.generated.callback.OnClickListener(this, 8);
-        mCallback85 = new com.loseweight.generated.callback.OnClickListener(this, 5);
-        mCallback83 = new com.loseweight.generated.callback.OnClickListener(this, 3);
-        mCallback81 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback89 = new com.loseweight.generated.callback.OnClickListener(this, 7);
+        mCallback87 = new com.loseweight.generated.callback.OnClickListener(this, 5);
+        mCallback86 = new com.loseweight.generated.callback.OnClickListener(this, 4);
+        mCallback84 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback90 = new com.loseweight.generated.callback.OnClickListener(this, 8);
+        mCallback88 = new com.loseweight.generated.callback.OnClickListener(this, 6);
+        mCallback85 = new com.loseweight.generated.callback.OnClickListener(this, 3);
+        mCallback83 = new com.loseweight.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -174,14 +174,14 @@ public class FragmentPlanBindingImpl extends FragmentPlanBinding implements com.
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.btnDay.setOnClickListener(mCallback85);
-            this.btnDrink.setOnClickListener(mCallback87);
-            this.btnStartWaterTracker.setOnClickListener(mCallback88);
-            this.imgChange.setOnClickListener(mCallback84);
-            this.mboundView2.setOnClickListener(mCallback82);
-            this.mboundView3.setOnClickListener(mCallback83);
-            this.mboundView6.setOnClickListener(mCallback86);
-            this.tvViewAll.setOnClickListener(mCallback81);
+            this.btnDay.setOnClickListener(mCallback87);
+            this.btnDrink.setOnClickListener(mCallback89);
+            this.btnStartWaterTracker.setOnClickListener(mCallback90);
+            this.imgChange.setOnClickListener(mCallback86);
+            this.mboundView2.setOnClickListener(mCallback84);
+            this.mboundView3.setOnClickListener(mCallback85);
+            this.mboundView6.setOnClickListener(mCallback88);
+            this.tvViewAll.setOnClickListener(mCallback83);
         }
     }
     // Listener Stub Implementations
@@ -205,7 +205,7 @@ public class FragmentPlanBindingImpl extends FragmentPlanBinding implements com.
                 }
                 break;
             }
-            case 6: {
+            case 5: {
                 // localize variables for thread safety
                 // handler
                 com.loseweight.fragments.PlanFragment.ClickHandler handler = mHandler;
@@ -218,7 +218,7 @@ public class FragmentPlanBindingImpl extends FragmentPlanBinding implements com.
                 if (handlerJavaLangObjectNull) {
 
 
-                    handler.onFastWorkoutClick();
+                    handler.onDaysPlanClick();
                 }
                 break;
             }
@@ -273,7 +273,7 @@ public class FragmentPlanBindingImpl extends FragmentPlanBinding implements com.
                 }
                 break;
             }
-            case 5: {
+            case 6: {
                 // localize variables for thread safety
                 // handler
                 com.loseweight.fragments.PlanFragment.ClickHandler handler = mHandler;
@@ -286,7 +286,7 @@ public class FragmentPlanBindingImpl extends FragmentPlanBinding implements com.
                 if (handlerJavaLangObjectNull) {
 
 
-                    handler.onDaysPlanClick();
+                    handler.onFastWorkoutClick();
                 }
                 break;
             }

@@ -48,19 +48,19 @@ public class FragmentReportBindingImpl extends FragmentReportBinding implements 
     private final com.common.view.CTextView mboundView4;
     // variables
     @Nullable
+    private final android.view.View.OnClickListener mCallback99;
+    @Nullable
     private final android.view.View.OnClickListener mCallback96;
     @Nullable
     private final android.view.View.OnClickListener mCallback94;
     @Nullable
-    private final android.view.View.OnClickListener mCallback92;
+    private final android.view.View.OnClickListener mCallback98;
     @Nullable
     private final android.view.View.OnClickListener mCallback97;
     @Nullable
     private final android.view.View.OnClickListener mCallback95;
     @Nullable
     private final android.view.View.OnClickListener mCallback93;
-    @Nullable
-    private final android.view.View.OnClickListener mCallback91;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -109,13 +109,13 @@ public class FragmentReportBindingImpl extends FragmentReportBinding implements 
         this.mboundView4.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback96 = new com.loseweight.generated.callback.OnClickListener(this, 6);
-        mCallback94 = new com.loseweight.generated.callback.OnClickListener(this, 4);
-        mCallback92 = new com.loseweight.generated.callback.OnClickListener(this, 2);
-        mCallback97 = new com.loseweight.generated.callback.OnClickListener(this, 7);
-        mCallback95 = new com.loseweight.generated.callback.OnClickListener(this, 5);
-        mCallback93 = new com.loseweight.generated.callback.OnClickListener(this, 3);
-        mCallback91 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback99 = new com.loseweight.generated.callback.OnClickListener(this, 7);
+        mCallback96 = new com.loseweight.generated.callback.OnClickListener(this, 4);
+        mCallback94 = new com.loseweight.generated.callback.OnClickListener(this, 2);
+        mCallback98 = new com.loseweight.generated.callback.OnClickListener(this, 6);
+        mCallback97 = new com.loseweight.generated.callback.OnClickListener(this, 5);
+        mCallback95 = new com.loseweight.generated.callback.OnClickListener(this, 3);
+        mCallback93 = new com.loseweight.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -177,20 +177,20 @@ public class FragmentReportBindingImpl extends FragmentReportBinding implements 
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.editCurrHeightCM.setOnClickListener(mCallback95);
-            this.editCurrHeightFT.setOnClickListener(mCallback96);
-            this.editCurrHeightIn.setOnClickListener(mCallback97);
-            this.mboundView1.setOnClickListener(mCallback91);
-            this.mboundView2.setOnClickListener(mCallback92);
-            this.mboundView3.setOnClickListener(mCallback93);
-            this.mboundView4.setOnClickListener(mCallback94);
+            this.editCurrHeightCM.setOnClickListener(mCallback97);
+            this.editCurrHeightFT.setOnClickListener(mCallback98);
+            this.editCurrHeightIn.setOnClickListener(mCallback99);
+            this.mboundView1.setOnClickListener(mCallback93);
+            this.mboundView2.setOnClickListener(mCallback94);
+            this.mboundView3.setOnClickListener(mCallback95);
+            this.mboundView4.setOnClickListener(mCallback96);
         }
     }
     // Listener Stub Implementations
     // callback impls
     public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
         switch(sourceId) {
-            case 6: {
+            case 7: {
                 // localize variables for thread safety
                 // handler
                 com.loseweight.fragments.ReportsFragment.ClickHandler handler = mHandler;
@@ -241,7 +241,7 @@ public class FragmentReportBindingImpl extends FragmentReportBinding implements 
                 }
                 break;
             }
-            case 7: {
+            case 6: {
                 // localize variables for thread safety
                 // handler
                 com.loseweight.fragments.ReportsFragment.ClickHandler handler = mHandler;

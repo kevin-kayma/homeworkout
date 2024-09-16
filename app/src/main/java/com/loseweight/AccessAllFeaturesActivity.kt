@@ -3,6 +3,8 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.View
+import androidx.activity.OnBackPressedCallback
 import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import com.android.billingclient.api.AcknowledgePurchaseParams
@@ -29,19 +31,18 @@ class AccessAllFeaturesActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_access_all_feature)
+        // Use postDelayed to show the image after 3 seconds (3000 milliseconds)
+        binding!!.imgBack.postDelayed({
+            binding!!.imgBack.visibility = View.VISIBLE
+        }, 3000)
 
+        onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
+            override fun handleOnBackPressed() {
+                // Do nothing, effectively disabling the back button
+            }
+        })
         initIntentParam()
         init()
-    }
-
-    override fun onBackPressed() {
-        super.onBackPressed()
-        if(intent.getBooleanExtra("fromIntro", false)){
-            val intent = Intent(this@AccessAllFeaturesActivity, ActivityReviewPrompt::class.java)
-            startActivity(intent)
-        }else{
-            finish()
-        }
     }
 
     private fun initIntentParam() {
@@ -61,10 +62,14 @@ class AccessAllFeaturesActivity : BaseActivity() {
     inner class ClickHandler {
         fun onBackClick() {
             if(intent.getBooleanExtra("fromIntro", false)){
-                val intent = Intent(this@AccessAllFeaturesActivity, ActivityReviewPrompt::class.java)
+                var fromIntro = intent.getBooleanExtra("fromIntro", false)
+                val intent = Intent(this@AccessAllFeaturesActivity, LifeTimeOfferActivity::class.java)
+                intent.putExtra("fromIntro", fromIntro)
                 startActivity(intent)
                 finish()
             }else{
+                val intent = Intent(this@AccessAllFeaturesActivity, LifeTimeOfferActivity::class.java)
+                startActivity(intent)
                 finish()
             }
         }

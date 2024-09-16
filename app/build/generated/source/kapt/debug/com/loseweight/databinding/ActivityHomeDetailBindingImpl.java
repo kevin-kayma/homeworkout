@@ -34,7 +34,7 @@ public class ActivityHomeDetailBindingImpl extends ActivityHomeDetailBinding imp
     private final android.widget.LinearLayout mboundView0;
     // variables
     @Nullable
-    private final android.view.View.OnClickListener mCallback111;
+    private final android.view.View.OnClickListener mCallback113;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -65,7 +65,7 @@ public class ActivityHomeDetailBindingImpl extends ActivityHomeDetailBinding imp
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback111 = new com.loseweight.generated.callback.OnClickListener(this, 1);
+        mCallback113 = new com.loseweight.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -127,7 +127,7 @@ public class ActivityHomeDetailBindingImpl extends ActivityHomeDetailBinding imp
         if ((dirtyFlags & 0x2L) != 0) {
             // api target 1
 
-            this.imgBack.setOnClickListener(mCallback111);
+            this.imgBack.setOnClickListener(mCallback113);
         }
     }
     // Listener Stub Implementations
